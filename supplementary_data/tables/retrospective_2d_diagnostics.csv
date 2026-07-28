@@ -1,0 +1,7 @@
+Regime,Solver,Mean eta,"[sigma_min(Jbar), sigma_max(Jbar)]",cond2(Jbar),Reversals vs POD-LSPG
+In-domain,MG,8.35e-02,"[2.75e-03, 0.643]",233,97/120
+In-domain,Newton-M-LSPG,1.90e-02,"[2.78e-03, 0.643]",231,71/120
+In-domain,POD-LSPG,8.51e-03,"[2.78e-03, 0.643]",231,NA
+OOD,MG,1.77e-02,"[2.58e-03, 0.642]",249,21/120
+OOD,Newton-M-LSPG,9.96e-03,"[2.38e-03, 0.642]",270,33/120
+OOD,POD-LSPG,9.36e-03,"[2.21e-03, 0.641]",290,NA

@@ -1,0 +1,49 @@
+Supplementary Data 1 — Full Numerical Tables,
+Source,Data-Centric Engineering manuscript + Supplementary Information (2026-07-27)
+Provenance,Values mirror the Supplementary Information tables exactly; each sheet is also provided as a CSV in supplementary_data/tables/. Generated from the same numerical source as the SI summaries.
+,
+GENERAL CONVENTIONS,
+Unit of analysis,random seed (blockwise as stated per sheet); prospective and pseudo-transient blocks use 20 previously unused seeds; the retrospective paired-count family uses 10 seeds
+Gap direction,"gaps are the first-named arm minus its comparator (SI convention); the pairing is named by each sheet's Comparison/contrast column, or by its count column (e.g. 'MG-lower'/'mg_lower_count' pairs MG against its comparator). A negative gap favors the first-named arm"
+Ratio direction,geometric error ratios are numerator/denominator as named by the sheet's contrast; a value below one favors the numerator. 'Negative'/'favorable' counts seeds with a negative mean log ratio (i.e. favoring the numerator)
+Count columns,"'MG-lower', 'First arm lower', 'Negative', 'favorable' = number of seeds meeting the stated direction; the denominator is the sheet's seed count (10 for retrospective_paired_counts; 20 for prospective and pseudo-transient families)"
+Stopping success,a solve is stopping-successful when its arm-specific criterion is met; every finite return is scored regardless of stopping success; steady and 2D stop-success counts are out of 120 (10 seeds x 12 held-out solves)
+Interval type,descriptive paired-seed bootstrap or seed-percentile intervals; not inferential confidence intervals unless a sheet states otherwise
+Multiplicity family,stated per sheet; Holm adjustment is within the named family
+Missing-value coding,NA = not applicable or not computed
+Scientific-notation coding,e.g. 5.5e-08 denotes 5.5 x 10^-8
+,
+SYMBOL / METRIC GLOSSARY,
+state error,relative L2 state error ||u_rom - u_ref||_2 / ||u_ref||_2
+QoI error,relative quantity-of-interest error (problem-specific QoI defined in SI)
+ambient residual (rho_amb),"||R(u_rom; mu)||_2, the raw unpreconditioned discrete residual norm"
+eta,realized residual-amplification diagnostic eta = rho_amb / ||u_rom - u_ref||_2 (ambient residual per unit state error)
+Jbar,"segment-averaged residual Jacobian, integral_0^1 J_R(u_ref + t(u_rom - u_ref); mu) dt (16-point Gauss-Legendre)"
+"sigma_min(Jbar), sigma_max(Jbar)",extremal singular values of Jbar
+cond2(Jbar),spectral condition number sigma_max(Jbar)/sigma_min(Jbar)
+reversals vs POD-LSPG,count of held-out pairs whose weighted-residual ordering contradicts the state-error ordering (lower is better)
+Proj. tan,projection of the returned state onto the retained decoder-tangent range
+Proj. LS,projection onto the least-squares model-Jacobian range
+Arms,MG = manifold Galerkin; Newton-M / Newton-M-LSPG = Newton manifold-LSPG; LM / LM-M-LSPG = Levenberg-Marquardt manifold-LSPG; POD-G / POD-Galerkin; POD-L / POD-LSPG; pre-M = preconditioned LM manifold-LSPG; pre-P = preconditioned Newton POD-LSPG
+,
+SHEET INDEX,
+sheet: transient_contrast_family,Pseudo-transient front-layer four-arm contrast family (retrospective); 8 rows; 20 seeds/objective; one Holm-8 family; only the control-objective terminal-error and residual directions survive Holm-8.
+sheet: prospective_cellwise,Primary prospective per-cell state-error ratios; 40 rows; Holm-40 family (passes 38/40); corresponds to main Figure 1(b); the two non-passing rows are hydraulic in-domain and OOD.
+sheet: prospective_secondary,"Predeclared secondary prospective state-error families; 16 rows; ratio [95% interval], negative count, Holm-8 p; no LM-M-LSPG/Newton-M-LSPG cell survives Holm-8."
+sheet: retrospective_2d_gaps,Paired seed-level gaps vs POD-LSPG for the two-dimensional study; 12 rows; one Holm-12 family; 'Comparison' names each pair.
+sheet: retrospective_2d_diagnostics,"Per-solve error/residual diagnostics for the 2D study (mean eta, singular-value interval of Jbar, cond2, reversals vs POD-LSPG); 6 rows; 3 arms x 2 regimes."
+sheet: six_arm_structural,"Six-arm structural subset, mean returned-state relative error; 10 rows; descriptive, not algorithm-matched (pre-M uses LM, pre-P uses Newton)."
+sheet: steady_lm_comparison,"Steady Newton/LM manifold-LSPG comparison with MG and POD-LSPG context; 32 rows; 4 arms x 8 cells; state/QoI error, ambient residual, Proj. tan, Proj. LS, stop success (of 120), iters."
+sheet: two_dimensional_lm,"Two-dimensional LM algorithm check; 8 rows; 4 arms x 2 regimes; seed mean +/- sd; Proj. tan, Proj. LS; stop success of 120; per-solve time."
+sheet: retrospective_paired_counts,Retrospective paired MG/POD-LSPG seed counts for state and QoI error across ten cells; 20 rows; 'MG-lower' out of 10; one Holm-20 family.
+sheet: dimension_sweep,"Matched k=r dimension sweep (r in {2,3,4,6,8}) on front-layer and 2D in-domain; 10 rows; seed-mean state error of MG/M-LSPG/POD-LSPG/POD-G plus reconstruction diagnostic; r=2,3 rows are five-seed subsets."
+sheet: steady_err_resid_diagnostics,"Seed-pooled per-solve error/residual diagnostics for the steady 2880-state cohort; 24 rows; 3 arms x 8 cells; mean eta, singular-value interval and cond2 of Jbar, reversals vs POD-LSPG."
+sheet: meshnorm_reversal,Reversal frequency by residual norm (fraction of manifold-vs-POD-LSPG pairs whose weighted-residual ordering contradicts the state-error ordering); 9 rows; lower is better.
+sheet: meshnorm_concordance,Residual-error rank concordance by residual norm (mean per-sample Spearman rho); 9 rows; higher is better.
+sheet: meshnorm_conditioning,"Mesh scaling of mean full-order conditioning cond2(W^{1/2} J_R) by residual norm; 9 rows; raw grows ~Delta^-2, precond stays near 1-1.4."
+sheet: range_projection_counts,"Stopping-success/range-projection counts (stopping/diagnostic, of 120) at s_proj<=1e-4; 10 rows; Precond=pre-M, POD-L=POD-LSPG."
+residual-norm labels,raw = ||R||_2; mass = sqrt(R^T M_h R) (weak-form/Riesz mass weighting); Jacobi = ||diag(J0^T J0)^{-1/2} R||_2; precond = ||B0 R||_2 with B0=J0^{-1}; localinv = ||J_R(u_rom)^{-1} R||_2
+delta (meshnorm_reversal),endpoint preconditioner reversal diagnostic delta = ||I - B0 J_R(u_rom)||_2 (see the delta-bar section); lower is better
+spacing Delta / N (meshnorm_conditioning),"mesh spacing Delta and interior-unknown count N; conditioning is cond2(W^{1/2} J_R(u_ref)) with W = I (raw), M_h (mass), diag(J0^T J0)^{-1} (Jacobi), B0^T B0 (precond)"
+s_proj (range_projection_counts),normalized range-projection stationarity diagnostic; counts are taken at threshold s_proj <= 1e-4
+stopping/diagnostic pairs,"range_projection_counts cells are a PAIR 'stopping/diagnostic' (e.g. 116/85): stopping = absolute-tolerance stopping successes, diagnostic = states with s_proj <= 1e-4; BOTH are out of 120, not a single fraction"

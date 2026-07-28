@@ -1,0 +1,25 @@
+Problem,Regime,Solver,Mean eta,"[sigma_min(Jbar), sigma_max(Jbar)]",cond2(Jbar),Reversals vs POD-LSPG
+Front layer,in,MG,10.01,"[0.156, 259.0]",1665,89/120
+Front layer,in,Newton-M-LSPG,0.946,"[0.155, 257.3]",1662,8/120
+Front layer,in,POD-LSPG,1.580,"[0.156, 258.8]",1665,NA
+Front layer,OOD,MG,5.590,"[0.163, 274.6]",1684,47/120
+Front layer,OOD,Newton-M-LSPG,0.249,"[0.158, 264.2]",1670,0/120
+Front layer,OOD,POD-LSPG,0.581,"[0.163, 274.8]",1684,NA
+Nonlinear diffusion,in,MG,13.12,"[0.158, 264.0]",1671,95/120
+Nonlinear diffusion,in,Newton-M-LSPG,1.065,"[0.158, 263.3]",1668,10/120
+Nonlinear diffusion,in,POD-LSPG,0.731,"[0.158, 264.0]",1671,NA
+Nonlinear diffusion,OOD,MG,6.106,"[0.155, 257.7]",1663,61/120
+Nonlinear diffusion,OOD,Newton-M-LSPG,0.633,"[0.156, 259.5]",1663,1/120
+Nonlinear diffusion,OOD,POD-LSPG,1.405,"[0.155, 257.1]",1662,NA
+Bratu source,in,MG,8.230,"[0.190, 255.8]",1346,31/120
+Bratu source,in,Newton-M-LSPG,5.178,"[0.190, 255.8]",1346,11/120
+Bratu source,in,POD-LSPG,0.938,"[0.190, 255.8]",1346,NA
+Bratu source,OOD,MG,4.875,"[0.219, 255.8]",1168,84/120
+Bratu source,OOD,Newton-M-LSPG,3.431,"[0.219, 255.8]",1169,43/120
+Bratu source,OOD,POD-LSPG,0.866,"[0.219, 255.8]",1169,NA
+Hydraulic conductivity,in,MG,15.62,"[0.179, 297.2]",1662,103/120
+Hydraulic conductivity,in,Newton-M-LSPG,2.996,"[0.179, 297.3]",1662,22/120
+Hydraulic conductivity,in,POD-LSPG,0.612,"[0.179, 297.2]",1662,NA
+Hydraulic conductivity,OOD,MG,8.227,"[0.242, 402.2]",1663,117/120
+Hydraulic conductivity,OOD,Newton-M-LSPG,2.585,"[0.243, 403.0]",1661,56/120
+Hydraulic conductivity,OOD,POD-LSPG,1.109,"[0.241, 400.9]",1662,NA

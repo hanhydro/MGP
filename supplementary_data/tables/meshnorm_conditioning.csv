@@ -1,0 +1,10 @@
+Problem,N,spacing Delta,raw,mass,Jacobi,precond
+Front layer,63,0.0156,1666,965,1665,1.0
+Front layer,127,0.0078,6673,3859,6669,1.0
+Front layer,255,0.0039,26715,15437,26699,1.0
+Nonlinear diffusion,63,0.0156,1672,969,1675,1.0
+Nonlinear diffusion,127,0.0078,6703,3878,6722,1.0
+Nonlinear diffusion,255,0.0039,26845,15516,26937,1.0
+2D Burgers-type,1024,0.0303,256,96,256,1.4
+2D Burgers-type,1764,0.0233,433,163,433,1.4
+2D Burgers-type,2704,0.0189,658,247,657,1.4

@@ -1,0 +1,9 @@
+objective,gap_metric,mean_gap,mg_lower_count,exact_sign_p,holm8_p,paired_t,paired_t_p
+Control,trajectory-mean state error,-0.0053,14/20,0.115,0.577,-1.396,0.179
+Control,terminal state error,+0.0127,3/20,0.00258,0.0180,5.047,0.0001
+Control,trajectory-mean QoI error,-0.0017,12/20,0.503,1.000,-1.217,0.238
+Control,mean step residual,+4.8e-05,1/20,4.01e-05,3.20e-04,5.768,<1e-04
+Ambient-heavy,trajectory-mean state error,-0.0076,15/20,0.0414,0.248,-2.042,0.055
+Ambient-heavy,terminal state error,+0.0082,6/20,0.115,0.577,2.983,0.008
+Ambient-heavy,trajectory-mean QoI error,-0.0009,11/20,0.824,1.000,-0.579,0.569
+Ambient-heavy,mean step residual,-1.4e-05,14/20,0.115,0.577,-2.339,0.030

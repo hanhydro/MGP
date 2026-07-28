@@ -1,0 +1,11 @@
+Config,r,MG,M-LSPG,POD-LSPG,POD-G,recon
+Front layer / in-domain,2,0.189,0.860,0.315,0.058,0.153
+Front layer / in-domain,3,0.165,0.836,0.266,0.047,0.126
+Front layer / in-domain,4,0.177,0.844,0.237,0.038,0.138
+Front layer / in-domain,6,0.126,0.869,0.173,0.019,0.096
+Front layer / in-domain,8,0.136,0.793,0.122,0.010,0.111
+2D Burgers-type / in-domain,2,0.209,0.161,0.216,0.227,0.183
+2D Burgers-type / in-domain,3,0.099,0.106,0.137,0.120,0.108
+2D Burgers-type / in-domain,4,0.125,0.116,0.111,0.089,0.105
+2D Burgers-type / in-domain,6,0.108,0.116,0.056,0.042,0.097
+2D Burgers-type / in-domain,8,0.160,0.114,0.041,0.026,0.092

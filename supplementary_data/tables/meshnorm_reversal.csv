@@ -1,0 +1,10 @@
+Problem,Regime,raw,mass,Jacobi,precond,localinv,delta
+Bratu source,in,0.14,0.14,0.14,0.00,0.00,0.05
+Bratu source,OOD,0.45,0.45,0.45,0.06,0.00,0.15
+Front layer,in,0.29,0.29,0.29,0.00,0.00,0.01
+Front layer,OOD,0.13,0.13,0.13,0.00,0.00,0.03
+Hydraulic K,in,0.41,0.41,0.41,0.00,0.00,0.11
+Hydraulic K,OOD,0.65,0.65,0.65,0.00,0.00,0.36
+Nonlinear diffusion,in,0.33,0.33,0.33,0.00,0.00,0.02
+Nonlinear diffusion,OOD,0.18,0.18,0.18,0.00,0.00,0.02
+2D Burgers-type,in,0.67,0.19,0.67,0.02,0.00,0.40

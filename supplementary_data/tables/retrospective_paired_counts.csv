@@ -1,0 +1,21 @@
+Case,Regime,Metric,MG-lower,Direction,Exact p,Holm p
+Bratu-source,in-domain,state,0/10,POD-LSPG,0.002,0.039
+Bratu-source,in-domain,QoI,0/10,POD-LSPG,0.002,0.039
+Bratu-source,OOD,state,7/10,(MG),0.344,1.000
+Bratu-source,OOD,QoI,10/10,MG,0.002,0.039
+Front-layer,in-domain,state,10/10,MG,0.002,0.039
+Front-layer,in-domain,QoI,5/10,even,1.000,1.000
+Front-layer,OOD,state,5/10,even,1.000,1.000
+Front-layer,OOD,QoI,0/10 (10 ties),all tied,1.000,1.000
+K test,in-domain,state,10/10,MG,0.002,0.039
+K test,in-domain,QoI,9/10,(MG),0.021,0.236
+K test,OOD,state,10/10,MG,0.002,0.039
+K test,OOD,QoI,9/10,(MG),0.021,0.236
+Nonlinear diffusion,in-domain,state,9/10,(MG),0.021,0.236
+Nonlinear diffusion,in-domain,QoI,9/10,(MG),0.021,0.236
+Nonlinear diffusion,OOD,state,5/10,even,1.000,1.000
+Nonlinear diffusion,OOD,QoI,8/10,(MG),0.109,0.656
+2D Burgers-type,in-domain,state,9/10,(MG),0.021,0.236
+2D Burgers-type,in-domain,QoI,10/10,MG,0.002,0.039
+2D Burgers-type,OOD,state,0/10,POD-LSPG,0.002,0.039
+2D Burgers-type,OOD,QoI,0/10,POD-LSPG,0.002,0.039
