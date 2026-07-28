@@ -1,0 +1,6 @@
+# Acceptance-tested environment (macOS/arm64, Python 3.11.8, float64).
+# Deterministic runs additionally set OMP_NUM_THREADS=1 and MKL_NUM_THREADS=1.
+torch==2.7.0
+numpy==1.26.4
+scipy==1.17.1
+matplotlib==3.10.8
