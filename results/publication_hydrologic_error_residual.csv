@@ -1,0 +1,5 @@
+preset_name,problem_name,test_regime,architecture_name,solver_variant,error_gap_vs_pod_lspg,residual_gap_vs_pod_lspg,qoi_gap_vs_pod_lspg
+reference_hydrologic_conductivity,hydrologic_conductivity,in_domain,conv1d,mgp_galerkin,-0.13903441965198757,0.08898996274522475,-0.22265343305843
+reference_hydrologic_conductivity,hydrologic_conductivity,in_domain,conv1d,mgp_lspg,0.3423848875215889,0.1185539195293058,1.6071878944563522
+reference_hydrologic_conductivity,hydrologic_conductivity,ood,conv1d,mgp_galerkin,-0.3505344392760031,0.12174363910423439,-0.6170299686132962
+reference_hydrologic_conductivity,hydrologic_conductivity,ood,conv1d,mgp_lspg,0.23814870310333935,0.12958763523856967,2.489908661127758

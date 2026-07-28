@@ -1,0 +1,13 @@
+preset_name,problem_name,test_regime,architecture_name,solver_variant,speedup_vs_full,residual_gap_vs_pod_lspg
+reference_bratu_source,bratu_source,in_domain,mlp,mgp_galerkin,0.5155238683097519,0.2016207622758549
+reference_bratu_source,bratu_source,in_domain,mlp,mgp_lspg,0.03594232545711484,0.1936076253106328
+reference_bratu_source,bratu_source,ood,mlp,mgp_galerkin,1.7729950824760754,0.19827322644350598
+reference_bratu_source,bratu_source,ood,mlp,mgp_lspg,0.03400284279084001,0.16437142724304682
+reference_front_layer,front_layer,in_domain,conv1d,mgp_galerkin,2.448128999914009,0.11745023509024925
+reference_front_layer,front_layer,in_domain,conv1d,mgp_lspg,0.11781326168564299,0.03703274480453367
+reference_front_layer,front_layer,ood,conv1d,mgp_galerkin,2.3669622113481967,0.4940168453767059
+reference_front_layer,front_layer,ood,conv1d,mgp_lspg,0.11830187361039324,0.04193805072322347
+reference_nonlinear_diffusion,nonlinear_diffusion,in_domain,conv1d,mgp_galerkin,2.587893972437905,0.12805198755766511
+reference_nonlinear_diffusion,nonlinear_diffusion,in_domain,conv1d,mgp_lspg,0.05106453319019696,0.06910113692167483
+reference_nonlinear_diffusion,nonlinear_diffusion,ood,conv1d,mgp_galerkin,1.5480492834475836,0.17408876946156265
+reference_nonlinear_diffusion,nonlinear_diffusion,ood,conv1d,mgp_lspg,0.05022701731616138,0.05161171212974458

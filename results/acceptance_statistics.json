@@ -1,0 +1,4473 @@
+{
+  "controlled_contrast_figure": {
+    "arm_labels": {
+      "lm_m": "LM-M-LSPG",
+      "mg": "MG",
+      "newton_m": "Newton-M-LSPG",
+      "pod_g": "POD-G",
+      "pod_l": "POD-LSPG",
+      "pre_m": "pre-M",
+      "pre_p": "pre-P"
+    },
+    "arm_order": [
+      "mg",
+      "newton_m",
+      "lm_m",
+      "pod_g",
+      "pod_l",
+      "pre_m",
+      "pre_p"
+    ],
+    "cells": [
+      {
+        "arm_state_error_mean": {
+          "lm_m": 0.4479911389594607,
+          "mg": 0.24193033492478308,
+          "newton_m": 0.38737028371380816,
+          "pod_g": 0.04676872618807383,
+          "pod_l": 0.12021212338066589,
+          "pre_m": 0.1145571764416583,
+          "pre_p": 0.04419282930385253
+        },
+        "contrasts": {
+          "algorithm_manifold": {
+            "interpretation": "algorithm on learned least-squares equation",
+            "left_arm": "lm_m",
+            "left_mean": 0.4479911389594607,
+            "left_minus_right": 0.06062085524565253,
+            "left_over_right": 1.156493303163233,
+            "log10_left_over_right": 0.06314312227077581,
+            "right_arm": "newton_m",
+            "right_mean": 0.38737028371380816
+          },
+          "equation_affine": {
+            "interpretation": "equation on affine trial set",
+            "left_arm": "pod_g",
+            "left_mean": 0.04676872618807383,
+            "left_minus_right": -0.07344339719259206,
+            "left_over_right": 0.38905166028866434,
+            "log10_left_over_right": -0.40999272698106537,
+            "right_arm": "pod_l",
+            "right_mean": 0.12021212338066589
+          },
+          "equation_manifold": {
+            "interpretation": "equation on learned trial set",
+            "left_arm": "mg",
+            "left_mean": 0.24193033492478308,
+            "left_minus_right": -0.14543994878902508,
+            "left_over_right": 0.6245454158366027,
+            "log10_left_over_right": -0.20443597501591682,
+            "right_arm": "newton_m",
+            "right_mean": 0.38737028371380816
+          },
+          "metric_affine": {
+            "interpretation": "metric on affine trial set, Newton matched",
+            "left_arm": "pre_p",
+            "left_mean": 0.04419282930385253,
+            "left_minus_right": -0.07601929407681336,
+            "left_over_right": 0.3676237309602353,
+            "log10_left_over_right": -0.43459646166996335,
+            "right_arm": "pod_l",
+            "right_mean": 0.12021212338066589
+          },
+          "metric_manifold": {
+            "interpretation": "metric on learned trial set, LM matched",
+            "left_arm": "pre_m",
+            "left_mean": 0.1145571764416583,
+            "left_minus_right": -0.3334339625178024,
+            "left_over_right": 0.2557130409046433,
+            "log10_left_over_right": -0.5922471231723089,
+            "right_arm": "lm_m",
+            "right_mean": 0.4479911389594607
+          },
+          "trial_galerkin": {
+            "interpretation": "trial set under Galerkin",
+            "left_arm": "pod_g",
+            "left_mean": 0.04676872618807383,
+            "left_minus_right": -0.19516160873670924,
+            "left_over_right": 0.19331484909742458,
+            "log10_left_over_right": -0.7137347852193137,
+            "right_arm": "mg",
+            "right_mean": 0.24193033492478308
+          },
+          "trial_minimum_residual": {
+            "interpretation": "trial set under the Newton minimum-residual implementation",
+            "left_arm": "pod_l",
+            "left_mean": 0.12021212338066589,
+            "left_minus_right": -0.26715816033314227,
+            "left_over_right": 0.31032871759848113,
+            "log10_left_over_right": -0.5081780332541651,
+            "right_arm": "newton_m",
+            "right_mean": 0.38737028371380816
+          }
+        },
+        "display": "Bratu-source",
+        "problem": "bratu_source",
+        "regime": "in_domain",
+        "samples_per_seed": 12,
+        "seed_count": 10,
+        "study_kind": "1d"
+      },
+      {
+        "arm_state_error_mean": {
+          "lm_m": 0.416036675644052,
+          "mg": 0.3062802473276228,
+          "newton_m": 0.384916650600295,
+          "pod_g": 0.1739954801821595,
+          "pod_l": 0.3319574510587646,
+          "pre_m": 0.2435308267598996,
+          "pre_p": 0.16548280735328214
+        },
+        "contrasts": {
+          "algorithm_manifold": {
+            "interpretation": "algorithm on learned least-squares equation",
+            "left_arm": "lm_m",
+            "left_mean": 0.416036675644052,
+            "left_minus_right": 0.031120025043756994,
+            "left_over_right": 1.0808487369803927,
+            "log10_left_over_right": 0.033764919400757314,
+            "right_arm": "newton_m",
+            "right_mean": 0.384916650600295
+          },
+          "equation_affine": {
+            "interpretation": "equation on affine trial set",
+            "left_arm": "pod_g",
+            "left_mean": 0.1739954801821595,
+            "left_minus_right": -0.15796197087660513,
+            "left_over_right": 0.5241499464079148,
+            "log10_left_over_right": -0.2805444542721766,
+            "right_arm": "pod_l",
+            "right_mean": 0.3319574510587646
+          },
+          "equation_manifold": {
+            "interpretation": "equation on learned trial set",
+            "left_arm": "mg",
+            "left_mean": 0.3062802473276228,
+            "left_minus_right": -0.07863640327267218,
+            "left_over_right": 0.7957053737477058,
+            "log10_left_over_right": -0.09924770894772379,
+            "right_arm": "newton_m",
+            "right_mean": 0.384916650600295
+          },
+          "metric_affine": {
+            "interpretation": "metric on affine trial set, Newton matched",
+            "left_arm": "pre_p",
+            "left_mean": 0.16548280735328214,
+            "left_minus_right": -0.16647464370548248,
+            "left_over_right": 0.4985060790938162,
+            "log10_left_over_right": -0.3023295412624525,
+            "right_arm": "pod_l",
+            "right_mean": 0.3319574510587646
+          },
+          "metric_manifold": {
+            "interpretation": "metric on learned trial set, LM matched",
+            "left_arm": "pre_m",
+            "left_mean": 0.2435308267598996,
+            "left_minus_right": -0.1725058488841524,
+            "left_over_right": 0.5853590344718959,
+            "log10_left_over_right": -0.2325776743267776,
+            "right_arm": "lm_m",
+            "right_mean": 0.416036675644052
+          },
+          "trial_galerkin": {
+            "interpretation": "trial set under Galerkin",
+            "left_arm": "pod_g",
+            "left_mean": 0.1739954801821595,
+            "left_minus_right": -0.13228476714546333,
+            "left_over_right": 0.5680923980580421,
+            "log10_left_over_right": -0.2455810222058137,
+            "right_arm": "mg",
+            "right_mean": 0.3062802473276228
+          },
+          "trial_minimum_residual": {
+            "interpretation": "trial set under the Newton minimum-residual implementation",
+            "left_arm": "pod_l",
+            "left_mean": 0.3319574510587646,
+            "left_minus_right": -0.05295919954153039,
+            "left_over_right": 0.8624138512612065,
+            "log10_left_over_right": -0.06428427688136094,
+            "right_arm": "newton_m",
+            "right_mean": 0.384916650600295
+          }
+        },
+        "display": "Bratu-source",
+        "problem": "bratu_source",
+        "regime": "ood",
+        "samples_per_seed": 12,
+        "seed_count": 10,
+        "study_kind": "1d"
+      },
+      {
+        "arm_state_error_mean": {
+          "lm_m": 0.839929028193624,
+          "mg": 0.16119558704720913,
+          "newton_m": 0.8433149639285438,
+          "pod_g": 0.049226240068366275,
+          "pod_l": 0.28210841841896694,
+          "pre_m": 0.12094955337416875,
+          "pre_p": 0.04686747077309545
+        },
+        "contrasts": {
+          "algorithm_manifold": {
+            "interpretation": "algorithm on learned least-squares equation",
+            "left_arm": "lm_m",
+            "left_mean": 0.839929028193624,
+            "left_minus_right": -0.0033859357349197428,
+            "left_over_right": 0.9959849689857909,
+            "log10_left_over_right": -0.0017472157286971678,
+            "right_arm": "newton_m",
+            "right_mean": 0.8433149639285438
+          },
+          "equation_affine": {
+            "interpretation": "equation on affine trial set",
+            "left_arm": "pod_g",
+            "left_mean": 0.049226240068366275,
+            "left_minus_right": -0.23288217835060065,
+            "left_over_right": 0.17449404857978765,
+            "log10_left_over_right": -0.7582193808138815,
+            "right_arm": "pod_l",
+            "right_mean": 0.28210841841896694
+          },
+          "equation_manifold": {
+            "interpretation": "equation on learned trial set",
+            "left_arm": "mg",
+            "left_mean": 0.16119558704720913,
+            "left_minus_right": -0.6821193768813346,
+            "left_over_right": 0.1911451758146054,
+            "log10_left_over_right": -0.7186366583749293,
+            "right_arm": "newton_m",
+            "right_mean": 0.8433149639285438
+          },
+          "metric_affine": {
+            "interpretation": "metric on affine trial set, Newton matched",
+            "left_arm": "pre_p",
+            "left_mean": 0.04686747077309545,
+            "left_minus_right": -0.2352409476458715,
+            "left_over_right": 0.16613283302836884,
+            "log10_left_over_right": -0.7795445289337931,
+            "right_arm": "pod_l",
+            "right_mean": 0.28210841841896694
+          },
+          "metric_manifold": {
+            "interpretation": "metric on learned trial set, LM matched",
+            "left_arm": "pre_m",
+            "left_mean": 0.12094955337416875,
+            "left_minus_right": -0.7189794748194552,
+            "left_over_right": 0.14399973011325304,
+            "log10_left_over_right": -0.841638321866103,
+            "right_arm": "lm_m",
+            "right_mean": 0.839929028193624
+          },
+          "trial_galerkin": {
+            "interpretation": "trial set under Galerkin",
+            "left_arm": "pod_g",
+            "left_mean": 0.049226240068366275,
+            "left_minus_right": -0.11196934697884285,
+            "left_over_right": 0.30538205772314014,
+            "log10_left_over_right": -0.5151564828681344,
+            "right_arm": "mg",
+            "right_mean": 0.16119558704720913
+          },
+          "trial_minimum_residual": {
+            "interpretation": "trial set under the Newton minimum-residual implementation",
+            "left_arm": "pod_l",
+            "left_mean": 0.28210841841896694,
+            "left_minus_right": -0.5612065455095768,
+            "left_over_right": 0.3345231977205502,
+            "log10_left_over_right": -0.47557376042918215,
+            "right_arm": "newton_m",
+            "right_mean": 0.8433149639285438
+          }
+        },
+        "display": "Front-layer",
+        "problem": "front_layer",
+        "regime": "in_domain",
+        "samples_per_seed": 12,
+        "seed_count": 10,
+        "study_kind": "1d"
+      },
+      {
+        "arm_state_error_mean": {
+          "lm_m": 0.9663366823510515,
+          "mg": 0.2622379149451529,
+          "newton_m": 0.9748383206691964,
+          "pod_g": 0.025562117369124542,
+          "pod_l": 0.2507266119375347,
+          "pre_m": 0.056722308450336545,
+          "pre_p": 0.023957253035725816
+        },
+        "contrasts": {
+          "algorithm_manifold": {
+            "interpretation": "algorithm on learned least-squares equation",
+            "left_arm": "lm_m",
+            "left_mean": 0.9663366823510515,
+            "left_minus_right": -0.008501638318144877,
+            "left_over_right": 0.9912789247838465,
+            "log10_left_over_right": -0.003804127098561815,
+            "right_arm": "newton_m",
+            "right_mean": 0.9748383206691964
+          },
+          "equation_affine": {
+            "interpretation": "equation on affine trial set",
+            "left_arm": "pod_g",
+            "left_mean": 0.025562117369124542,
+            "left_minus_right": -0.22516449456841017,
+            "left_over_right": 0.10195215087696001,
+            "log10_left_over_right": -0.9916036075107412,
+            "right_arm": "pod_l",
+            "right_mean": 0.2507266119375347
+          },
+          "equation_manifold": {
+            "interpretation": "equation on learned trial set",
+            "left_arm": "mg",
+            "left_mean": 0.2622379149451529,
+            "left_minus_right": -0.7126004057240435,
+            "left_over_right": 0.26900657204892675,
+            "log10_left_over_right": -0.5702371097012421,
+            "right_arm": "newton_m",
+            "right_mean": 0.9748383206691964
+          },
+          "metric_affine": {
+            "interpretation": "metric on affine trial set, Newton matched",
+            "left_arm": "pre_p",
+            "left_mean": 0.023957253035725816,
+            "left_minus_right": -0.22676935890180888,
+            "left_over_right": 0.09555129728987227,
+            "log10_left_over_right": -1.0197634121986252,
+            "right_arm": "pod_l",
+            "right_mean": 0.2507266119375347
+          },
+          "metric_manifold": {
+            "interpretation": "metric on learned trial set, LM matched",
+            "left_arm": "pre_m",
+            "left_mean": 0.056722308450336545,
+            "left_minus_right": -0.909614373900715,
+            "left_over_right": 0.058698287549566935,
+            "log10_left_over_right": -1.2313745685755864,
+            "right_arm": "lm_m",
+            "right_mean": 0.9663366823510515
+          },
+          "trial_galerkin": {
+            "interpretation": "trial set under Galerkin",
+            "left_arm": "pod_g",
+            "left_mean": 0.025562117369124542,
+            "left_minus_right": -0.23667579757602838,
+            "left_over_right": 0.09747681747115348,
+            "log10_left_over_right": -1.0110986585730677,
+            "right_arm": "mg",
+            "right_mean": 0.2622379149451529
+          },
+          "trial_minimum_residual": {
+            "interpretation": "trial set under the Newton minimum-residual implementation",
+            "left_arm": "pod_l",
+            "left_mean": 0.2507266119375347,
+            "left_minus_right": -0.7241117087316618,
+            "left_over_right": 0.2571981492945606,
+            "log10_left_over_right": -0.5897321607635687,
+            "right_arm": "newton_m",
+            "right_mean": 0.9748383206691964
+          }
+        },
+        "display": "Front-layer",
+        "problem": "front_layer",
+        "regime": "ood",
+        "samples_per_seed": 12,
+        "seed_count": 10,
+        "study_kind": "1d"
+      },
+      {
+        "arm_state_error_mean": {
+          "lm_m": 0.6547399410306125,
+          "mg": 0.08026410396590322,
+          "newton_m": 0.5616834111396231,
+          "pod_g": 0.054982697823234436,
+          "pod_l": 0.21929852361789096,
+          "pre_m": 0.03741799416200678,
+          "pre_p": 0.04686267398347359
+        },
+        "contrasts": {
+          "algorithm_manifold": {
+            "interpretation": "algorithm on learned least-squares equation",
+            "left_arm": "lm_m",
+            "left_mean": 0.6547399410306125,
+            "left_minus_right": 0.09305652989098945,
+            "left_over_right": 1.1656743426019707,
+            "log10_left_over_right": 0.06657723741689435,
+            "right_arm": "newton_m",
+            "right_mean": 0.5616834111396231
+          },
+          "equation_affine": {
+            "interpretation": "equation on affine trial set",
+            "left_arm": "pod_g",
+            "left_mean": 0.054982697823234436,
+            "left_minus_right": -0.16431582579465653,
+            "left_over_right": 0.2507207842358169,
+            "log10_left_over_right": -0.6008096624327796,
+            "right_arm": "pod_l",
+            "right_mean": 0.21929852361789096
+          },
+          "equation_manifold": {
+            "interpretation": "equation on learned trial set",
+            "left_arm": "mg",
+            "left_mean": 0.08026410396590322,
+            "left_minus_right": -0.48141930717371983,
+            "left_over_right": 0.14289918906996382,
+            "log10_left_over_right": -0.8449702357537409,
+            "right_arm": "newton_m",
+            "right_mean": 0.5616834111396231
+          },
+          "metric_affine": {
+            "interpretation": "metric on affine trial set, Newton matched",
+            "left_arm": "pre_p",
+            "left_mean": 0.04686267398347359,
+            "left_minus_right": -0.17243584963441738,
+            "left_over_right": 0.21369352246587767,
+            "log10_left_over_right": -0.6702086420846991,
+            "right_arm": "pod_l",
+            "right_mean": 0.21929852361789096
+          },
+          "metric_manifold": {
+            "interpretation": "metric on learned trial set, LM matched",
+            "left_arm": "pre_m",
+            "left_mean": 0.03741799416200678,
+            "left_minus_right": -0.6173219468686058,
+            "left_over_right": 0.05714939904705965,
+            "log10_left_over_right": -1.2429883320564177,
+            "right_arm": "lm_m",
+            "right_mean": 0.6547399410306125
+          },
+          "trial_galerkin": {
+            "interpretation": "trial set under Galerkin",
+            "left_arm": "pod_g",
+            "left_mean": 0.054982697823234436,
+            "left_minus_right": -0.025281406142668786,
+            "left_over_right": 0.685022259098432,
+            "log10_left_over_right": -0.1642953163228157,
+            "right_arm": "mg",
+            "right_mean": 0.08026410396590322
+          },
+          "trial_minimum_residual": {
+            "interpretation": "trial set under the Newton minimum-residual implementation",
+            "left_arm": "pod_l",
+            "left_mean": 0.21929852361789096,
+            "left_minus_right": -0.34238488752173213,
+            "left_over_right": 0.3904308357139246,
+            "log10_left_over_right": -0.40845588964377694,
+            "right_arm": "newton_m",
+            "right_mean": 0.5616834111396231
+          }
+        },
+        "display": "Hydraulic K",
+        "problem": "hydrologic_conductivity",
+        "regime": "in_domain",
+        "samples_per_seed": 12,
+        "seed_count": 10,
+        "study_kind": "1d"
+      },
+      {
+        "arm_state_error_mean": {
+          "lm_m": 0.8794076432347294,
+          "mg": 0.26759210268322703,
+          "newton_m": 0.8562752450690784,
+          "pod_g": 0.2599224143277567,
+          "pod_l": 0.6181265419592354,
+          "pre_m": 0.20054779182813537,
+          "pre_p": 0.23303126448792386
+        },
+        "contrasts": {
+          "algorithm_manifold": {
+            "interpretation": "algorithm on learned least-squares equation",
+            "left_arm": "lm_m",
+            "left_mean": 0.8794076432347294,
+            "left_minus_right": 0.023132398165651047,
+            "left_over_right": 1.027015142968176,
+            "log10_left_over_right": 0.011576847160115693,
+            "right_arm": "newton_m",
+            "right_mean": 0.8562752450690784
+          },
+          "equation_affine": {
+            "interpretation": "equation on affine trial set",
+            "left_arm": "pod_g",
+            "left_mean": 0.2599224143277567,
+            "left_minus_right": -0.35820412763147874,
+            "left_over_right": 0.4205003291136756,
+            "log10_left_over_right": -0.37623365995596847,
+            "right_arm": "pod_l",
+            "right_mean": 0.6181265419592354
+          },
+          "equation_manifold": {
+            "interpretation": "equation on learned trial set",
+            "left_arm": "mg",
+            "left_mean": 0.26759210268322703,
+            "left_minus_right": -0.5886831423858514,
+            "left_over_right": 0.3125071105630755,
+            "log10_left_over_right": -0.505140096581747,
+            "right_arm": "newton_m",
+            "right_mean": 0.8562752450690784
+          },
+          "metric_affine": {
+            "interpretation": "metric on affine trial set, Newton matched",
+            "left_arm": "pre_p",
+            "left_mean": 0.23303126448792386,
+            "left_minus_right": -0.38509527747131156,
+            "left_over_right": 0.376996049626505,
+            "log10_left_over_right": -0.423663200548581,
+            "right_arm": "pod_l",
+            "right_mean": 0.6181265419592354
+          },
+          "metric_manifold": {
+            "interpretation": "metric on learned trial set, LM matched",
+            "left_arm": "pre_m",
+            "left_mean": 0.20054779182813537,
+            "left_minus_right": -0.678859851406594,
+            "left_over_right": 0.2280487250377532,
+            "log10_left_over_right": -0.6419723514459161,
+            "right_arm": "lm_m",
+            "right_mean": 0.8794076432347294
+          },
+          "trial_galerkin": {
+            "interpretation": "trial set under Galerkin",
+            "left_arm": "pod_g",
+            "left_mean": 0.2599224143277567,
+            "left_minus_right": -0.007669688355470328,
+            "left_over_right": 0.9713381363703785,
+            "log10_left_over_right": -0.012629559797021383,
+            "right_arm": "mg",
+            "right_mean": 0.26759210268322703
+          },
+          "trial_minimum_residual": {
+            "interpretation": "trial set under the Newton minimum-residual implementation",
+            "left_arm": "pod_l",
+            "left_mean": 0.6181265419592354,
+            "left_minus_right": -0.23814870310984293,
+            "left_over_right": 0.7218783276975025,
+            "log10_left_over_right": -0.14153599642279996,
+            "right_arm": "newton_m",
+            "right_mean": 0.8562752450690784
+          }
+        },
+        "display": "Hydraulic K",
+        "problem": "hydrologic_conductivity",
+        "regime": "ood",
+        "samples_per_seed": 12,
+        "seed_count": 10,
+        "study_kind": "1d"
+      },
+      {
+        "arm_state_error_mean": {
+          "lm_m": 0.44657628072656985,
+          "mg": 0.0739264076797477,
+          "newton_m": 0.46171021562506614,
+          "pod_g": 0.04627759070581274,
+          "pod_l": 0.1290504816729348,
+          "pre_m": 0.050892878839773927,
+          "pre_p": 0.04443358104112975
+        },
+        "contrasts": {
+          "algorithm_manifold": {
+            "interpretation": "algorithm on learned least-squares equation",
+            "left_arm": "lm_m",
+            "left_mean": 0.44657628072656985,
+            "left_minus_right": -0.015133934898496293,
+            "left_over_right": 0.9672220055213466,
+            "log10_left_over_right": -0.014473831287301155,
+            "right_arm": "newton_m",
+            "right_mean": 0.46171021562506614
+          },
+          "equation_affine": {
+            "interpretation": "equation on affine trial set",
+            "left_arm": "pod_g",
+            "left_mean": 0.04627759070581274,
+            "left_minus_right": -0.08277289096712206,
+            "left_over_right": 0.35860068173242887,
+            "log10_left_over_right": -0.4453888891398411,
+            "right_arm": "pod_l",
+            "right_mean": 0.1290504816729348
+          },
+          "equation_manifold": {
+            "interpretation": "equation on learned trial set",
+            "left_arm": "mg",
+            "left_mean": 0.0739264076797477,
+            "left_minus_right": -0.3877838079453184,
+            "left_over_right": 0.16011429935477098,
+            "log10_left_over_right": -0.7955698807380459,
+            "right_arm": "newton_m",
+            "right_mean": 0.46171021562506614
+          },
+          "metric_affine": {
+            "interpretation": "metric on affine trial set, Newton matched",
+            "left_arm": "pre_p",
+            "left_mean": 0.04443358104112975,
+            "left_minus_right": -0.08461690063180506,
+            "left_over_right": 0.3443116249170003,
+            "log10_left_over_right": -0.4630483140595529,
+            "right_arm": "pod_l",
+            "right_mean": 0.1290504816729348
+          },
+          "metric_manifold": {
+            "interpretation": "metric on learned trial set, LM matched",
+            "left_arm": "pre_m",
+            "left_mean": 0.050892878839773927,
+            "left_minus_right": -0.3956834018867959,
+            "left_over_right": 0.1139623420146102,
+            "log10_left_over_right": -0.9432386342520559,
+            "right_arm": "lm_m",
+            "right_mean": 0.44657628072656985
+          },
+          "trial_galerkin": {
+            "interpretation": "trial set under Galerkin",
+            "left_arm": "pod_g",
+            "left_mean": 0.04627759070581274,
+            "left_minus_right": -0.02764881697393496,
+            "left_over_right": 0.6259953940449697,
+            "log10_left_over_right": -0.20342886223399936,
+            "right_arm": "mg",
+            "right_mean": 0.0739264076797477
+          },
+          "trial_minimum_residual": {
+            "interpretation": "trial set under the Newton minimum-residual implementation",
+            "left_arm": "pod_l",
+            "left_mean": 0.1290504816729348,
+            "left_minus_right": -0.33265973395213133,
+            "left_over_right": 0.27950536354978733,
+            "log10_left_over_right": -0.5536098538322042,
+            "right_arm": "newton_m",
+            "right_mean": 0.46171021562506614
+          }
+        },
+        "display": "Nonlinear diffusion",
+        "problem": "nonlinear_diffusion",
+        "regime": "in_domain",
+        "samples_per_seed": 12,
+        "seed_count": 10,
+        "study_kind": "1d"
+      },
+      {
+        "arm_state_error_mean": {
+          "lm_m": 1.3697335162401512,
+          "mg": 0.3594705632954499,
+          "newton_m": 1.4464507933184898,
+          "pod_g": 0.20961975038744005,
+          "pod_l": 0.3688776258114374,
+          "pre_m": 0.24993676344213975,
+          "pre_p": 0.204833487828267
+        },
+        "contrasts": {
+          "algorithm_manifold": {
+            "interpretation": "algorithm on learned least-squares equation",
+            "left_arm": "lm_m",
+            "left_mean": 1.3697335162401512,
+            "left_minus_right": -0.07671727707833864,
+            "left_over_right": 0.9469617097016265,
+            "log10_left_over_right": -0.02366758129397136,
+            "right_arm": "newton_m",
+            "right_mean": 1.4464507933184898
+          },
+          "equation_affine": {
+            "interpretation": "equation on affine trial set",
+            "left_arm": "pod_g",
+            "left_mean": 0.20961975038744005,
+            "left_minus_right": -0.15925787542399736,
+            "left_over_right": 0.5682636617667707,
+            "log10_left_over_right": -0.24545011449678855,
+            "right_arm": "pod_l",
+            "right_mean": 0.3688776258114374
+          },
+          "equation_manifold": {
+            "interpretation": "equation on learned trial set",
+            "left_arm": "mg",
+            "left_mean": 0.3594705632954499,
+            "left_minus_right": -1.0869802300230398,
+            "left_over_right": 0.24851904050655052,
+            "log10_left_over_right": -0.6046403317992853,
+            "right_arm": "newton_m",
+            "right_mean": 1.4464507933184898
+          },
+          "metric_affine": {
+            "interpretation": "metric on affine trial set, Newton matched",
+            "left_arm": "pre_p",
+            "left_mean": 0.204833487828267,
+            "left_minus_right": -0.1640441379831704,
+            "left_over_right": 0.5552884574598016,
+            "log10_left_over_right": -0.2554813539245432,
+            "right_arm": "pod_l",
+            "right_mean": 0.3688776258114374
+          },
+          "metric_manifold": {
+            "interpretation": "metric on learned trial set, LM matched",
+            "left_arm": "pre_m",
+            "left_mean": 0.24993676344213975,
+            "left_minus_right": -1.1197967527980115,
+            "left_over_right": 0.18247108687841956,
+            "log10_left_over_right": -0.7388059410920957,
+            "right_arm": "lm_m",
+            "right_mean": 1.3697335162401512
+          },
+          "trial_galerkin": {
+            "interpretation": "trial set under Galerkin",
+            "left_arm": "pod_g",
+            "left_mean": 0.20961975038744005,
+            "left_minus_right": -0.14985081290800986,
+            "left_over_right": 0.5831346758014034,
+            "log10_left_over_right": -0.23423113271470716,
+            "right_arm": "mg",
+            "right_mean": 0.3594705632954499
+          },
+          "trial_minimum_residual": {
+            "interpretation": "trial set under the Newton minimum-residual implementation",
+            "left_arm": "pod_l",
+            "left_mean": 0.3688776258114374,
+            "left_minus_right": -1.0775731675070523,
+            "left_over_right": 0.25502258874990663,
+            "log10_left_over_right": -0.5934213500172039,
+            "right_arm": "newton_m",
+            "right_mean": 1.4464507933184898
+          }
+        },
+        "display": "Nonlinear diffusion",
+        "problem": "nonlinear_diffusion",
+        "regime": "ood",
+        "samples_per_seed": 12,
+        "seed_count": 10,
+        "study_kind": "1d"
+      },
+      {
+        "arm_state_error_mean": {
+          "lm_m": 0.1047231021549356,
+          "mg": 0.09301834879333806,
+          "newton_m": 0.1051666933218061,
+          "pod_g": 0.11974268419896131,
+          "pod_l": 0.13396248270377056,
+          "pre_m": 0.023601305805554463,
+          "pre_p": 0.10331841074642298
+        },
+        "contrasts": {
+          "algorithm_manifold": {
+            "interpretation": "algorithm on learned least-squares equation",
+            "left_arm": "lm_m",
+            "left_mean": 0.1047231021549356,
+            "left_minus_right": -0.0004435911668704967,
+            "left_over_right": 0.9957820184997819,
+            "log10_left_over_right": -0.0018357203349409139,
+            "right_arm": "newton_m",
+            "right_mean": 0.1051666933218061
+          },
+          "equation_affine": {
+            "interpretation": "equation on affine trial set",
+            "left_arm": "pod_g",
+            "left_mean": 0.11974268419896131,
+            "left_minus_right": -0.014219798504809256,
+            "left_over_right": 0.8938523815189862,
+            "log10_left_over_right": -0.048734198413556265,
+            "right_arm": "pod_l",
+            "right_mean": 0.13396248270377056
+          },
+          "equation_manifold": {
+            "interpretation": "equation on learned trial set",
+            "left_arm": "mg",
+            "left_mean": 0.09301834879333806,
+            "left_minus_right": -0.012148344528468039,
+            "left_over_right": 0.8844848673591499,
+            "log10_left_over_right": -0.05330959302971069,
+            "right_arm": "newton_m",
+            "right_mean": 0.1051666933218061
+          },
+          "metric_affine": {
+            "interpretation": "metric on affine trial set, Newton matched",
+            "left_arm": "pre_p",
+            "left_mean": 0.10331841074642298,
+            "left_minus_right": -0.030644071957347585,
+            "left_over_right": 0.771248850134329,
+            "log10_left_over_right": -0.11280547045392152,
+            "right_arm": "pod_l",
+            "right_mean": 0.13396248270377056
+          },
+          "metric_manifold": {
+            "interpretation": "metric on learned trial set, LM matched",
+            "left_arm": "pre_m",
+            "left_mean": 0.023601305805554463,
+            "left_minus_right": -0.08112179634938115,
+            "left_over_right": 0.22536866574709402,
+            "log10_left_over_right": -0.6471064664580841,
+            "right_arm": "lm_m",
+            "right_mean": 0.1047231021549356
+          },
+          "trial_galerkin": {
+            "interpretation": "trial set under Galerkin",
+            "left_arm": "pod_g",
+            "left_mean": 0.11974268419896131,
+            "left_minus_right": 0.026724335405623245,
+            "left_over_right": 1.2873017609138342,
+            "log10_left_over_right": 0.10968036332880307,
+            "right_arm": "mg",
+            "right_mean": 0.09301834879333806
+          },
+          "trial_minimum_residual": {
+            "interpretation": "trial set under the Newton minimum-residual implementation",
+            "left_arm": "pod_l",
+            "left_mean": 0.13396248270377056,
+            "left_minus_right": 0.028795789381964462,
+            "left_over_right": 1.2738109231394243,
+            "log10_left_over_right": 0.10510496871264864,
+            "right_arm": "newton_m",
+            "right_mean": 0.1051666933218061
+          }
+        },
+        "display": "2D Burgers",
+        "problem": "two_d_burgers",
+        "regime": "in_domain",
+        "samples_per_seed": 12,
+        "seed_count": 10,
+        "study_kind": "2d"
+      },
+      {
+        "arm_state_error_mean": {
+          "lm_m": 0.4248564045111479,
+          "mg": 0.7839653755103383,
+          "newton_m": 0.5781722591445362,
+          "pod_g": 0.5552250891358246,
+          "pod_l": 0.5226870989774325,
+          "pre_m": 0.34649047149514434,
+          "pre_p": 0.4829269420193115
+        },
+        "contrasts": {
+          "algorithm_manifold": {
+            "interpretation": "algorithm on learned least-squares equation",
+            "left_arm": "lm_m",
+            "left_mean": 0.4248564045111479,
+            "left_minus_right": -0.15331585463338826,
+            "left_over_right": 0.7348266849394773,
+            "log10_left_over_right": -0.13381508084808122,
+            "right_arm": "newton_m",
+            "right_mean": 0.5781722591445362
+          },
+          "equation_affine": {
+            "interpretation": "equation on affine trial set",
+            "left_arm": "pod_g",
+            "left_mean": 0.5552250891358246,
+            "left_minus_right": 0.032537990158392094,
+            "left_over_right": 1.0622513741434374,
+            "log10_left_over_right": 0.026227301571414296,
+            "right_arm": "pod_l",
+            "right_mean": 0.5226870989774325
+          },
+          "equation_manifold": {
+            "interpretation": "equation on learned trial set",
+            "left_arm": "mg",
+            "left_mean": 0.7839653755103383,
+            "left_minus_right": 0.2057931163658021,
+            "left_over_right": 1.3559373752561108,
+            "log10_left_over_right": 0.1322396318549679,
+            "right_arm": "newton_m",
+            "right_mean": 0.5781722591445362
+          },
+          "metric_affine": {
+            "interpretation": "metric on affine trial set, Newton matched",
+            "left_arm": "pre_p",
+            "left_mean": 0.4829269420193115,
+            "left_minus_right": -0.03976015695812096,
+            "left_over_right": 0.9239312448386302,
+            "log10_left_over_right": -0.03436034598572274,
+            "right_arm": "pod_l",
+            "right_mean": 0.5226870989774325
+          },
+          "metric_manifold": {
+            "interpretation": "metric on learned trial set, LM matched",
+            "left_arm": "pre_m",
+            "left_mean": 0.34649047149514434,
+            "left_minus_right": -0.07836593301600359,
+            "left_over_right": 0.8155472480021251,
+            "log10_left_over_right": -0.0885508734315514,
+            "right_arm": "lm_m",
+            "right_mean": 0.4248564045111479
+          },
+          "trial_galerkin": {
+            "interpretation": "trial set under Galerkin",
+            "left_arm": "pod_g",
+            "left_mean": 0.5552250891358246,
+            "left_minus_right": -0.2287402863745137,
+            "left_over_right": 0.7082265447940088,
+            "log10_left_over_right": -0.14982779963168455,
+            "right_arm": "mg",
+            "right_mean": 0.7839653755103383
+          },
+          "trial_minimum_residual": {
+            "interpretation": "trial set under the Newton minimum-residual implementation",
+            "left_arm": "pod_l",
+            "left_mean": 0.5226870989774325,
+            "left_minus_right": -0.0554851601671037,
+            "left_over_right": 0.9040335137330878,
+            "log10_left_over_right": -0.043815469348130964,
+            "right_arm": "newton_m",
+            "right_mean": 0.5781722591445362
+          }
+        },
+        "display": "2D Burgers",
+        "problem": "two_d_burgers",
+        "regime": "ood",
+        "samples_per_seed": 12,
+        "seed_count": 10,
+        "study_kind": "2d"
+      }
+    ],
+    "contrast_order": [
+      "trial_galerkin",
+      "trial_minimum_residual",
+      "equation_manifold",
+      "equation_affine",
+      "metric_manifold",
+      "metric_affine",
+      "algorithm_manifold"
+    ],
+    "estimand": "For each cell and arm, the equal-weight mean of 10 seed-level state-error means; each seed-level mean averages its 12 held-out samples."
+  },
+  "controlled_contrasts": [
+    {
+      "contrast_id": "trial_galerkin",
+      "contrast_label": "POD-G / MG",
+      "denominator": "mg",
+      "denominator_mean_state_error": 0.24193033492478308,
+      "design_role": "trial set under Galerkin",
+      "log10_error_ratio": -0.7137347852193137,
+      "numerator": "pod_g",
+      "numerator_mean_state_error": 0.04676872618807383,
+      "problem": "bratu_source",
+      "regime": "in_domain"
+    },
+    {
+      "contrast_id": "trial_minimum_residual",
+      "contrast_label": "POD-LSPG / Newton-M-LSPG",
+      "denominator": "newton_m",
+      "denominator_mean_state_error": 0.38737028371380816,
+      "design_role": "trial set under the Newton minimum-residual implementation",
+      "log10_error_ratio": -0.5081780332541651,
+      "numerator": "pod_l",
+      "numerator_mean_state_error": 0.12021212338066589,
+      "problem": "bratu_source",
+      "regime": "in_domain"
+    },
+    {
+      "contrast_id": "equation_manifold",
+      "contrast_label": "MG / Newton-M-LSPG",
+      "denominator": "newton_m",
+      "denominator_mean_state_error": 0.38737028371380816,
+      "design_role": "equation on learned trial set",
+      "log10_error_ratio": -0.20443597501591682,
+      "numerator": "mg",
+      "numerator_mean_state_error": 0.24193033492478308,
+      "problem": "bratu_source",
+      "regime": "in_domain"
+    },
+    {
+      "contrast_id": "equation_affine",
+      "contrast_label": "POD-G / POD-LSPG",
+      "denominator": "pod_l",
+      "denominator_mean_state_error": 0.12021212338066589,
+      "design_role": "equation on affine trial set",
+      "log10_error_ratio": -0.40999272698106537,
+      "numerator": "pod_g",
+      "numerator_mean_state_error": 0.04676872618807383,
+      "problem": "bratu_source",
+      "regime": "in_domain"
+    },
+    {
+      "contrast_id": "metric_manifold",
+      "contrast_label": "pre-M / LM-M-LSPG",
+      "denominator": "lm_m",
+      "denominator_mean_state_error": 0.4479911389594607,
+      "design_role": "metric on learned trial set, LM matched",
+      "log10_error_ratio": -0.5922471231723089,
+      "numerator": "pre_m",
+      "numerator_mean_state_error": 0.1145571764416583,
+      "problem": "bratu_source",
+      "regime": "in_domain"
+    },
+    {
+      "contrast_id": "metric_affine",
+      "contrast_label": "pre-P / POD-LSPG",
+      "denominator": "pod_l",
+      "denominator_mean_state_error": 0.12021212338066589,
+      "design_role": "metric on affine trial set, Newton matched",
+      "log10_error_ratio": -0.43459646166996335,
+      "numerator": "pre_p",
+      "numerator_mean_state_error": 0.04419282930385253,
+      "problem": "bratu_source",
+      "regime": "in_domain"
+    },
+    {
+      "contrast_id": "algorithm_manifold",
+      "contrast_label": "LM-M-LSPG / Newton-M-LSPG",
+      "denominator": "newton_m",
+      "denominator_mean_state_error": 0.38737028371380816,
+      "design_role": "algorithm on learned least-squares equation",
+      "log10_error_ratio": 0.06314312227077581,
+      "numerator": "lm_m",
+      "numerator_mean_state_error": 0.4479911389594607,
+      "problem": "bratu_source",
+      "regime": "in_domain"
+    },
+    {
+      "contrast_id": "trial_galerkin",
+      "contrast_label": "POD-G / MG",
+      "denominator": "mg",
+      "denominator_mean_state_error": 0.3062802473276228,
+      "design_role": "trial set under Galerkin",
+      "log10_error_ratio": -0.2455810222058137,
+      "numerator": "pod_g",
+      "numerator_mean_state_error": 0.1739954801821595,
+      "problem": "bratu_source",
+      "regime": "ood"
+    },
+    {
+      "contrast_id": "trial_minimum_residual",
+      "contrast_label": "POD-LSPG / Newton-M-LSPG",
+      "denominator": "newton_m",
+      "denominator_mean_state_error": 0.384916650600295,
+      "design_role": "trial set under the Newton minimum-residual implementation",
+      "log10_error_ratio": -0.06428427688136094,
+      "numerator": "pod_l",
+      "numerator_mean_state_error": 0.3319574510587646,
+      "problem": "bratu_source",
+      "regime": "ood"
+    },
+    {
+      "contrast_id": "equation_manifold",
+      "contrast_label": "MG / Newton-M-LSPG",
+      "denominator": "newton_m",
+      "denominator_mean_state_error": 0.384916650600295,
+      "design_role": "equation on learned trial set",
+      "log10_error_ratio": -0.09924770894772379,
+      "numerator": "mg",
+      "numerator_mean_state_error": 0.3062802473276228,
+      "problem": "bratu_source",
+      "regime": "ood"
+    },
+    {
+      "contrast_id": "equation_affine",
+      "contrast_label": "POD-G / POD-LSPG",
+      "denominator": "pod_l",
+      "denominator_mean_state_error": 0.3319574510587646,
+      "design_role": "equation on affine trial set",
+      "log10_error_ratio": -0.2805444542721766,
+      "numerator": "pod_g",
+      "numerator_mean_state_error": 0.1739954801821595,
+      "problem": "bratu_source",
+      "regime": "ood"
+    },
+    {
+      "contrast_id": "metric_manifold",
+      "contrast_label": "pre-M / LM-M-LSPG",
+      "denominator": "lm_m",
+      "denominator_mean_state_error": 0.416036675644052,
+      "design_role": "metric on learned trial set, LM matched",
+      "log10_error_ratio": -0.2325776743267776,
+      "numerator": "pre_m",
+      "numerator_mean_state_error": 0.2435308267598996,
+      "problem": "bratu_source",
+      "regime": "ood"
+    },
+    {
+      "contrast_id": "metric_affine",
+      "contrast_label": "pre-P / POD-LSPG",
+      "denominator": "pod_l",
+      "denominator_mean_state_error": 0.3319574510587646,
+      "design_role": "metric on affine trial set, Newton matched",
+      "log10_error_ratio": -0.3023295412624525,
+      "numerator": "pre_p",
+      "numerator_mean_state_error": 0.16548280735328214,
+      "problem": "bratu_source",
+      "regime": "ood"
+    },
+    {
+      "contrast_id": "algorithm_manifold",
+      "contrast_label": "LM-M-LSPG / Newton-M-LSPG",
+      "denominator": "newton_m",
+      "denominator_mean_state_error": 0.384916650600295,
+      "design_role": "algorithm on learned least-squares equation",
+      "log10_error_ratio": 0.033764919400757314,
+      "numerator": "lm_m",
+      "numerator_mean_state_error": 0.416036675644052,
+      "problem": "bratu_source",
+      "regime": "ood"
+    },
+    {
+      "contrast_id": "trial_galerkin",
+      "contrast_label": "POD-G / MG",
+      "denominator": "mg",
+      "denominator_mean_state_error": 0.16119558704720913,
+      "design_role": "trial set under Galerkin",
+      "log10_error_ratio": -0.5151564828681344,
+      "numerator": "pod_g",
+      "numerator_mean_state_error": 0.049226240068366275,
+      "problem": "front_layer",
+      "regime": "in_domain"
+    },
+    {
+      "contrast_id": "trial_minimum_residual",
+      "contrast_label": "POD-LSPG / Newton-M-LSPG",
+      "denominator": "newton_m",
+      "denominator_mean_state_error": 0.8433149639285438,
+      "design_role": "trial set under the Newton minimum-residual implementation",
+      "log10_error_ratio": -0.47557376042918215,
+      "numerator": "pod_l",
+      "numerator_mean_state_error": 0.28210841841896694,
+      "problem": "front_layer",
+      "regime": "in_domain"
+    },
+    {
+      "contrast_id": "equation_manifold",
+      "contrast_label": "MG / Newton-M-LSPG",
+      "denominator": "newton_m",
+      "denominator_mean_state_error": 0.8433149639285438,
+      "design_role": "equation on learned trial set",
+      "log10_error_ratio": -0.7186366583749293,
+      "numerator": "mg",
+      "numerator_mean_state_error": 0.16119558704720913,
+      "problem": "front_layer",
+      "regime": "in_domain"
+    },
+    {
+      "contrast_id": "equation_affine",
+      "contrast_label": "POD-G / POD-LSPG",
+      "denominator": "pod_l",
+      "denominator_mean_state_error": 0.28210841841896694,
+      "design_role": "equation on affine trial set",
+      "log10_error_ratio": -0.7582193808138815,
+      "numerator": "pod_g",
+      "numerator_mean_state_error": 0.049226240068366275,
+      "problem": "front_layer",
+      "regime": "in_domain"
+    },
+    {
+      "contrast_id": "metric_manifold",
+      "contrast_label": "pre-M / LM-M-LSPG",
+      "denominator": "lm_m",
+      "denominator_mean_state_error": 0.839929028193624,
+      "design_role": "metric on learned trial set, LM matched",
+      "log10_error_ratio": -0.841638321866103,
+      "numerator": "pre_m",
+      "numerator_mean_state_error": 0.12094955337416875,
+      "problem": "front_layer",
+      "regime": "in_domain"
+    },
+    {
+      "contrast_id": "metric_affine",
+      "contrast_label": "pre-P / POD-LSPG",
+      "denominator": "pod_l",
+      "denominator_mean_state_error": 0.28210841841896694,
+      "design_role": "metric on affine trial set, Newton matched",
+      "log10_error_ratio": -0.7795445289337931,
+      "numerator": "pre_p",
+      "numerator_mean_state_error": 0.04686747077309545,
+      "problem": "front_layer",
+      "regime": "in_domain"
+    },
+    {
+      "contrast_id": "algorithm_manifold",
+      "contrast_label": "LM-M-LSPG / Newton-M-LSPG",
+      "denominator": "newton_m",
+      "denominator_mean_state_error": 0.8433149639285438,
+      "design_role": "algorithm on learned least-squares equation",
+      "log10_error_ratio": -0.0017472157286971678,
+      "numerator": "lm_m",
+      "numerator_mean_state_error": 0.839929028193624,
+      "problem": "front_layer",
+      "regime": "in_domain"
+    },
+    {
+      "contrast_id": "trial_galerkin",
+      "contrast_label": "POD-G / MG",
+      "denominator": "mg",
+      "denominator_mean_state_error": 0.2622379149451529,
+      "design_role": "trial set under Galerkin",
+      "log10_error_ratio": -1.0110986585730677,
+      "numerator": "pod_g",
+      "numerator_mean_state_error": 0.025562117369124542,
+      "problem": "front_layer",
+      "regime": "ood"
+    },
+    {
+      "contrast_id": "trial_minimum_residual",
+      "contrast_label": "POD-LSPG / Newton-M-LSPG",
+      "denominator": "newton_m",
+      "denominator_mean_state_error": 0.9748383206691964,
+      "design_role": "trial set under the Newton minimum-residual implementation",
+      "log10_error_ratio": -0.5897321607635687,
+      "numerator": "pod_l",
+      "numerator_mean_state_error": 0.2507266119375347,
+      "problem": "front_layer",
+      "regime": "ood"
+    },
+    {
+      "contrast_id": "equation_manifold",
+      "contrast_label": "MG / Newton-M-LSPG",
+      "denominator": "newton_m",
+      "denominator_mean_state_error": 0.9748383206691964,
+      "design_role": "equation on learned trial set",
+      "log10_error_ratio": -0.5702371097012421,
+      "numerator": "mg",
+      "numerator_mean_state_error": 0.2622379149451529,
+      "problem": "front_layer",
+      "regime": "ood"
+    },
+    {
+      "contrast_id": "equation_affine",
+      "contrast_label": "POD-G / POD-LSPG",
+      "denominator": "pod_l",
+      "denominator_mean_state_error": 0.2507266119375347,
+      "design_role": "equation on affine trial set",
+      "log10_error_ratio": -0.9916036075107412,
+      "numerator": "pod_g",
+      "numerator_mean_state_error": 0.025562117369124542,
+      "problem": "front_layer",
+      "regime": "ood"
+    },
+    {
+      "contrast_id": "metric_manifold",
+      "contrast_label": "pre-M / LM-M-LSPG",
+      "denominator": "lm_m",
+      "denominator_mean_state_error": 0.9663366823510515,
+      "design_role": "metric on learned trial set, LM matched",
+      "log10_error_ratio": -1.2313745685755864,
+      "numerator": "pre_m",
+      "numerator_mean_state_error": 0.056722308450336545,
+      "problem": "front_layer",
+      "regime": "ood"
+    },
+    {
+      "contrast_id": "metric_affine",
+      "contrast_label": "pre-P / POD-LSPG",
+      "denominator": "pod_l",
+      "denominator_mean_state_error": 0.2507266119375347,
+      "design_role": "metric on affine trial set, Newton matched",
+      "log10_error_ratio": -1.0197634121986252,
+      "numerator": "pre_p",
+      "numerator_mean_state_error": 0.023957253035725816,
+      "problem": "front_layer",
+      "regime": "ood"
+    },
+    {
+      "contrast_id": "algorithm_manifold",
+      "contrast_label": "LM-M-LSPG / Newton-M-LSPG",
+      "denominator": "newton_m",
+      "denominator_mean_state_error": 0.9748383206691964,
+      "design_role": "algorithm on learned least-squares equation",
+      "log10_error_ratio": -0.003804127098561815,
+      "numerator": "lm_m",
+      "numerator_mean_state_error": 0.9663366823510515,
+      "problem": "front_layer",
+      "regime": "ood"
+    },
+    {
+      "contrast_id": "trial_galerkin",
+      "contrast_label": "POD-G / MG",
+      "denominator": "mg",
+      "denominator_mean_state_error": 0.08026410396590322,
+      "design_role": "trial set under Galerkin",
+      "log10_error_ratio": -0.1642953163228157,
+      "numerator": "pod_g",
+      "numerator_mean_state_error": 0.054982697823234436,
+      "problem": "hydrologic_conductivity",
+      "regime": "in_domain"
+    },
+    {
+      "contrast_id": "trial_minimum_residual",
+      "contrast_label": "POD-LSPG / Newton-M-LSPG",
+      "denominator": "newton_m",
+      "denominator_mean_state_error": 0.5616834111396231,
+      "design_role": "trial set under the Newton minimum-residual implementation",
+      "log10_error_ratio": -0.40845588964377694,
+      "numerator": "pod_l",
+      "numerator_mean_state_error": 0.21929852361789096,
+      "problem": "hydrologic_conductivity",
+      "regime": "in_domain"
+    },
+    {
+      "contrast_id": "equation_manifold",
+      "contrast_label": "MG / Newton-M-LSPG",
+      "denominator": "newton_m",
+      "denominator_mean_state_error": 0.5616834111396231,
+      "design_role": "equation on learned trial set",
+      "log10_error_ratio": -0.8449702357537409,
+      "numerator": "mg",
+      "numerator_mean_state_error": 0.08026410396590322,
+      "problem": "hydrologic_conductivity",
+      "regime": "in_domain"
+    },
+    {
+      "contrast_id": "equation_affine",
+      "contrast_label": "POD-G / POD-LSPG",
+      "denominator": "pod_l",
+      "denominator_mean_state_error": 0.21929852361789096,
+      "design_role": "equation on affine trial set",
+      "log10_error_ratio": -0.6008096624327796,
+      "numerator": "pod_g",
+      "numerator_mean_state_error": 0.054982697823234436,
+      "problem": "hydrologic_conductivity",
+      "regime": "in_domain"
+    },
+    {
+      "contrast_id": "metric_manifold",
+      "contrast_label": "pre-M / LM-M-LSPG",
+      "denominator": "lm_m",
+      "denominator_mean_state_error": 0.6547399410306125,
+      "design_role": "metric on learned trial set, LM matched",
+      "log10_error_ratio": -1.2429883320564177,
+      "numerator": "pre_m",
+      "numerator_mean_state_error": 0.03741799416200678,
+      "problem": "hydrologic_conductivity",
+      "regime": "in_domain"
+    },
+    {
+      "contrast_id": "metric_affine",
+      "contrast_label": "pre-P / POD-LSPG",
+      "denominator": "pod_l",
+      "denominator_mean_state_error": 0.21929852361789096,
+      "design_role": "metric on affine trial set, Newton matched",
+      "log10_error_ratio": -0.6702086420846991,
+      "numerator": "pre_p",
+      "numerator_mean_state_error": 0.04686267398347359,
+      "problem": "hydrologic_conductivity",
+      "regime": "in_domain"
+    },
+    {
+      "contrast_id": "algorithm_manifold",
+      "contrast_label": "LM-M-LSPG / Newton-M-LSPG",
+      "denominator": "newton_m",
+      "denominator_mean_state_error": 0.5616834111396231,
+      "design_role": "algorithm on learned least-squares equation",
+      "log10_error_ratio": 0.06657723741689435,
+      "numerator": "lm_m",
+      "numerator_mean_state_error": 0.6547399410306125,
+      "problem": "hydrologic_conductivity",
+      "regime": "in_domain"
+    },
+    {
+      "contrast_id": "trial_galerkin",
+      "contrast_label": "POD-G / MG",
+      "denominator": "mg",
+      "denominator_mean_state_error": 0.26759210268322703,
+      "design_role": "trial set under Galerkin",
+      "log10_error_ratio": -0.012629559797021383,
+      "numerator": "pod_g",
+      "numerator_mean_state_error": 0.2599224143277567,
+      "problem": "hydrologic_conductivity",
+      "regime": "ood"
+    },
+    {
+      "contrast_id": "trial_minimum_residual",
+      "contrast_label": "POD-LSPG / Newton-M-LSPG",
+      "denominator": "newton_m",
+      "denominator_mean_state_error": 0.8562752450690784,
+      "design_role": "trial set under the Newton minimum-residual implementation",
+      "log10_error_ratio": -0.14153599642279996,
+      "numerator": "pod_l",
+      "numerator_mean_state_error": 0.6181265419592354,
+      "problem": "hydrologic_conductivity",
+      "regime": "ood"
+    },
+    {
+      "contrast_id": "equation_manifold",
+      "contrast_label": "MG / Newton-M-LSPG",
+      "denominator": "newton_m",
+      "denominator_mean_state_error": 0.8562752450690784,
+      "design_role": "equation on learned trial set",
+      "log10_error_ratio": -0.505140096581747,
+      "numerator": "mg",
+      "numerator_mean_state_error": 0.26759210268322703,
+      "problem": "hydrologic_conductivity",
+      "regime": "ood"
+    },
+    {
+      "contrast_id": "equation_affine",
+      "contrast_label": "POD-G / POD-LSPG",
+      "denominator": "pod_l",
+      "denominator_mean_state_error": 0.6181265419592354,
+      "design_role": "equation on affine trial set",
+      "log10_error_ratio": -0.37623365995596847,
+      "numerator": "pod_g",
+      "numerator_mean_state_error": 0.2599224143277567,
+      "problem": "hydrologic_conductivity",
+      "regime": "ood"
+    },
+    {
+      "contrast_id": "metric_manifold",
+      "contrast_label": "pre-M / LM-M-LSPG",
+      "denominator": "lm_m",
+      "denominator_mean_state_error": 0.8794076432347294,
+      "design_role": "metric on learned trial set, LM matched",
+      "log10_error_ratio": -0.6419723514459161,
+      "numerator": "pre_m",
+      "numerator_mean_state_error": 0.20054779182813537,
+      "problem": "hydrologic_conductivity",
+      "regime": "ood"
+    },
+    {
+      "contrast_id": "metric_affine",
+      "contrast_label": "pre-P / POD-LSPG",
+      "denominator": "pod_l",
+      "denominator_mean_state_error": 0.6181265419592354,
+      "design_role": "metric on affine trial set, Newton matched",
+      "log10_error_ratio": -0.423663200548581,
+      "numerator": "pre_p",
+      "numerator_mean_state_error": 0.23303126448792386,
+      "problem": "hydrologic_conductivity",
+      "regime": "ood"
+    },
+    {
+      "contrast_id": "algorithm_manifold",
+      "contrast_label": "LM-M-LSPG / Newton-M-LSPG",
+      "denominator": "newton_m",
+      "denominator_mean_state_error": 0.8562752450690784,
+      "design_role": "algorithm on learned least-squares equation",
+      "log10_error_ratio": 0.011576847160115693,
+      "numerator": "lm_m",
+      "numerator_mean_state_error": 0.8794076432347294,
+      "problem": "hydrologic_conductivity",
+      "regime": "ood"
+    },
+    {
+      "contrast_id": "trial_galerkin",
+      "contrast_label": "POD-G / MG",
+      "denominator": "mg",
+      "denominator_mean_state_error": 0.0739264076797477,
+      "design_role": "trial set under Galerkin",
+      "log10_error_ratio": -0.20342886223399936,
+      "numerator": "pod_g",
+      "numerator_mean_state_error": 0.04627759070581274,
+      "problem": "nonlinear_diffusion",
+      "regime": "in_domain"
+    },
+    {
+      "contrast_id": "trial_minimum_residual",
+      "contrast_label": "POD-LSPG / Newton-M-LSPG",
+      "denominator": "newton_m",
+      "denominator_mean_state_error": 0.46171021562506614,
+      "design_role": "trial set under the Newton minimum-residual implementation",
+      "log10_error_ratio": -0.5536098538322042,
+      "numerator": "pod_l",
+      "numerator_mean_state_error": 0.1290504816729348,
+      "problem": "nonlinear_diffusion",
+      "regime": "in_domain"
+    },
+    {
+      "contrast_id": "equation_manifold",
+      "contrast_label": "MG / Newton-M-LSPG",
+      "denominator": "newton_m",
+      "denominator_mean_state_error": 0.46171021562506614,
+      "design_role": "equation on learned trial set",
+      "log10_error_ratio": -0.7955698807380459,
+      "numerator": "mg",
+      "numerator_mean_state_error": 0.0739264076797477,
+      "problem": "nonlinear_diffusion",
+      "regime": "in_domain"
+    },
+    {
+      "contrast_id": "equation_affine",
+      "contrast_label": "POD-G / POD-LSPG",
+      "denominator": "pod_l",
+      "denominator_mean_state_error": 0.1290504816729348,
+      "design_role": "equation on affine trial set",
+      "log10_error_ratio": -0.4453888891398411,
+      "numerator": "pod_g",
+      "numerator_mean_state_error": 0.04627759070581274,
+      "problem": "nonlinear_diffusion",
+      "regime": "in_domain"
+    },
+    {
+      "contrast_id": "metric_manifold",
+      "contrast_label": "pre-M / LM-M-LSPG",
+      "denominator": "lm_m",
+      "denominator_mean_state_error": 0.44657628072656985,
+      "design_role": "metric on learned trial set, LM matched",
+      "log10_error_ratio": -0.9432386342520559,
+      "numerator": "pre_m",
+      "numerator_mean_state_error": 0.050892878839773927,
+      "problem": "nonlinear_diffusion",
+      "regime": "in_domain"
+    },
+    {
+      "contrast_id": "metric_affine",
+      "contrast_label": "pre-P / POD-LSPG",
+      "denominator": "pod_l",
+      "denominator_mean_state_error": 0.1290504816729348,
+      "design_role": "metric on affine trial set, Newton matched",
+      "log10_error_ratio": -0.4630483140595529,
+      "numerator": "pre_p",
+      "numerator_mean_state_error": 0.04443358104112975,
+      "problem": "nonlinear_diffusion",
+      "regime": "in_domain"
+    },
+    {
+      "contrast_id": "algorithm_manifold",
+      "contrast_label": "LM-M-LSPG / Newton-M-LSPG",
+      "denominator": "newton_m",
+      "denominator_mean_state_error": 0.46171021562506614,
+      "design_role": "algorithm on learned least-squares equation",
+      "log10_error_ratio": -0.014473831287301155,
+      "numerator": "lm_m",
+      "numerator_mean_state_error": 0.44657628072656985,
+      "problem": "nonlinear_diffusion",
+      "regime": "in_domain"
+    },
+    {
+      "contrast_id": "trial_galerkin",
+      "contrast_label": "POD-G / MG",
+      "denominator": "mg",
+      "denominator_mean_state_error": 0.3594705632954499,
+      "design_role": "trial set under Galerkin",
+      "log10_error_ratio": -0.23423113271470716,
+      "numerator": "pod_g",
+      "numerator_mean_state_error": 0.20961975038744005,
+      "problem": "nonlinear_diffusion",
+      "regime": "ood"
+    },
+    {
+      "contrast_id": "trial_minimum_residual",
+      "contrast_label": "POD-LSPG / Newton-M-LSPG",
+      "denominator": "newton_m",
+      "denominator_mean_state_error": 1.4464507933184898,
+      "design_role": "trial set under the Newton minimum-residual implementation",
+      "log10_error_ratio": -0.5934213500172039,
+      "numerator": "pod_l",
+      "numerator_mean_state_error": 0.3688776258114374,
+      "problem": "nonlinear_diffusion",
+      "regime": "ood"
+    },
+    {
+      "contrast_id": "equation_manifold",
+      "contrast_label": "MG / Newton-M-LSPG",
+      "denominator": "newton_m",
+      "denominator_mean_state_error": 1.4464507933184898,
+      "design_role": "equation on learned trial set",
+      "log10_error_ratio": -0.6046403317992853,
+      "numerator": "mg",
+      "numerator_mean_state_error": 0.3594705632954499,
+      "problem": "nonlinear_diffusion",
+      "regime": "ood"
+    },
+    {
+      "contrast_id": "equation_affine",
+      "contrast_label": "POD-G / POD-LSPG",
+      "denominator": "pod_l",
+      "denominator_mean_state_error": 0.3688776258114374,
+      "design_role": "equation on affine trial set",
+      "log10_error_ratio": -0.24545011449678855,
+      "numerator": "pod_g",
+      "numerator_mean_state_error": 0.20961975038744005,
+      "problem": "nonlinear_diffusion",
+      "regime": "ood"
+    },
+    {
+      "contrast_id": "metric_manifold",
+      "contrast_label": "pre-M / LM-M-LSPG",
+      "denominator": "lm_m",
+      "denominator_mean_state_error": 1.3697335162401512,
+      "design_role": "metric on learned trial set, LM matched",
+      "log10_error_ratio": -0.7388059410920957,
+      "numerator": "pre_m",
+      "numerator_mean_state_error": 0.24993676344213975,
+      "problem": "nonlinear_diffusion",
+      "regime": "ood"
+    },
+    {
+      "contrast_id": "metric_affine",
+      "contrast_label": "pre-P / POD-LSPG",
+      "denominator": "pod_l",
+      "denominator_mean_state_error": 0.3688776258114374,
+      "design_role": "metric on affine trial set, Newton matched",
+      "log10_error_ratio": -0.2554813539245432,
+      "numerator": "pre_p",
+      "numerator_mean_state_error": 0.204833487828267,
+      "problem": "nonlinear_diffusion",
+      "regime": "ood"
+    },
+    {
+      "contrast_id": "algorithm_manifold",
+      "contrast_label": "LM-M-LSPG / Newton-M-LSPG",
+      "denominator": "newton_m",
+      "denominator_mean_state_error": 1.4464507933184898,
+      "design_role": "algorithm on learned least-squares equation",
+      "log10_error_ratio": -0.02366758129397136,
+      "numerator": "lm_m",
+      "numerator_mean_state_error": 1.3697335162401512,
+      "problem": "nonlinear_diffusion",
+      "regime": "ood"
+    },
+    {
+      "contrast_id": "trial_galerkin",
+      "contrast_label": "POD-G / MG",
+      "denominator": "mg",
+      "denominator_mean_state_error": 0.09301834879333806,
+      "design_role": "trial set under Galerkin",
+      "log10_error_ratio": 0.10968036332880307,
+      "numerator": "pod_g",
+      "numerator_mean_state_error": 0.11974268419896131,
+      "problem": "two_d_burgers",
+      "regime": "in_domain"
+    },
+    {
+      "contrast_id": "trial_minimum_residual",
+      "contrast_label": "POD-LSPG / Newton-M-LSPG",
+      "denominator": "newton_m",
+      "denominator_mean_state_error": 0.1051666933218061,
+      "design_role": "trial set under the Newton minimum-residual implementation",
+      "log10_error_ratio": 0.10510496871264864,
+      "numerator": "pod_l",
+      "numerator_mean_state_error": 0.13396248270377056,
+      "problem": "two_d_burgers",
+      "regime": "in_domain"
+    },
+    {
+      "contrast_id": "equation_manifold",
+      "contrast_label": "MG / Newton-M-LSPG",
+      "denominator": "newton_m",
+      "denominator_mean_state_error": 0.1051666933218061,
+      "design_role": "equation on learned trial set",
+      "log10_error_ratio": -0.05330959302971069,
+      "numerator": "mg",
+      "numerator_mean_state_error": 0.09301834879333806,
+      "problem": "two_d_burgers",
+      "regime": "in_domain"
+    },
+    {
+      "contrast_id": "equation_affine",
+      "contrast_label": "POD-G / POD-LSPG",
+      "denominator": "pod_l",
+      "denominator_mean_state_error": 0.13396248270377056,
+      "design_role": "equation on affine trial set",
+      "log10_error_ratio": -0.048734198413556265,
+      "numerator": "pod_g",
+      "numerator_mean_state_error": 0.11974268419896131,
+      "problem": "two_d_burgers",
+      "regime": "in_domain"
+    },
+    {
+      "contrast_id": "metric_manifold",
+      "contrast_label": "pre-M / LM-M-LSPG",
+      "denominator": "lm_m",
+      "denominator_mean_state_error": 0.1047231021549356,
+      "design_role": "metric on learned trial set, LM matched",
+      "log10_error_ratio": -0.6471064664580841,
+      "numerator": "pre_m",
+      "numerator_mean_state_error": 0.023601305805554463,
+      "problem": "two_d_burgers",
+      "regime": "in_domain"
+    },
+    {
+      "contrast_id": "metric_affine",
+      "contrast_label": "pre-P / POD-LSPG",
+      "denominator": "pod_l",
+      "denominator_mean_state_error": 0.13396248270377056,
+      "design_role": "metric on affine trial set, Newton matched",
+      "log10_error_ratio": -0.11280547045392152,
+      "numerator": "pre_p",
+      "numerator_mean_state_error": 0.10331841074642298,
+      "problem": "two_d_burgers",
+      "regime": "in_domain"
+    },
+    {
+      "contrast_id": "algorithm_manifold",
+      "contrast_label": "LM-M-LSPG / Newton-M-LSPG",
+      "denominator": "newton_m",
+      "denominator_mean_state_error": 0.1051666933218061,
+      "design_role": "algorithm on learned least-squares equation",
+      "log10_error_ratio": -0.0018357203349409139,
+      "numerator": "lm_m",
+      "numerator_mean_state_error": 0.1047231021549356,
+      "problem": "two_d_burgers",
+      "regime": "in_domain"
+    },
+    {
+      "contrast_id": "trial_galerkin",
+      "contrast_label": "POD-G / MG",
+      "denominator": "mg",
+      "denominator_mean_state_error": 0.7839653755103383,
+      "design_role": "trial set under Galerkin",
+      "log10_error_ratio": -0.14982779963168455,
+      "numerator": "pod_g",
+      "numerator_mean_state_error": 0.5552250891358246,
+      "problem": "two_d_burgers",
+      "regime": "ood"
+    },
+    {
+      "contrast_id": "trial_minimum_residual",
+      "contrast_label": "POD-LSPG / Newton-M-LSPG",
+      "denominator": "newton_m",
+      "denominator_mean_state_error": 0.5781722591445362,
+      "design_role": "trial set under the Newton minimum-residual implementation",
+      "log10_error_ratio": -0.043815469348130964,
+      "numerator": "pod_l",
+      "numerator_mean_state_error": 0.5226870989774325,
+      "problem": "two_d_burgers",
+      "regime": "ood"
+    },
+    {
+      "contrast_id": "equation_manifold",
+      "contrast_label": "MG / Newton-M-LSPG",
+      "denominator": "newton_m",
+      "denominator_mean_state_error": 0.5781722591445362,
+      "design_role": "equation on learned trial set",
+      "log10_error_ratio": 0.1322396318549679,
+      "numerator": "mg",
+      "numerator_mean_state_error": 0.7839653755103383,
+      "problem": "two_d_burgers",
+      "regime": "ood"
+    },
+    {
+      "contrast_id": "equation_affine",
+      "contrast_label": "POD-G / POD-LSPG",
+      "denominator": "pod_l",
+      "denominator_mean_state_error": 0.5226870989774325,
+      "design_role": "equation on affine trial set",
+      "log10_error_ratio": 0.026227301571414296,
+      "numerator": "pod_g",
+      "numerator_mean_state_error": 0.5552250891358246,
+      "problem": "two_d_burgers",
+      "regime": "ood"
+    },
+    {
+      "contrast_id": "metric_manifold",
+      "contrast_label": "pre-M / LM-M-LSPG",
+      "denominator": "lm_m",
+      "denominator_mean_state_error": 0.4248564045111479,
+      "design_role": "metric on learned trial set, LM matched",
+      "log10_error_ratio": -0.0885508734315514,
+      "numerator": "pre_m",
+      "numerator_mean_state_error": 0.34649047149514434,
+      "problem": "two_d_burgers",
+      "regime": "ood"
+    },
+    {
+      "contrast_id": "metric_affine",
+      "contrast_label": "pre-P / POD-LSPG",
+      "denominator": "pod_l",
+      "denominator_mean_state_error": 0.5226870989774325,
+      "design_role": "metric on affine trial set, Newton matched",
+      "log10_error_ratio": -0.03436034598572274,
+      "numerator": "pre_p",
+      "numerator_mean_state_error": 0.4829269420193115,
+      "problem": "two_d_burgers",
+      "regime": "ood"
+    },
+    {
+      "contrast_id": "algorithm_manifold",
+      "contrast_label": "LM-M-LSPG / Newton-M-LSPG",
+      "denominator": "newton_m",
+      "denominator_mean_state_error": 0.5781722591445362,
+      "design_role": "algorithm on learned least-squares equation",
+      "log10_error_ratio": -0.13381508084808122,
+      "numerator": "lm_m",
+      "numerator_mean_state_error": 0.4248564045111479,
+      "problem": "two_d_burgers",
+      "regime": "ood"
+    }
+  ],
+  "factorial_core": {
+    "cells": [
+      {
+        "cell_mean_log10_effects": {
+          "equation_affine": -0.40999272698106537,
+          "equation_manifold": -0.20443597501591682,
+          "interaction": 0.20555675196514855,
+          "trial_galerkin": -0.7137347852193137,
+          "trial_minimum_residual": -0.5081780332541651
+        },
+        "display": "Bratu-source",
+        "interaction_seed_summary": {
+          "holm_p_10": 0.12890625,
+          "mean": 0.18334350186980478,
+          "median": 0.237524394555893,
+          "negative": 1,
+          "p2p5": -0.03314034111150627,
+          "p97p5": 0.31319026021955226,
+          "positive": 9,
+          "raw_sign_p": 0.021484375,
+          "ties": 0
+        },
+        "problem": "bratu_source",
+        "regime": "in_domain",
+        "seed_effects": [
+          {
+            "equation_affine": -0.32670406266159113,
+            "equation_manifold": -0.05142876781867409,
+            "interaction": 0.275275294842917,
+            "seed": 0,
+            "trial_galerkin": -0.835781095144952,
+            "trial_minimum_residual": -0.560505800302035
+          },
+          {
+            "equation_affine": -0.3463643033315395,
+            "equation_manifold": -0.07253156092148454,
+            "interaction": 0.27383274241005495,
+            "seed": 1,
+            "trial_galerkin": -0.7137608140352799,
+            "trial_minimum_residual": -0.43992807162522496
+          },
+          {
+            "equation_affine": -0.5181241211580488,
+            "equation_manifold": -0.29859242641558,
+            "interaction": 0.21953169474246886,
+            "seed": 2,
+            "trial_galerkin": -0.580640391011778,
+            "trial_minimum_residual": -0.361108696269309
+          },
+          {
+            "equation_affine": -0.37043967538971107,
+            "equation_manifold": -0.4259662119579735,
+            "interaction": -0.05552653656826245,
+            "seed": 3,
+            "trial_galerkin": -0.4504282779473979,
+            "trial_minimum_residual": -0.5059548145156603
+          },
+          {
+            "equation_affine": -0.4172098154735261,
+            "equation_manifold": -0.11828683989102785,
+            "interaction": 0.29892297558249825,
+            "seed": 4,
+            "trial_galerkin": -0.7931719774830018,
+            "trial_minimum_residual": -0.49424900190050364
+          },
+          {
+            "equation_affine": -0.5146133655626737,
+            "equation_manifold": -0.19728099044849284,
+            "interaction": 0.31733237511418083,
+            "seed": 5,
+            "trial_galerkin": -0.7425828195924946,
+            "trial_minimum_residual": -0.4252504444783138
+          },
+          {
+            "equation_affine": -0.4516773149047365,
+            "equation_manifold": -0.19616022053541937,
+            "interaction": 0.25551709436931713,
+            "seed": 6,
+            "trial_galerkin": -0.7060943609916361,
+            "trial_minimum_residual": -0.450577266622319
+          },
+          {
+            "equation_affine": -0.20387926201807735,
+            "equation_manifold": -0.12491622496882422,
+            "interaction": 0.07896303704925313,
+            "seed": 7,
+            "trial_galerkin": -0.8814083888430109,
+            "trial_minimum_residual": -0.8024453517937578
+          },
+          {
+            "equation_affine": -0.3526207576371032,
+            "equation_manifold": -0.2270020819432483,
+            "interaction": 0.1256186756938549,
+            "seed": 8,
+            "trial_galerkin": -0.6442337290195076,
+            "trial_minimum_residual": -0.5186150533256526
+          },
+          {
+            "equation_affine": -0.51067890895016,
+            "equation_manifold": -0.466711243488395,
+            "interaction": 0.043967665461765004,
+            "seed": 9,
+            "trial_galerkin": -0.6318744613653401,
+            "trial_minimum_residual": -0.587906795903575
+          }
+        ],
+        "study_kind": "1d"
+      },
+      {
+        "cell_mean_log10_effects": {
+          "equation_affine": -0.2805444542721766,
+          "equation_manifold": -0.09924770894772379,
+          "interaction": 0.18129674532445283,
+          "trial_galerkin": -0.2455810222058137,
+          "trial_minimum_residual": -0.06428427688136094
+        },
+        "display": "Bratu-source",
+        "interaction_seed_summary": {
+          "holm_p_10": 0.12890625,
+          "mean": 0.17900909243111798,
+          "median": 0.16593456346861268,
+          "negative": 1,
+          "p2p5": 0.015663148542032098,
+          "p97p5": 0.3074471953253567,
+          "positive": 9,
+          "raw_sign_p": 0.021484375,
+          "ties": 0
+        },
+        "problem": "bratu_source",
+        "regime": "ood",
+        "seed_effects": [
+          {
+            "equation_affine": -0.19375384240660626,
+            "equation_manifold": -0.04336335320062654,
+            "interaction": 0.15039048920597972,
+            "seed": 0,
+            "trial_galerkin": -0.2890780820546115,
+            "trial_minimum_residual": -0.13868759284863177
+          },
+          {
+            "equation_affine": -0.30132885259329784,
+            "equation_manifold": -0.019004964531786735,
+            "interaction": 0.2823238880615111,
+            "seed": 1,
+            "trial_galerkin": -0.29264083895416976,
+            "trial_minimum_residual": -0.010316950892658676
+          },
+          {
+            "equation_affine": -0.2870751268767941,
+            "equation_manifold": -0.17452529691847912,
+            "interaction": 0.11254982995831497,
+            "seed": 2,
+            "trial_galerkin": -0.11617498401859642,
+            "trial_minimum_residual": -0.0036251540602814268
+          },
+          {
+            "equation_affine": -0.2939712633001256,
+            "equation_manifold": -0.19883434024205657,
+            "interaction": 0.095136923058069,
+            "seed": 3,
+            "trial_galerkin": -0.08028387418685201,
+            "trial_minimum_residual": 0.014853048871216962
+          },
+          {
+            "equation_affine": -0.2764299373333043,
+            "equation_manifold": 0.015418806708070826,
+            "interaction": 0.2918487440413751,
+            "seed": 4,
+            "trial_galerkin": -0.2937818579881566,
+            "trial_minimum_residual": -0.001933113946781444
+          },
+          {
+            "equation_affine": -0.34029017445463056,
+            "equation_manifold": -0.028314396498440524,
+            "interaction": 0.31197577795619,
+            "seed": 5,
+            "trial_galerkin": -0.33548276930699256,
+            "trial_minimum_residual": -0.023506991350802454
+          },
+          {
+            "equation_affine": -0.2895212040616661,
+            "equation_manifold": -0.03640440111157103,
+            "interaction": 0.2531168029500951,
+            "seed": 6,
+            "trial_galerkin": -0.2603693014427007,
+            "trial_minimum_residual": -0.007252498492605618
+          },
+          {
+            "equation_affine": -0.22397940929626545,
+            "equation_manifold": -0.23138929206534084,
+            "interaction": -0.007409882769075393,
+            "seed": 7,
+            "trial_galerkin": -0.23528814279902596,
+            "trial_minimum_residual": -0.24269802556810138
+          },
+          {
+            "equation_affine": -0.2526391754319691,
+            "equation_manifold": -0.07116053770072343,
+            "interaction": 0.18147863773124567,
+            "seed": 8,
+            "trial_galerkin": -0.23964354879410776,
+            "trial_minimum_residual": -0.058164911062862035
+          },
+          {
+            "equation_affine": -0.3230677273924733,
+            "equation_manifold": -0.20438801327499886,
+            "interaction": 0.11867971411747444,
+            "seed": 9,
+            "trial_galerkin": -0.24654171082188278,
+            "trial_minimum_residual": -0.12786199670440837
+          }
+        ],
+        "study_kind": "1d"
+      },
+      {
+        "cell_mean_log10_effects": {
+          "equation_affine": -0.7582193808138815,
+          "equation_manifold": -0.7186366583749293,
+          "interaction": 0.03958272243895222,
+          "trial_galerkin": -0.5151564828681344,
+          "trial_minimum_residual": -0.47557376042918215
+        },
+        "display": "Front-layer",
+        "interaction_seed_summary": {
+          "holm_p_10": 1.0,
+          "mean": 0.02539106396151756,
+          "median": 0.03256862544578376,
+          "negative": 5,
+          "p2p5": -0.16568885920711215,
+          "p97p5": 0.190242702895897,
+          "positive": 5,
+          "raw_sign_p": 1.0,
+          "ties": 0
+        },
+        "problem": "front_layer",
+        "regime": "in_domain",
+        "seed_effects": [
+          {
+            "equation_affine": -0.7544566129007586,
+            "equation_manifold": -0.7721357716227601,
+            "interaction": -0.017679158722001542,
+            "seed": 0,
+            "trial_galerkin": -0.5484196427165441,
+            "trial_minimum_residual": -0.5660988014385455
+          },
+          {
+            "equation_affine": -0.5948974899392357,
+            "equation_manifold": -0.6627796358448905,
+            "interaction": -0.06788214590565478,
+            "seed": 1,
+            "trial_galerkin": -0.4560975252697884,
+            "trial_minimum_residual": -0.5239796711754432
+          },
+          {
+            "equation_affine": -0.8086187210612273,
+            "equation_manifold": -0.7069065188170143,
+            "interaction": 0.10171220224421307,
+            "seed": 2,
+            "trial_galerkin": -0.3854767242011206,
+            "trial_minimum_residual": -0.28376452195690754
+          },
+          {
+            "equation_affine": -0.8017963150936714,
+            "equation_manifold": -0.6065299369062327,
+            "interaction": 0.19526637818743875,
+            "seed": 3,
+            "trial_galerkin": -0.6367360920542615,
+            "trial_minimum_residual": -0.4414697138668227
+          },
+          {
+            "equation_affine": -0.7004680942459333,
+            "equation_manifold": -0.5476821517848354,
+            "interaction": 0.1527859424610979,
+            "seed": 4,
+            "trial_galerkin": -0.5461129961000407,
+            "trial_minimum_residual": -0.3933270536389429
+          },
+          {
+            "equation_affine": -0.8717744076659635,
+            "equation_manifold": -0.7889579980523944,
+            "interaction": 0.08281640961356906,
+            "seed": 5,
+            "trial_galerkin": -0.5359245816492926,
+            "trial_minimum_residual": -0.45310817203572357
+          },
+          {
+            "equation_affine": -0.8346341540781611,
+            "equation_manifold": -0.661695221630908,
+            "interaction": 0.1729389324472531,
+            "seed": 6,
+            "trial_galerkin": -0.4638389799675989,
+            "trial_minimum_residual": -0.2909000475203457
+          },
+          {
+            "equation_affine": -0.7268786029304904,
+            "equation_manifold": -0.9146400085084887,
+            "interaction": -0.18776140557799825,
+            "seed": 7,
+            "trial_galerkin": -0.40382841821746246,
+            "trial_minimum_residual": -0.5915898237954607
+          },
+          {
+            "equation_affine": -0.7033940554030295,
+            "equation_manifold": -0.7930552548882006,
+            "interaction": -0.08966119948517115,
+            "seed": 8,
+            "trial_galerkin": -0.5606507234344716,
+            "trial_minimum_residual": -0.6503119229196427
+          },
+          {
+            "equation_affine": -0.7366686676715826,
+            "equation_manifold": -0.8252939833191532,
+            "interaction": -0.08862531564757059,
+            "seed": 9,
+            "trial_galerkin": -0.6064924650608472,
+            "trial_minimum_residual": -0.6951177807084177
+          }
+        ],
+        "study_kind": "1d"
+      },
+      {
+        "cell_mean_log10_effects": {
+          "equation_affine": -0.9916036075107412,
+          "equation_manifold": -0.5702371097012421,
+          "interaction": 0.4213664978094991,
+          "trial_galerkin": -1.0110986585730677,
+          "trial_minimum_residual": -0.5897321607635687
+        },
+        "display": "Front-layer",
+        "interaction_seed_summary": {
+          "holm_p_10": 0.01953125,
+          "mean": 0.4024775301495243,
+          "median": 0.39043622836080166,
+          "negative": 0,
+          "p2p5": 0.20388138395334826,
+          "p97p5": 0.6177052062369155,
+          "positive": 10,
+          "raw_sign_p": 0.001953125,
+          "ties": 0
+        },
+        "problem": "front_layer",
+        "regime": "ood",
+        "seed_effects": [
+          {
+            "equation_affine": -0.9477374860725272,
+            "equation_manifold": -0.5102590296203015,
+            "interaction": 0.4374784564522257,
+            "seed": 0,
+            "trial_galerkin": -1.0154934449914341,
+            "trial_minimum_residual": -0.5780149885392085
+          },
+          {
+            "equation_affine": -0.9384598481066646,
+            "equation_manifold": -0.62962922630831,
+            "interaction": 0.30883062179835463,
+            "seed": 1,
+            "trial_galerkin": -1.076176835736177,
+            "trial_minimum_residual": -0.7673462139378223
+          },
+          {
+            "equation_affine": -1.002198959548353,
+            "equation_manifold": -0.6130190170212415,
+            "interaction": 0.3891799425271114,
+            "seed": 2,
+            "trial_galerkin": -0.9432221758544488,
+            "trial_minimum_residual": -0.5540422333273373
+          },
+          {
+            "equation_affine": -0.9962987573751882,
+            "equation_manifold": -0.376286961101224,
+            "interaction": 0.6200117962739642,
+            "seed": 3,
+            "trial_galerkin": -1.2286867952975904,
+            "trial_minimum_residual": -0.6086749990236262
+          },
+          {
+            "equation_affine": -1.0836708056605366,
+            "equation_manifold": -0.4739105206623443,
+            "interaction": 0.6097602849981923,
+            "seed": 4,
+            "trial_galerkin": -1.077052484754639,
+            "trial_minimum_residual": -0.46729219975644676
+          },
+          {
+            "equation_affine": -0.9738995374895003,
+            "equation_manifold": -0.5822070232950084,
+            "interaction": 0.3916925141944919,
+            "seed": 5,
+            "trial_galerkin": -1.0274737361269939,
+            "trial_minimum_residual": -0.635781221932502
+          },
+          {
+            "equation_affine": -1.1063877330591514,
+            "equation_manifold": -0.5612038637823273,
+            "interaction": 0.545183869276824,
+            "seed": 6,
+            "trial_galerkin": -1.0212928918088415,
+            "trial_minimum_residual": -0.47610902253201726
+          },
+          {
+            "equation_affine": -0.8814185608259012,
+            "equation_manifold": -0.6857126308416465,
+            "interaction": 0.19570592998425473,
+            "seed": 7,
+            "trial_galerkin": -0.8270979993805592,
+            "trial_minimum_residual": -0.6313920693963044
+          },
+          {
+            "equation_affine": -0.8667953931154094,
+            "equation_manifold": -0.6347541121574056,
+            "interaction": 0.2320412809580038,
+            "seed": 8,
+            "trial_galerkin": -0.9696814122883345,
+            "trial_minimum_residual": -0.7376401313303306
+          },
+          {
+            "equation_affine": -1.0573109666171092,
+            "equation_manifold": -0.7624203615852886,
+            "interaction": 0.29489060503182063,
+            "seed": 9,
+            "trial_galerkin": -0.832966669211699,
+            "trial_minimum_residual": -0.5380760641798784
+          }
+        ],
+        "study_kind": "1d"
+      },
+      {
+        "cell_mean_log10_effects": {
+          "equation_affine": -0.6008096624327796,
+          "equation_manifold": -0.8449702357537409,
+          "interaction": -0.2441605733209613,
+          "trial_galerkin": -0.1642953163228157,
+          "trial_minimum_residual": -0.40845588964377694
+        },
+        "display": "Hydraulic K",
+        "interaction_seed_summary": {
+          "holm_p_10": 0.01953125,
+          "mean": -0.2558166547812436,
+          "median": -0.2585004644415942,
+          "negative": 10,
+          "p2p5": -0.5729285930182351,
+          "p97p5": -0.03891396314337453,
+          "positive": 0,
+          "raw_sign_p": 0.001953125,
+          "ties": 0
+        },
+        "problem": "hydrologic_conductivity",
+        "regime": "in_domain",
+        "seed_effects": [
+          {
+            "equation_affine": -0.6371648195576639,
+            "equation_manifold": -0.6625492396425129,
+            "interaction": -0.02538442008484898,
+            "seed": 0,
+            "trial_galerkin": -0.47002256465316555,
+            "trial_minimum_residual": -0.4954069847380144
+          },
+          {
+            "equation_affine": -0.6277394672819754,
+            "equation_manifold": -0.9321361027251185,
+            "interaction": -0.3043966354431431,
+            "seed": 1,
+            "trial_galerkin": -0.10940635663486627,
+            "trial_minimum_residual": -0.41380299207800936
+          },
+          {
+            "equation_affine": -0.5896303130854316,
+            "equation_manifold": -0.8844493853671569,
+            "interaction": -0.2948190722817253,
+            "seed": 2,
+            "trial_galerkin": -0.13705813651061005,
+            "trial_minimum_residual": -0.4318772087923354
+          },
+          {
+            "equation_affine": -0.6241004719413378,
+            "equation_manifold": -0.7977101598453495,
+            "interaction": -0.17360968790401177,
+            "seed": 3,
+            "trial_galerkin": -0.06161337042157945,
+            "trial_minimum_residual": -0.2352230583255913
+          },
+          {
+            "equation_affine": -0.599105951651287,
+            "equation_manifold": -0.6846216742184719,
+            "interaction": -0.08551572256718487,
+            "seed": 4,
+            "trial_galerkin": -0.24436210886837828,
+            "trial_minimum_residual": -0.32987783143556315
+          },
+          {
+            "equation_affine": -0.6044894530207159,
+            "equation_manifold": -1.2424689190935665,
+            "interaction": -0.6379794660728506,
+            "seed": 5,
+            "trial_galerkin": -0.05204378066054531,
+            "trial_minimum_residual": -0.6900232467333959
+          },
+          {
+            "equation_affine": -0.6303987425723541,
+            "equation_manifold": -0.800994882428833,
+            "interaction": -0.17059613985647892,
+            "seed": 6,
+            "trial_galerkin": -0.0422717608825994,
+            "trial_minimum_residual": -0.2128679007390783
+          },
+          {
+            "equation_affine": -0.47683134079022826,
+            "equation_manifold": -0.7532882386348329,
+            "interaction": -0.2764568978446046,
+            "seed": 7,
+            "trial_galerkin": -0.10296841767875153,
+            "trial_minimum_residual": -0.3794253155233562
+          },
+          {
+            "equation_affine": -0.5456618490297802,
+            "equation_manifold": -0.786205880068364,
+            "interaction": -0.2405440310385838,
+            "seed": 8,
+            "trial_galerkin": -0.17482609362710524,
+            "trial_minimum_residual": -0.4153701246656891
+          },
+          {
+            "equation_affine": -0.6054485855852296,
+            "equation_manifold": -0.9543130603042334,
+            "interaction": -0.3488644747190037,
+            "seed": 9,
+            "trial_galerkin": -0.11335516376672836,
+            "trial_minimum_residual": -0.46221963848573205
+          }
+        ],
+        "study_kind": "1d"
+      },
+      {
+        "cell_mean_log10_effects": {
+          "equation_affine": -0.37623365995596847,
+          "equation_manifold": -0.505140096581747,
+          "interaction": -0.1289064366257785,
+          "trial_galerkin": -0.012629559797021383,
+          "trial_minimum_residual": -0.14153599642279996
+        },
+        "display": "Hydraulic K",
+        "interaction_seed_summary": {
+          "holm_p_10": 0.328125,
+          "mean": -0.12081642275861396,
+          "median": -0.1306992424395816,
+          "negative": 8,
+          "p2p5": -0.30010838808609225,
+          "p97p5": 0.11683827083225548,
+          "positive": 2,
+          "raw_sign_p": 0.109375,
+          "ties": 0
+        },
+        "problem": "hydrologic_conductivity",
+        "regime": "ood",
+        "seed_effects": [
+          {
+            "equation_affine": -0.31116062918142756,
+            "equation_manifold": -0.4266159759125455,
+            "interaction": -0.11545534673111796,
+            "seed": 0,
+            "trial_galerkin": -0.10597595718406695,
+            "trial_minimum_residual": -0.22143130391518487
+          },
+          {
+            "equation_affine": -0.39587870463604974,
+            "equation_manifold": -0.5318625067137833,
+            "interaction": -0.13598380207773358,
+            "seed": 1,
+            "trial_galerkin": 0.07983343512627543,
+            "trial_minimum_residual": -0.05615036695145813
+          },
+          {
+            "equation_affine": -0.36828886599995664,
+            "equation_manifold": -0.4937035488013862,
+            "interaction": -0.1254146828014296,
+            "seed": 2,
+            "trial_galerkin": -0.041983751199279135,
+            "trial_minimum_residual": -0.16739843400070875
+          },
+          {
+            "equation_affine": -0.40883618030273006,
+            "equation_manifold": -0.2678988113409814,
+            "interaction": 0.14093736896174863,
+            "seed": 3,
+            "trial_galerkin": -0.008973065273424006,
+            "trial_minimum_residual": 0.13196430368832465
+          },
+          {
+            "equation_affine": -0.3324034465120772,
+            "equation_manifold": -0.5287411409926549,
+            "interaction": -0.1963376944805777,
+            "seed": 4,
+            "trial_galerkin": -0.12584810378653835,
+            "trial_minimum_residual": -0.322185798267116
+          },
+          {
+            "equation_affine": -0.40351534886769574,
+            "equation_manifold": -0.7332202955441626,
+            "interaction": -0.3297049466764668,
+            "seed": 5,
+            "trial_galerkin": 0.02220222730683668,
+            "trial_minimum_residual": -0.3075027193696301
+          },
+          {
+            "equation_affine": -0.3248417832301419,
+            "equation_manifold": -0.4443233231580696,
+            "interaction": -0.1194815399279277,
+            "seed": 6,
+            "trial_galerkin": 0.0062758393634640575,
+            "trial_minimum_residual": -0.11320570056446361
+          },
+          {
+            "equation_affine": -0.3997759306362073,
+            "equation_manifold": -0.5621650943780411,
+            "interaction": -0.16238916374183376,
+            "seed": 7,
+            "trial_galerkin": 0.010592668184106558,
+            "trial_minimum_residual": -0.15179649555772717
+          },
+          {
+            "equation_affine": -0.441094492702203,
+            "equation_manifold": -0.4072642265382019,
+            "interaction": 0.033830266164001144,
+            "seed": 8,
+            "trial_galerkin": 0.07216456511957893,
+            "trial_minimum_residual": 0.10599483128357999
+          },
+          {
+            "equation_affine": -0.3606077094489199,
+            "equation_manifold": -0.5587723957237221,
+            "interaction": -0.19816468627480216,
+            "seed": 9,
+            "trial_galerkin": 0.02117122172694671,
+            "trial_minimum_residual": -0.1769934645478555
+          }
+        ],
+        "study_kind": "1d"
+      },
+      {
+        "cell_mean_log10_effects": {
+          "equation_affine": -0.4453888891398411,
+          "equation_manifold": -0.7955698807380459,
+          "interaction": -0.3501809915982048,
+          "trial_galerkin": -0.20342886223399936,
+          "trial_minimum_residual": -0.5536098538322042
+        },
+        "display": "Nonlinear diffusion",
+        "interaction_seed_summary": {
+          "holm_p_10": 0.12890625,
+          "mean": -0.38691621667106735,
+          "median": -0.43588939026173956,
+          "negative": 9,
+          "p2p5": -0.6696636253421315,
+          "p97p5": 0.091126255215811,
+          "positive": 1,
+          "raw_sign_p": 0.021484375,
+          "ties": 0
+        },
+        "problem": "nonlinear_diffusion",
+        "regime": "in_domain",
+        "seed_effects": [
+          {
+            "equation_affine": -0.5208087293800702,
+            "equation_manifold": -0.3331056753365507,
+            "interaction": 0.18770305404351945,
+            "seed": 0,
+            "trial_galerkin": -0.7475152985016777,
+            "trial_minimum_residual": -0.5598122444581584
+          },
+          {
+            "equation_affine": -0.48063914002891667,
+            "equation_manifold": -0.9487393702846824,
+            "interaction": -0.4681002302557657,
+            "seed": 1,
+            "trial_galerkin": 0.016523167865307584,
+            "trial_minimum_residual": -0.4515770623904581
+          },
+          {
+            "equation_affine": -0.3243137816706281,
+            "equation_manifold": -0.7279923319383416,
+            "interaction": -0.4036785502677135,
+            "seed": 2,
+            "trial_galerkin": -0.2160533069631153,
+            "trial_minimum_residual": -0.6197318572308287
+          },
+          {
+            "equation_affine": -0.5017163259599894,
+            "equation_manifold": -0.8092033083165217,
+            "interaction": -0.30748698235653227,
+            "seed": 3,
+            "trial_galerkin": -0.0351584008008406,
+            "trial_minimum_residual": -0.3426453831573728
+          },
+          {
+            "equation_affine": -0.42491454886289287,
+            "equation_manifold": -1.0806205693930582,
+            "interaction": -0.6557060205301652,
+            "seed": 4,
+            "trial_galerkin": -0.11227146966567382,
+            "trial_minimum_residual": -0.7679774901958392
+          },
+          {
+            "equation_affine": -0.34155360673120383,
+            "equation_manifold": -0.8933227684182838,
+            "interaction": -0.55176916168708,
+            "seed": 5,
+            "trial_galerkin": -0.031236712659760593,
+            "trial_minimum_residual": -0.5830058743468407
+          },
+          {
+            "equation_affine": -0.41445684492592283,
+            "equation_manifold": -0.9215892833058649,
+            "interaction": -0.507132438379942,
+            "seed": 6,
+            "trial_galerkin": -0.04172425122617021,
+            "trial_minimum_residual": -0.5488566896061122
+          },
+          {
+            "equation_affine": -0.5078611721466594,
+            "equation_manifold": -0.7556100132643679,
+            "interaction": -0.24774884111770856,
+            "seed": 7,
+            "trial_galerkin": -0.2762460063536836,
+            "trial_minimum_residual": -0.5239948474713921
+          },
+          {
+            "equation_affine": -0.510343348505325,
+            "equation_manifold": -0.7518705114738439,
+            "interaction": -0.24152716296851884,
+            "seed": 8,
+            "trial_galerkin": -0.22603425886239847,
+            "trial_minimum_residual": -0.4675614218309172
+          },
+          {
+            "equation_affine": -0.37410823070771904,
+            "equation_manifold": -1.047824063898486,
+            "interaction": -0.6737158331907669,
+            "seed": 9,
+            "trial_galerkin": 0.025324297755336837,
+            "trial_minimum_residual": -0.6483915354354302
+          }
+        ],
+        "study_kind": "1d"
+      },
+      {
+        "cell_mean_log10_effects": {
+          "equation_affine": -0.24545011449678855,
+          "equation_manifold": -0.6046403317992853,
+          "interaction": -0.3591902173024968,
+          "trial_galerkin": -0.23423113271470716,
+          "trial_minimum_residual": -0.5934213500172039
+        },
+        "display": "Nonlinear diffusion",
+        "interaction_seed_summary": {
+          "holm_p_10": 0.01953125,
+          "mean": -0.3914549775310835,
+          "median": -0.4124230831455369,
+          "negative": 10,
+          "p2p5": -0.6423910887232717,
+          "p97p5": -0.09517465280600707,
+          "positive": 0,
+          "raw_sign_p": 0.001953125,
+          "ties": 0
+        },
+        "problem": "nonlinear_diffusion",
+        "regime": "ood",
+        "seed_effects": [
+          {
+            "equation_affine": -0.24935013591646948,
+            "equation_manifold": -0.3062977509066084,
+            "interaction": -0.056947614990138895,
+            "seed": 0,
+            "trial_galerkin": -0.4337980312847027,
+            "trial_minimum_residual": -0.49074564627484163
+          },
+          {
+            "equation_affine": -0.3439916464907784,
+            "equation_manifold": -0.7520660590603534,
+            "interaction": -0.408074412569575,
+            "seed": 1,
+            "trial_galerkin": -0.09852820642280925,
+            "trial_minimum_residual": -0.5066026189923843
+          },
+          {
+            "equation_affine": -0.20346181869643712,
+            "equation_manifold": -0.4303073795348793,
+            "interaction": -0.22684556083844218,
+            "seed": 2,
+            "trial_galerkin": -0.2949504944875933,
+            "trial_minimum_residual": -0.5217960553260356
+          },
+          {
+            "equation_affine": -0.3585328129057266,
+            "equation_manifold": -0.7753045666272254,
+            "interaction": -0.41677175372149877,
+            "seed": 3,
+            "trial_galerkin": -0.022535107615661496,
+            "trial_minimum_residual": -0.4393068613371603
+          },
+          {
+            "equation_affine": -0.27089296293464743,
+            "equation_manifold": -0.8644682960730274,
+            "interaction": -0.59357533313838,
+            "seed": 4,
+            "trial_galerkin": -0.09401554132980262,
+            "trial_minimum_residual": -0.6875908744681827
+          },
+          {
+            "equation_affine": -0.1929984678689218,
+            "equation_manifold": -0.6261769932629068,
+            "interaction": -0.43317852539398494,
+            "seed": 5,
+            "trial_galerkin": -0.202811975568334,
+            "trial_minimum_residual": -0.635990500962319
+          },
+          {
+            "equation_affine": -0.13935279199209866,
+            "equation_manifold": -0.7477960240244982,
+            "interaction": -0.6084432320323996,
+            "seed": 6,
+            "trial_galerkin": -0.1711226095335715,
+            "trial_minimum_residual": -0.779565841565971
+          },
+          {
+            "equation_affine": -0.21453797510781986,
+            "equation_manifold": -0.45714570563561796,
+            "interaction": -0.2426077305277981,
+            "seed": 7,
+            "trial_galerkin": -0.48228232910561236,
+            "trial_minimum_residual": -0.7248900596334105
+          },
+          {
+            "equation_affine": -0.3275577509438859,
+            "equation_manifold": -0.6034164449573656,
+            "interaction": -0.2758586940134797,
+            "seed": 8,
+            "trial_galerkin": -0.23190180509116629,
+            "trial_minimum_residual": -0.5077604991046459
+          },
+          {
+            "equation_affine": -0.06861814065391279,
+            "equation_manifold": -0.7208650587390505,
+            "interaction": -0.6522469180851377,
+            "seed": 9,
+            "trial_galerkin": -0.04016947621403636,
+            "trial_minimum_residual": -0.692416394299174
+          }
+        ],
+        "study_kind": "1d"
+      },
+      {
+        "cell_mean_log10_effects": {
+          "equation_affine": -0.048734198413556265,
+          "equation_manifold": -0.05330959302971069,
+          "interaction": -0.004575394616154423,
+          "trial_galerkin": 0.10968036332880307,
+          "trial_minimum_residual": 0.10510496871264864
+        },
+        "display": "2D Burgers",
+        "interaction_seed_summary": {
+          "holm_p_10": 1.0,
+          "mean": -0.011643291939250577,
+          "median": -0.012216870515317831,
+          "negative": 6,
+          "p2p5": -0.18908798062547819,
+          "p97p5": 0.177393093553843,
+          "positive": 4,
+          "raw_sign_p": 0.75390625,
+          "ties": 0
+        },
+        "problem": "two_d_burgers",
+        "regime": "in_domain",
+        "seed_effects": [
+          {
+            "equation_affine": -0.05403464155773776,
+            "equation_manifold": 0.04287363446043072,
+            "interaction": 0.09690827601816848,
+            "seed": 0,
+            "trial_galerkin": 0.13263901399579464,
+            "trial_minimum_residual": 0.22954729001396315
+          },
+          {
+            "equation_affine": -0.10950813193619434,
+            "equation_manifold": 0.09125152154736055,
+            "interaction": 0.2007596534835549,
+            "seed": 1,
+            "trial_galerkin": -0.12595163984604527,
+            "trial_minimum_residual": 0.0748080136375096
+          },
+          {
+            "equation_affine": -0.0496471140772254,
+            "equation_manifold": -0.05644012555949312,
+            "interaction": -0.00679301148226772,
+            "seed": 2,
+            "trial_galerkin": 0.08019793713465972,
+            "trial_minimum_residual": 0.073404925652392
+          },
+          {
+            "equation_affine": -0.07217873104844368,
+            "equation_manifold": -0.08981946059681162,
+            "interaction": -0.017640729548367942,
+            "seed": 3,
+            "trial_galerkin": 0.12278543583358828,
+            "trial_minimum_residual": 0.10514470628522034
+          },
+          {
+            "equation_affine": -0.00782963173558971,
+            "equation_manifold": -0.13248178543620395,
+            "interaction": -0.12465215370061425,
+            "seed": 4,
+            "trial_galerkin": 0.23828855669339738,
+            "trial_minimum_residual": 0.11363640299278312
+          },
+          {
+            "equation_affine": -0.055036910752117536,
+            "equation_manifold": 0.02242466871698842,
+            "interaction": 0.07746157946910595,
+            "seed": 5,
+            "trial_galerkin": 0.0753063938643965,
+            "trial_minimum_residual": 0.15276797333350253
+          },
+          {
+            "equation_affine": 0.004647326392686733,
+            "equation_manifold": -0.1055477956193298,
+            "interaction": -0.11019512201201653,
+            "seed": 6,
+            "trial_galerkin": 0.2182346811932215,
+            "trial_minimum_residual": 0.10803955918120492
+          },
+          {
+            "equation_affine": -0.02141750696367875,
+            "equation_manifold": -0.11205618752861914,
+            "interaction": -0.09063868056494039,
+            "seed": 7,
+            "trial_galerkin": 0.16621080269492342,
+            "trial_minimum_residual": 0.075572122129983
+          },
+          {
+            "equation_affine": -0.07146587286306125,
+            "equation_manifold": -0.005313447733879872,
+            "interaction": 0.06615242512918137,
+            "seed": 8,
+            "trial_galerkin": 0.04532373196807834,
+            "trial_minimum_residual": 0.11147615709725973
+          },
+          {
+            "equation_affine": -0.055756108397652826,
+            "equation_manifold": -0.2635512645819625,
+            "interaction": -0.20779515618430966,
+            "seed": 9,
+            "trial_galerkin": 0.24090196185396406,
+            "trial_minimum_residual": 0.033106805669654446
+          }
+        ],
+        "study_kind": "2d"
+      },
+      {
+        "cell_mean_log10_effects": {
+          "equation_affine": 0.026227301571414296,
+          "equation_manifold": 0.1322396318549679,
+          "interaction": 0.1060123302835536,
+          "trial_galerkin": -0.14982779963168455,
+          "trial_minimum_residual": -0.043815469348130964
+        },
+        "display": "2D Burgers",
+        "interaction_seed_summary": {
+          "holm_p_10": 0.01953125,
+          "mean": 0.10614186824253327,
+          "median": 0.09734274211149488,
+          "negative": 0,
+          "p2p5": 0.017893159695076523,
+          "p97p5": 0.1896127332591371,
+          "positive": 10,
+          "raw_sign_p": 0.001953125,
+          "ties": 0
+        },
+        "problem": "two_d_burgers",
+        "regime": "ood",
+        "seed_effects": [
+          {
+            "equation_affine": 0.026693743796461174,
+            "equation_manifold": 0.11362357062652989,
+            "interaction": 0.08692982683006872,
+            "seed": 0,
+            "trial_galerkin": -0.14914426163789984,
+            "trial_minimum_residual": -0.06221443480783112
+          },
+          {
+            "equation_affine": 0.03762575757229608,
+            "equation_manifold": 0.055199119792677935,
+            "interaction": 0.017573362220381854,
+            "seed": 1,
+            "trial_galerkin": -0.07933079633629898,
+            "trial_minimum_residual": -0.06175743411591715
+          },
+          {
+            "equation_affine": -0.005852520059437636,
+            "equation_manifold": 0.17940978349774847,
+            "interaction": 0.18526230355718612,
+            "seed": 2,
+            "trial_galerkin": -0.1973259060172623,
+            "trial_minimum_residual": -0.012063602460076133
+          },
+          {
+            "equation_affine": 0.03305344339402381,
+            "equation_manifold": 0.0894876876444192,
+            "interaction": 0.056434244250395386,
+            "seed": 3,
+            "trial_galerkin": -0.15731055041293404,
+            "trial_minimum_residual": -0.10087630616253869
+          },
+          {
+            "equation_affine": 0.06707923313930346,
+            "equation_manifold": 0.08607391746943939,
+            "interaction": 0.01899468433013593,
+            "seed": 4,
+            "trial_galerkin": -0.07045608721009143,
+            "trial_minimum_residual": -0.05146140287995553
+          },
+          {
+            "equation_affine": 0.02211533181573717,
+            "equation_manifold": 0.12987098920865822,
+            "interaction": 0.10775565739292105,
+            "seed": 5,
+            "trial_galerkin": -0.2098934693431435,
+            "trial_minimum_residual": -0.10213781195022244
+          },
+          {
+            "equation_affine": 0.004616850176739282,
+            "equation_manifold": 0.1557544632517239,
+            "interaction": 0.15113761307498463,
+            "seed": 6,
+            "trial_galerkin": -0.23703508431221862,
+            "trial_minimum_residual": -0.0858974712372339
+          },
+          {
+            "equation_affine": 0.014059808166820176,
+            "equation_manifold": 0.20493556940394306,
+            "interaction": 0.19087576123712288,
+            "seed": 7,
+            "trial_galerkin": -0.1240508091281687,
+            "trial_minimum_residual": 0.06682495210895407
+          },
+          {
+            "equation_affine": 0.007799299395402893,
+            "equation_manifold": 0.18864392974171856,
+            "interaction": 0.18084463034631568,
+            "seed": 8,
+            "trial_galerkin": -0.21006005745309375,
+            "trial_minimum_residual": -0.029215427106777988
+          },
+          {
+            "equation_affine": 0.05122316109644928,
+            "equation_manifold": 0.11683376028226967,
+            "interaction": 0.06561059918582039,
+            "seed": 9,
+            "trial_galerkin": -0.03803942796586991,
+            "trial_minimum_residual": 0.027571171219950553
+          }
+        ],
+        "study_kind": "2d"
+      }
+    ],
+    "estimand": "Per seed, Delta = log10[(MG/Newton-M)/(POD-G/POD-L)]; positive means the Galerkin/minimum-residual error ratio is less favorable on the learned than on the affine trial set.",
+    "figure_interactions": [
+      {
+        "contrast_id": "factorial_interaction",
+        "contrast_label": "Interaction $\\Delta$",
+        "design_role": "equation-by-trial-set interaction in the Newton 2x2 core",
+        "log10_error_ratio": 0.20555675196514855,
+        "problem": "bratu_source",
+        "regime": "in_domain"
+      },
+      {
+        "contrast_id": "factorial_interaction",
+        "contrast_label": "Interaction $\\Delta$",
+        "design_role": "equation-by-trial-set interaction in the Newton 2x2 core",
+        "log10_error_ratio": 0.18129674532445283,
+        "problem": "bratu_source",
+        "regime": "ood"
+      },
+      {
+        "contrast_id": "factorial_interaction",
+        "contrast_label": "Interaction $\\Delta$",
+        "design_role": "equation-by-trial-set interaction in the Newton 2x2 core",
+        "log10_error_ratio": 0.03958272243895222,
+        "problem": "front_layer",
+        "regime": "in_domain"
+      },
+      {
+        "contrast_id": "factorial_interaction",
+        "contrast_label": "Interaction $\\Delta$",
+        "design_role": "equation-by-trial-set interaction in the Newton 2x2 core",
+        "log10_error_ratio": 0.4213664978094991,
+        "problem": "front_layer",
+        "regime": "ood"
+      },
+      {
+        "contrast_id": "factorial_interaction",
+        "contrast_label": "Interaction $\\Delta$",
+        "design_role": "equation-by-trial-set interaction in the Newton 2x2 core",
+        "log10_error_ratio": -0.2441605733209613,
+        "problem": "hydrologic_conductivity",
+        "regime": "in_domain"
+      },
+      {
+        "contrast_id": "factorial_interaction",
+        "contrast_label": "Interaction $\\Delta$",
+        "design_role": "equation-by-trial-set interaction in the Newton 2x2 core",
+        "log10_error_ratio": -0.1289064366257785,
+        "problem": "hydrologic_conductivity",
+        "regime": "ood"
+      },
+      {
+        "contrast_id": "factorial_interaction",
+        "contrast_label": "Interaction $\\Delta$",
+        "design_role": "equation-by-trial-set interaction in the Newton 2x2 core",
+        "log10_error_ratio": -0.3501809915982048,
+        "problem": "nonlinear_diffusion",
+        "regime": "in_domain"
+      },
+      {
+        "contrast_id": "factorial_interaction",
+        "contrast_label": "Interaction $\\Delta$",
+        "design_role": "equation-by-trial-set interaction in the Newton 2x2 core",
+        "log10_error_ratio": -0.3591902173024968,
+        "problem": "nonlinear_diffusion",
+        "regime": "ood"
+      },
+      {
+        "contrast_id": "factorial_interaction",
+        "contrast_label": "Interaction $\\Delta$",
+        "design_role": "equation-by-trial-set interaction in the Newton 2x2 core",
+        "log10_error_ratio": -0.004575394616154423,
+        "problem": "two_d_burgers",
+        "regime": "in_domain"
+      },
+      {
+        "contrast_id": "factorial_interaction",
+        "contrast_label": "Interaction $\\Delta$",
+        "design_role": "equation-by-trial-set interaction in the Newton 2x2 core",
+        "log10_error_ratio": 0.1060123302835536,
+        "problem": "two_d_burgers",
+        "regime": "ood"
+      }
+    ],
+    "one_d_galerkin_trial_family": [
+      {
+        "display": "Bratu-source",
+        "holm_p_8": 0.015625,
+        "mg_lower": 0,
+        "pod_g_lower": 10,
+        "problem": "bratu_source",
+        "raw_sign_p": 0.001953125,
+        "regime": "in_domain",
+        "ties": 0
+      },
+      {
+        "display": "Bratu-source",
+        "holm_p_8": 0.015625,
+        "mg_lower": 0,
+        "pod_g_lower": 10,
+        "problem": "bratu_source",
+        "raw_sign_p": 0.001953125,
+        "regime": "ood",
+        "ties": 0
+      },
+      {
+        "display": "Front-layer",
+        "holm_p_8": 0.015625,
+        "mg_lower": 0,
+        "pod_g_lower": 10,
+        "problem": "front_layer",
+        "raw_sign_p": 0.001953125,
+        "regime": "in_domain",
+        "ties": 0
+      },
+      {
+        "display": "Front-layer",
+        "holm_p_8": 0.015625,
+        "mg_lower": 0,
+        "pod_g_lower": 10,
+        "problem": "front_layer",
+        "raw_sign_p": 0.001953125,
+        "regime": "ood",
+        "ties": 0
+      },
+      {
+        "display": "Hydraulic K",
+        "holm_p_8": 0.015625,
+        "mg_lower": 0,
+        "pod_g_lower": 10,
+        "problem": "hydrologic_conductivity",
+        "raw_sign_p": 0.001953125,
+        "regime": "in_domain",
+        "ties": 0
+      },
+      {
+        "display": "Hydraulic K",
+        "holm_p_8": 0.75390625,
+        "mg_lower": 6,
+        "pod_g_lower": 4,
+        "problem": "hydrologic_conductivity",
+        "raw_sign_p": 0.75390625,
+        "regime": "ood",
+        "ties": 0
+      },
+      {
+        "display": "Nonlinear diffusion",
+        "holm_p_8": 0.21875,
+        "mg_lower": 2,
+        "pod_g_lower": 8,
+        "problem": "nonlinear_diffusion",
+        "raw_sign_p": 0.109375,
+        "regime": "in_domain",
+        "ties": 0
+      },
+      {
+        "display": "Nonlinear diffusion",
+        "holm_p_8": 0.015625,
+        "mg_lower": 0,
+        "pod_g_lower": 10,
+        "problem": "nonlinear_diffusion",
+        "raw_sign_p": 0.001953125,
+        "regime": "ood",
+        "ties": 0
+      }
+    ]
+  },
+  "input_provenance": {
+    "generator": "MGP_revision/code/scripts/derive_acceptance_revision_statistics.py",
+    "source_directories": [
+      "lm_solver_shards",
+      "lm_solver_2d_shards",
+      "precond_lspg_shards",
+      "precond_lspg_2d_shards",
+      "precond_pod_lspg_shards",
+      "unified_rank_shards"
+    ],
+    "source_files_sha256": {
+      "artifacts/cache/lm_solver_2d_shards/seed0_in_domain.json": "b50e328337ac5c128f1a0538f848d2b166102254c349b9c2d94cb150310c0b2d",
+      "artifacts/cache/lm_solver_2d_shards/seed0_ood.json": "ec64aa77870cf7db8055deeb48746b63624a437cf2e15541c64ba7eafd12cc84",
+      "artifacts/cache/lm_solver_2d_shards/seed1_in_domain.json": "1b7a39ae9db12ef436470a468021dac46f044fda13eaf2727f44270aca0a19d8",
+      "artifacts/cache/lm_solver_2d_shards/seed1_ood.json": "49f4c7d748b640711b1f5d81a81b58249a034443cfc60fffd1e65a2d9984be39",
+      "artifacts/cache/lm_solver_2d_shards/seed2_in_domain.json": "0e23028c69a836273742552f311a5d143fe0706c46fbf401a5a49f2afd8c5c87",
+      "artifacts/cache/lm_solver_2d_shards/seed2_ood.json": "b1652eeaf4129b2685908c6e5aefb282c90a46a08a1c7aea8ee417401401eb0c",
+      "artifacts/cache/lm_solver_2d_shards/seed3_in_domain.json": "93954e4769e90da5a260badd7353f8a417485738033fa0dd6cb8470120b13faf",
+      "artifacts/cache/lm_solver_2d_shards/seed3_ood.json": "5addd18d0ce852809aebdbdf46407c3f11ca7a492d897bdde945d757a18e512b",
+      "artifacts/cache/lm_solver_2d_shards/seed4_in_domain.json": "434de2d1a9fd59699530e6917d42e060b601018a4b9e191e42591620cb92dd3e",
+      "artifacts/cache/lm_solver_2d_shards/seed4_ood.json": "03a0f6a12304cf7408c8083edf5f1a6c30bd90b6d90c5dbcdb62a5ecee667660",
+      "artifacts/cache/lm_solver_2d_shards/seed5_in_domain.json": "354373c347911ae1a2bffc94e2d454d196139ca99d9c5cf441138d7718d6a47b",
+      "artifacts/cache/lm_solver_2d_shards/seed5_ood.json": "aeed2e24e18cbfa5c898de2bf03f26d3834b1a660584d695d0432b8e131a9203",
+      "artifacts/cache/lm_solver_2d_shards/seed6_in_domain.json": "a86be2d1f09ced0f8438bca97a170d824fe34e808076b7dd3cbd1a5a5b80087a",
+      "artifacts/cache/lm_solver_2d_shards/seed6_ood.json": "bab92370e50044ca7fc5b926b65dae918043aaee9a209837f117a7ed5685ad2b",
+      "artifacts/cache/lm_solver_2d_shards/seed7_in_domain.json": "ca43e7e774d3e37c044a22ccba7061944266f93faed64ce16cdcbefefe6e5db7",
+      "artifacts/cache/lm_solver_2d_shards/seed7_ood.json": "7877630edd1fa13aaa7d0a0a18f38927421180a20a23f17806fe457e250deafc",
+      "artifacts/cache/lm_solver_2d_shards/seed8_in_domain.json": "2113a490f8be48c2b510aebd73ef5fc6663bc3d40a2518cf36590f6ba44d8ce7",
+      "artifacts/cache/lm_solver_2d_shards/seed8_ood.json": "1cc0bfa541e5e372b5a9553c4356297ce21a0e2ae9871b24c83fee9729ad4e80",
+      "artifacts/cache/lm_solver_2d_shards/seed9_in_domain.json": "8838bf1caf06591bcd4b8a340caf054374c80d37fbe833692004dbc0b9789df7",
+      "artifacts/cache/lm_solver_2d_shards/seed9_ood.json": "ae156ab3e8aa4013f542e6ef91e9132a380bb7fb2a981361ceb82de5f2cebfa2",
+      "artifacts/cache/lm_solver_shards/reference_bratu_source_in_domain_seed0.json": "1b4fe7acbc70e805ac0b6d7b52551de68153714d3b3f2322b81b9df0be8814e7",
+      "artifacts/cache/lm_solver_shards/reference_bratu_source_in_domain_seed1.json": "1b785ef0dc53114fb8e3c0111c07a78de6b8382379f308179d1c594e39620422",
+      "artifacts/cache/lm_solver_shards/reference_bratu_source_in_domain_seed2.json": "cfb4d13bc6866a1e288633b1cb3948e2271f7927327d4371d60d4cec1788dbca",
+      "artifacts/cache/lm_solver_shards/reference_bratu_source_in_domain_seed3.json": "b6b58a5304a7d5b958858c7d68502b0f1b007c3e62c91f6811e87af3db3c4c89",
+      "artifacts/cache/lm_solver_shards/reference_bratu_source_in_domain_seed4.json": "d9968c26369a4d25e9dd816060e1e9c06f5afd273b3a1437dab9654b1ae4adf4",
+      "artifacts/cache/lm_solver_shards/reference_bratu_source_in_domain_seed5.json": "cffef7708e84338b44c9fb27e8efef8a18e1a53f05a897445e234617b3a59ef8",
+      "artifacts/cache/lm_solver_shards/reference_bratu_source_in_domain_seed6.json": "3dcdb486ae013f02126e7c5a5c833f43823e7554ab588754a5652e9fa183d7fd",
+      "artifacts/cache/lm_solver_shards/reference_bratu_source_in_domain_seed7.json": "d6753c3dd782aa213cb909663ce05dcc84def85a3ff87da25e330d1972ad69dc",
+      "artifacts/cache/lm_solver_shards/reference_bratu_source_in_domain_seed8.json": "a57a378ba35c5bfd8a958c303e19889a5787684fd39ba12d6e3ba861377538f1",
+      "artifacts/cache/lm_solver_shards/reference_bratu_source_in_domain_seed9.json": "8809109113ad4e26a792ad952c0b58a39e3157caa5e175913eea99abf5e1e7e6",
+      "artifacts/cache/lm_solver_shards/reference_bratu_source_ood_seed0.json": "a6ad5b1982793457e16e4f5d9f20c035971807f10c454dc7c6c6ecfc4ba694bf",
+      "artifacts/cache/lm_solver_shards/reference_bratu_source_ood_seed1.json": "96b04034f933305a733217b43cbb7c6b7852ef8f8bb765b72894ea235630999c",
+      "artifacts/cache/lm_solver_shards/reference_bratu_source_ood_seed2.json": "020c890ad81af24d08e726bf8bafcd3dcf6c9ee1fe66bec598f46de23f40af45",
+      "artifacts/cache/lm_solver_shards/reference_bratu_source_ood_seed3.json": "b18915e0ebb69f05598bccdd18dc5f5b18e0e9bfbca93d0809febfacb70b1137",
+      "artifacts/cache/lm_solver_shards/reference_bratu_source_ood_seed4.json": "17ed39090715b84cc173e50d7874b1c04369746ed1a85fa7dd8d4256357eaee1",
+      "artifacts/cache/lm_solver_shards/reference_bratu_source_ood_seed5.json": "21ffcf32d4534f0ca7024689b69556e36f2b2ee1396b0a252e82c3c093ed4b0d",
+      "artifacts/cache/lm_solver_shards/reference_bratu_source_ood_seed6.json": "bda81bfcbeef31bf4f72874a843a2bf51bc8901e6a7c2631e146af19206e9648",
+      "artifacts/cache/lm_solver_shards/reference_bratu_source_ood_seed7.json": "0a8b817ff8fd60a54c01cd89eca1c83aa2a6e4bac08914bea6a668f564a98009",
+      "artifacts/cache/lm_solver_shards/reference_bratu_source_ood_seed8.json": "2f44a309fa1877a13a692004607ed27d5a57b93090dcda5f3fe64dfe0fe6f0ed",
+      "artifacts/cache/lm_solver_shards/reference_bratu_source_ood_seed9.json": "78e4400e26c5fce31721d72bfa5f8f06d63e42b5bf88e2c2328bd12449c5d2cd",
+      "artifacts/cache/lm_solver_shards/reference_front_layer_in_domain_seed0.json": "076ca9ae9349837672242be8ee7db0ee79e946a720ec14a2bf8d230ce51138c0",
+      "artifacts/cache/lm_solver_shards/reference_front_layer_in_domain_seed1.json": "e607d745acce075c5903d26f444fc9fca5ec32239d72650fe3ac5902ad84fa6c",
+      "artifacts/cache/lm_solver_shards/reference_front_layer_in_domain_seed2.json": "b94b23a3c613a6eea572f3be4c65c48fce122a1fb5898516bceb25ee59c3ab82",
+      "artifacts/cache/lm_solver_shards/reference_front_layer_in_domain_seed3.json": "ee613c77181f8bac7967c9d8cccff82af98df5247df123a0ca9d1f2313259686",
+      "artifacts/cache/lm_solver_shards/reference_front_layer_in_domain_seed4.json": "afaa7b1d01aa0f916fd0ac2db379a932d4b866af84a99486abc886ca9da50398",
+      "artifacts/cache/lm_solver_shards/reference_front_layer_in_domain_seed5.json": "35565764b4fb6a97350e4f08fe351e5a078790aa92d60af0583d513caf95fff3",
+      "artifacts/cache/lm_solver_shards/reference_front_layer_in_domain_seed6.json": "b2c1183620c4741487171691a26e602475d0bf403d0de96f1cf294b76d71a76c",
+      "artifacts/cache/lm_solver_shards/reference_front_layer_in_domain_seed7.json": "506e834e7e7aeaf859e36adaacc2fe14e3114d6a108f3ef1d639f8bd09b1cae0",
+      "artifacts/cache/lm_solver_shards/reference_front_layer_in_domain_seed8.json": "a18e7939e10aa74c5e32838307d9ae9facfce53c0aaa9fda96a5ca436309e178",
+      "artifacts/cache/lm_solver_shards/reference_front_layer_in_domain_seed9.json": "b9319c38e12ece1bc792e522355c525fcfda2c9dffe7c633f68e9a94772252fe",
+      "artifacts/cache/lm_solver_shards/reference_front_layer_ood_seed0.json": "912b84a70ff24a9a1c2e65b1e0ecb6ce94e59e01e9f4f82de65ee110d79fe17d",
+      "artifacts/cache/lm_solver_shards/reference_front_layer_ood_seed1.json": "4c022ec2e232f9a3e59c600649f464090aefd10f6f58f4a92cdc2551a65267fc",
+      "artifacts/cache/lm_solver_shards/reference_front_layer_ood_seed2.json": "93c899da3fe9371189fdff3bd75df5b592f23c8f694f2303ddcdcc92f63c9dbf",
+      "artifacts/cache/lm_solver_shards/reference_front_layer_ood_seed3.json": "9afeb557602063ae6b3644d067a8b9de8c5ac5d9cb056f7c422a5b29b8a4eb8b",
+      "artifacts/cache/lm_solver_shards/reference_front_layer_ood_seed4.json": "75bcd3f84181bcd12865010fb3015bcdcda5e5c68191173604a447a49d0c096c",
+      "artifacts/cache/lm_solver_shards/reference_front_layer_ood_seed5.json": "c2c653bd956af354989d3163f3ef112dcf6681062df6b5750920733ce90f1c34",
+      "artifacts/cache/lm_solver_shards/reference_front_layer_ood_seed6.json": "a0aa10f1fda24bd2f66727deb2c25e9b4f4be99b3b82fe08e1c54f991646cb7b",
+      "artifacts/cache/lm_solver_shards/reference_front_layer_ood_seed7.json": "fe64fa45431ed52dc8f7a926a806c677e038cf152618dbcb96cbb4b50e29dfc6",
+      "artifacts/cache/lm_solver_shards/reference_front_layer_ood_seed8.json": "3412ebf7f20dbd4b1139fc0268aeb44dda8f1d9b4b666c69572b0a30743c40f1",
+      "artifacts/cache/lm_solver_shards/reference_front_layer_ood_seed9.json": "ee11a773dbd3e117fde22e14297adcd7e115b228dabd5476ea549087f83e7d23",
+      "artifacts/cache/lm_solver_shards/reference_hydrologic_conductivity_in_domain_seed0.json": "3337fa1a1d808c5b678f709ea3742d6003bdc9c3c7a5224d4161513f6c3a41aa",
+      "artifacts/cache/lm_solver_shards/reference_hydrologic_conductivity_in_domain_seed1.json": "cbfb089957a73c27fb7121a0a555a86d9b8634b1c59c229174f9ffd08cc7e7d5",
+      "artifacts/cache/lm_solver_shards/reference_hydrologic_conductivity_in_domain_seed2.json": "03c00633b30b273e7a35b915752e39a52bb469967f29d671b157886706b0b698",
+      "artifacts/cache/lm_solver_shards/reference_hydrologic_conductivity_in_domain_seed3.json": "279ac2662db1e96b85d06e273e5438298ea56f15ed8725bd14e4c2c4bbd8d54c",
+      "artifacts/cache/lm_solver_shards/reference_hydrologic_conductivity_in_domain_seed4.json": "d47bd3efc3219978e8ee2c516752c8aa418ede72f6dc90b2d9ee9f8915f60e26",
+      "artifacts/cache/lm_solver_shards/reference_hydrologic_conductivity_in_domain_seed5.json": "2fc5b29707473400e384dd9e92179049a82033b79d264baeab82d70fcc12a905",
+      "artifacts/cache/lm_solver_shards/reference_hydrologic_conductivity_in_domain_seed6.json": "7d4fc46c261d9ebffb8b7da9f42cc44f639507c86dc9a1d78e79a50960e37d8a",
+      "artifacts/cache/lm_solver_shards/reference_hydrologic_conductivity_in_domain_seed7.json": "027ef84a6cae113cd57b5ce352299bc2302ca510e1cd15e09969a0806be4ac61",
+      "artifacts/cache/lm_solver_shards/reference_hydrologic_conductivity_in_domain_seed8.json": "55f46c4e195f3ecf16f953810e4abdb777f98625c78a7f9342e8d3d907667429",
+      "artifacts/cache/lm_solver_shards/reference_hydrologic_conductivity_in_domain_seed9.json": "988f824d2e1a9f95ef39169d896916b14ccd89d77d2ba4fa078de9d99dc7030e",
+      "artifacts/cache/lm_solver_shards/reference_hydrologic_conductivity_ood_seed0.json": "f1dc0c1f7f04e089c44ca36be45715a863b4f7b2ca7f7743c4feaec7cd87ea17",
+      "artifacts/cache/lm_solver_shards/reference_hydrologic_conductivity_ood_seed1.json": "302f3aff16267c700604fa69dda5c266a6616f512d655f899e0b6099d6860597",
+      "artifacts/cache/lm_solver_shards/reference_hydrologic_conductivity_ood_seed2.json": "69a178271044f48c580e51c82e913d86e6f373520772e6dc01214cd254033dd7",
+      "artifacts/cache/lm_solver_shards/reference_hydrologic_conductivity_ood_seed3.json": "b04b4fcd52b4c5af216696e1d5ace897ff26ac12b28e32813d2edd9dc25dffa8",
+      "artifacts/cache/lm_solver_shards/reference_hydrologic_conductivity_ood_seed4.json": "5d14c117ded876e3b9e03f09dc8adfaa05e1167c72523123e74dd10dcf810556",
+      "artifacts/cache/lm_solver_shards/reference_hydrologic_conductivity_ood_seed5.json": "fd197156a4bf9c8a83376062c04e0100f56c0ef668724a997f96a18c52cc8643",
+      "artifacts/cache/lm_solver_shards/reference_hydrologic_conductivity_ood_seed6.json": "69d511e9773687939c4f69e1943a2bcf0fd0f518b297a7f76abdbf0b6c0e9070",
+      "artifacts/cache/lm_solver_shards/reference_hydrologic_conductivity_ood_seed7.json": "207e19ec2261a6875fe80f07e3d1cbf85b272d12d0cef8f50c45e525a4d47c9d",
+      "artifacts/cache/lm_solver_shards/reference_hydrologic_conductivity_ood_seed8.json": "6154817cf60e85c9295a1cae4cc03b867afde18b06f994848ab5c70c9ac1223a",
+      "artifacts/cache/lm_solver_shards/reference_hydrologic_conductivity_ood_seed9.json": "a88af6b295507caa564e61054117aeca5ad5ec8c64060fcfb46f801b3bf0c85b",
+      "artifacts/cache/lm_solver_shards/reference_nonlinear_diffusion_in_domain_seed0.json": "d707cd06083b36311df9467b4e4c44cf3bb82d09e66078c1e4e236a871cbe529",
+      "artifacts/cache/lm_solver_shards/reference_nonlinear_diffusion_in_domain_seed1.json": "f0867f905ce5f49aae764bd18e48bba885b3c32f7a0f366eca484d5ac58dbd91",
+      "artifacts/cache/lm_solver_shards/reference_nonlinear_diffusion_in_domain_seed2.json": "e080bc47ec7cd712cfdb657b207c1f2b6714093e08a0249ff794be2c45e56abd",
+      "artifacts/cache/lm_solver_shards/reference_nonlinear_diffusion_in_domain_seed3.json": "04f21931c246c18ad45d250f664ebb7d554b00048c37a4502a5eabc8c474978e",
+      "artifacts/cache/lm_solver_shards/reference_nonlinear_diffusion_in_domain_seed4.json": "5b82a37e8eb991c821b28b561aeca09ad07777a6940e409497d878bb501479dc",
+      "artifacts/cache/lm_solver_shards/reference_nonlinear_diffusion_in_domain_seed5.json": "8ca5c677d65521a7db6372d1022caff12e4378c15127e38ba1d7cf52ea707849",
+      "artifacts/cache/lm_solver_shards/reference_nonlinear_diffusion_in_domain_seed6.json": "40a22fcb734c68fd858b8d819810ba36ddc8cd929e375389e07ff91faf7576eb",
+      "artifacts/cache/lm_solver_shards/reference_nonlinear_diffusion_in_domain_seed7.json": "1d369e16c34acfc370b56a365faabe73290863635141b5973e504b9bb62c762c",
+      "artifacts/cache/lm_solver_shards/reference_nonlinear_diffusion_in_domain_seed8.json": "c123da93722e2520e0657e1dd6d01628045eb854cc10e3f1a8dec2e148a2349e",
+      "artifacts/cache/lm_solver_shards/reference_nonlinear_diffusion_in_domain_seed9.json": "4d192038cc6390b21e666702103b33971832b2dbb793a938b5399bb0bde44c44",
+      "artifacts/cache/lm_solver_shards/reference_nonlinear_diffusion_ood_seed0.json": "ee740da75d2e95fffcf79b444d6639fd91d083f12af94856bb489087c3a48340",
+      "artifacts/cache/lm_solver_shards/reference_nonlinear_diffusion_ood_seed1.json": "da102c1380e7dd815ba3092f11fb125990fd48d5950039d8c142850a7911c380",
+      "artifacts/cache/lm_solver_shards/reference_nonlinear_diffusion_ood_seed2.json": "1648584008e4ae78d748b0b65413d0f04498e04c2b3862d0fa69d1954167ce77",
+      "artifacts/cache/lm_solver_shards/reference_nonlinear_diffusion_ood_seed3.json": "bd5517cfa9fb305f02a79a8b77d4b4a172013a13dd4e871a02a77fbdca56176c",
+      "artifacts/cache/lm_solver_shards/reference_nonlinear_diffusion_ood_seed4.json": "739df2f99a89337df70c1d2677d14cb44cccca9ff7ec1c746624ea87b5ec93c1",
+      "artifacts/cache/lm_solver_shards/reference_nonlinear_diffusion_ood_seed5.json": "5fa08927ba421e91a20349ff58920c571d60e0302d03f3d3a2b8b58cb35cdbec",
+      "artifacts/cache/lm_solver_shards/reference_nonlinear_diffusion_ood_seed6.json": "ae39e05d504b58f16d2de25d65b365898c5fd6313ed4fd347a7472dc16061a70",
+      "artifacts/cache/lm_solver_shards/reference_nonlinear_diffusion_ood_seed7.json": "4dc767eb5526d3c0b9e5d576e6da95b24dd6f099a9ca25dc604b794a14a827a7",
+      "artifacts/cache/lm_solver_shards/reference_nonlinear_diffusion_ood_seed8.json": "a7d92417a7244893a6c2f7df0c4c74c94b85f7f3c1d9e5d10ee72e7d60d78166",
+      "artifacts/cache/lm_solver_shards/reference_nonlinear_diffusion_ood_seed9.json": "049aaa0ca8d6c0e078994b89af542539258c1831b9249f8c14c9cd40fcef076a",
+      "artifacts/cache/precond_lspg_2d_shards/seed0_in_domain.json": "d9444ea9cf5c8cb451da18389f0bc4fb8504573a8b292911ec4c06b2f6e09936",
+      "artifacts/cache/precond_lspg_2d_shards/seed0_ood.json": "c5394474552362e0fc1ef3b190d9fc5d27c5cac8d33ef5dc28b58d68a2b2ffb5",
+      "artifacts/cache/precond_lspg_2d_shards/seed1_in_domain.json": "216891d220e9612d3b4eae7fb4b5c25058fafd029ccf7eff0a96f527120faa1c",
+      "artifacts/cache/precond_lspg_2d_shards/seed1_ood.json": "8ce08e28747c9d833f766393395a5b92e24d1d2c0c4509ee62c6869ab925307e",
+      "artifacts/cache/precond_lspg_2d_shards/seed2_in_domain.json": "c195486648f6141a0bafd080c8a50681e55c939ef9e2a7977531f1764046216c",
+      "artifacts/cache/precond_lspg_2d_shards/seed2_ood.json": "21af27d8901e4d154bcdc6f6df9b3f3d51f9c48e0f76267a818dceed7e686062",
+      "artifacts/cache/precond_lspg_2d_shards/seed3_in_domain.json": "e0912081e5077cab99130d31cc21168931d07f8546ed4e630c5f039609f20d35",
+      "artifacts/cache/precond_lspg_2d_shards/seed3_ood.json": "8ab5d2b53760fe4dcb14fbd37615950e85163d234b99a50ff154c189093b9c2f",
+      "artifacts/cache/precond_lspg_2d_shards/seed4_in_domain.json": "4ccf37dcd2ffdb702ca73361beace4b927c43a16780dd22a2e953ebb46426a32",
+      "artifacts/cache/precond_lspg_2d_shards/seed4_ood.json": "5150ced6446781f0c29c2938864bda9dffdd19f50fdbc53d3855419c60d4529b",
+      "artifacts/cache/precond_lspg_2d_shards/seed5_in_domain.json": "84c711c852520deb2d4eeb65bb90dad5491ffc7d7683867b57978f0e74b3f128",
+      "artifacts/cache/precond_lspg_2d_shards/seed5_ood.json": "0ead2bbb301e14a266632e612e2e47806889ee794f565e87d33e70d1cada105c",
+      "artifacts/cache/precond_lspg_2d_shards/seed6_in_domain.json": "b033fa93e5ebed407a42e19c685db32117ca1160b428969b48cac2c2d8ae1d84",
+      "artifacts/cache/precond_lspg_2d_shards/seed6_ood.json": "2534998cff2eab12fc0e14ea695313c2830ee6b0a0a7640402b07870ad046554",
+      "artifacts/cache/precond_lspg_2d_shards/seed7_in_domain.json": "58033a4c23e103adb43e3f3162e51646ceae059d50b19975fbeab64d43f0fd2d",
+      "artifacts/cache/precond_lspg_2d_shards/seed7_ood.json": "bc8ec9e93263983c61ad89867e1f0af2dd665e740dfcb8734a70de768c49e959",
+      "artifacts/cache/precond_lspg_2d_shards/seed8_in_domain.json": "2eb31ce447a0cf4d964e7ce2523cdda954aee16e58b9f820e9523765775918cc",
+      "artifacts/cache/precond_lspg_2d_shards/seed8_ood.json": "e444622e91571950ebb0b43b8628ddc6af93d7cf522b63a3fd44d60c8744abe3",
+      "artifacts/cache/precond_lspg_2d_shards/seed9_in_domain.json": "c34ae58037eca90626dbcda6abf660dbc945d690356e4f54ce2d35a128a1e62c",
+      "artifacts/cache/precond_lspg_2d_shards/seed9_ood.json": "b387cd52620ca0497e8f8262ef03c148260bfb7c9d7380356a21a66a22468a9c",
+      "artifacts/cache/precond_lspg_shards/reference_bratu_source_in_domain_seed0.json": "fc9938562f77ea48bca80126d7af77da2725c6b766c90adb321c17690eeedb07",
+      "artifacts/cache/precond_lspg_shards/reference_bratu_source_in_domain_seed1.json": "2900a6c6c5d4923849f3396a577413415e8292bf5791465fa88fd0ae472f2310",
+      "artifacts/cache/precond_lspg_shards/reference_bratu_source_in_domain_seed2.json": "c2ae6ca5f7da7424595389aaf0aa7bd92c73472e8f7f913c2e2e6401df3fb1b3",
+      "artifacts/cache/precond_lspg_shards/reference_bratu_source_in_domain_seed3.json": "e46ba227b1b2f61c5222421198e9a8e1b8740a42c4eb9bfea654be984e1b4355",
+      "artifacts/cache/precond_lspg_shards/reference_bratu_source_in_domain_seed4.json": "abdc8b4d713c9cc4acba61d6cfd243d11ac7adbfb741defcc2e11d626fbb5130",
+      "artifacts/cache/precond_lspg_shards/reference_bratu_source_in_domain_seed5.json": "b82144cbb38aad55b4616a8ed2ec91375da11620eb3800117a2cafdde7e36adb",
+      "artifacts/cache/precond_lspg_shards/reference_bratu_source_in_domain_seed6.json": "604eac6460a2beeee042e8a33b0acd417b8a79fd0a53123773983cde361f8a92",
+      "artifacts/cache/precond_lspg_shards/reference_bratu_source_in_domain_seed7.json": "326292db390ccdf2f8204a7de14b107e07c3681cf44a1fa20383a84cf73053ee",
+      "artifacts/cache/precond_lspg_shards/reference_bratu_source_in_domain_seed8.json": "d36ae7c75a80c29b407608c0797994ede720e8e843b274299d026e61fdb6e6b4",
+      "artifacts/cache/precond_lspg_shards/reference_bratu_source_in_domain_seed9.json": "d76eb1594f3a98556c863230713e7baad4db5c88790c49549eb42795a7a70658",
+      "artifacts/cache/precond_lspg_shards/reference_bratu_source_ood_seed0.json": "b254e3e4b039a92448eaaca14133c35d194de7fd97510cc41224ea3a80a1ea29",
+      "artifacts/cache/precond_lspg_shards/reference_bratu_source_ood_seed1.json": "61e95c51e608265baca5f044abdcf6ebd099acda3726721b2c8e35130f297329",
+      "artifacts/cache/precond_lspg_shards/reference_bratu_source_ood_seed2.json": "fbaea842dffb7d5f13681eda1cd0ff61cdbee811ca8a9fdca53e29a0adbd5f1b",
+      "artifacts/cache/precond_lspg_shards/reference_bratu_source_ood_seed3.json": "4e876384e633ae033a4b9a2d865f623a18613161903c69c556c273a96f867339",
+      "artifacts/cache/precond_lspg_shards/reference_bratu_source_ood_seed4.json": "df7fde62e933ea970fcc9f3cbc80b515edd03b0c1001bbba8b6fae8732726192",
+      "artifacts/cache/precond_lspg_shards/reference_bratu_source_ood_seed5.json": "534a2c61a97493cb3c3380c3bc33cea4228f3bc3e94eb3134c113688d3cc08c8",
+      "artifacts/cache/precond_lspg_shards/reference_bratu_source_ood_seed6.json": "4c86e993632cec77a9933639a9c9368758ba66c41017fb1f33f4b3c2a9614820",
+      "artifacts/cache/precond_lspg_shards/reference_bratu_source_ood_seed7.json": "cfb32908a8d0de77763193b3c5e8a929a3329c8661d5dcdbf06161a9a227cc40",
+      "artifacts/cache/precond_lspg_shards/reference_bratu_source_ood_seed8.json": "94cd2b022aa470b079cceffe152d4261793fdfa1008983656e74c621c0d92e0b",
+      "artifacts/cache/precond_lspg_shards/reference_bratu_source_ood_seed9.json": "74acab3f13e51cccfd329bdebe22c461866d69c979a9179c2fa7ce15e2c92f27",
+      "artifacts/cache/precond_lspg_shards/reference_front_layer_in_domain_seed0.json": "d4a7c11eaf5534d6ea4b2a0a0934b36e4ac9ee36d15db0205ff1a0937e843717",
+      "artifacts/cache/precond_lspg_shards/reference_front_layer_in_domain_seed1.json": "8e2e656cb30cc5c4fe414bd218a4b5890b2783040449e1ded26166259494668d",
+      "artifacts/cache/precond_lspg_shards/reference_front_layer_in_domain_seed2.json": "c5ec98c8080936b05eabc418f10405670e12e8b5b00caf97f951a4330ee35fed",
+      "artifacts/cache/precond_lspg_shards/reference_front_layer_in_domain_seed3.json": "1517211887946f4b35bb59f14e0591cf0d9313d97f5edd9f0622258d18e41e12",
+      "artifacts/cache/precond_lspg_shards/reference_front_layer_in_domain_seed4.json": "be8a8628377c85b4bbb9bf7fa946c56bfae5cabf82aa397473647345c59b5001",
+      "artifacts/cache/precond_lspg_shards/reference_front_layer_in_domain_seed5.json": "88776eff053b0e8e3ceffa9ce1bacbabe52d8ab11e17830d6f45863da84ab9f4",
+      "artifacts/cache/precond_lspg_shards/reference_front_layer_in_domain_seed6.json": "0373511ebc36fb1ed2cf1c078a8c6b79c576a73f0db0768932a7252d34e8364a",
+      "artifacts/cache/precond_lspg_shards/reference_front_layer_in_domain_seed7.json": "950dbb6232eaa7bc56c99ac4f1aae9155577e592f39f329a5bf51e91005dc337",
+      "artifacts/cache/precond_lspg_shards/reference_front_layer_in_domain_seed8.json": "a0dc6980aac34fb0eae4ea56efd18cc7e9dc406a27add1f6d7afa2e6f44adc01",
+      "artifacts/cache/precond_lspg_shards/reference_front_layer_in_domain_seed9.json": "5fe0ac813be71d3e2cf4fdd3e9e74d3a69706ee1e47b56178ca36abe7a7f1f5d",
+      "artifacts/cache/precond_lspg_shards/reference_front_layer_ood_seed0.json": "4d597baa076e9075cdedd2387cc0199e05245f69c5387528caa0715a1ec9fc1f",
+      "artifacts/cache/precond_lspg_shards/reference_front_layer_ood_seed1.json": "87c649617d19ca174432c02206c06b669fb5691b0f74e6b59ae5b2bf7ec44fb4",
+      "artifacts/cache/precond_lspg_shards/reference_front_layer_ood_seed2.json": "c96811b918cca73a499e3e93a682767c19bbe21c1b3dc9c103c490273c0e8eb9",
+      "artifacts/cache/precond_lspg_shards/reference_front_layer_ood_seed3.json": "868dc6860ec8da40beebac7b7025da39ce8371c42054e5d9db7a3212272f7134",
+      "artifacts/cache/precond_lspg_shards/reference_front_layer_ood_seed4.json": "a627983a5e861b1f225d0a5dc60bcfa16c65610b701bda758555afe751dd708c",
+      "artifacts/cache/precond_lspg_shards/reference_front_layer_ood_seed5.json": "8761d476d565536304b9a44622e1dd64064f5a88d33df96aab9f7d109b961ba4",
+      "artifacts/cache/precond_lspg_shards/reference_front_layer_ood_seed6.json": "56dd22a98056e0264be9f0365bcd3401c98c2ec9ed82ec635fe223e8ecb41507",
+      "artifacts/cache/precond_lspg_shards/reference_front_layer_ood_seed7.json": "ed12a91fa2151dc4adc16cb44aab415523ecd77b64ab78936ad44e02da5243f0",
+      "artifacts/cache/precond_lspg_shards/reference_front_layer_ood_seed8.json": "59f84d5c0f008f53bd03b7e2801ae7250b28980741e0e7b2c3456dcc9c5d10d0",
+      "artifacts/cache/precond_lspg_shards/reference_front_layer_ood_seed9.json": "3e86c9f918a300be15893915161fbc2693f752d4f99ad4c775f40b565f93c7d4",
+      "artifacts/cache/precond_lspg_shards/reference_hydrologic_conductivity_in_domain_seed0.json": "b8a21478d7b9c5760b0bb74094d35302058f18f963512e05e89c14d759176559",
+      "artifacts/cache/precond_lspg_shards/reference_hydrologic_conductivity_in_domain_seed1.json": "153c8e3f6655cf137a334c78f114d7d6a4946d78e1af5e40fd09e3477d3b6111",
+      "artifacts/cache/precond_lspg_shards/reference_hydrologic_conductivity_in_domain_seed2.json": "22b6a47d872caa873643c22480452b1195f8c7bbc2f2db8361630333ef15bcc7",
+      "artifacts/cache/precond_lspg_shards/reference_hydrologic_conductivity_in_domain_seed3.json": "13891fc76ccb07c248eddb815c2097f310629e9b49839fdb2c8cb5327d4fffa8",
+      "artifacts/cache/precond_lspg_shards/reference_hydrologic_conductivity_in_domain_seed4.json": "04e398f3efddc7425b9a4634964378a251e85d4041b8bdb4fc5a59ead0710c65",
+      "artifacts/cache/precond_lspg_shards/reference_hydrologic_conductivity_in_domain_seed5.json": "a75b8a7724837ee5ac4ea20a773f26ebeddc32a28947b1c1db4a9265e03d4def",
+      "artifacts/cache/precond_lspg_shards/reference_hydrologic_conductivity_in_domain_seed6.json": "a3a96604627f5f3b0afd11ffc2a9f56e1ad4d402c327f44fdc8adee44b867c24",
+      "artifacts/cache/precond_lspg_shards/reference_hydrologic_conductivity_in_domain_seed7.json": "e1d8aebcf899fc21f061c973484ae3412842ea1e3997a9f34ef6cc6ee8891033",
+      "artifacts/cache/precond_lspg_shards/reference_hydrologic_conductivity_in_domain_seed8.json": "e1372332b6330d578390ca37272e4725fe46211507eb2b1e4a2dfecc294b14d8",
+      "artifacts/cache/precond_lspg_shards/reference_hydrologic_conductivity_in_domain_seed9.json": "b29ffc829226786c0f3e4988e12da497f6bb09039c4de3ec2c5489860abc9552",
+      "artifacts/cache/precond_lspg_shards/reference_hydrologic_conductivity_ood_seed0.json": "31e1bfc270809c261fa743ee430ae9b9fbb4eb52ff29367f9ce7a9a0a6bb5f0f",
+      "artifacts/cache/precond_lspg_shards/reference_hydrologic_conductivity_ood_seed1.json": "a8df657b4a4e95488f196f650203534b727e601ddd9e82dffe4db22884023905",
+      "artifacts/cache/precond_lspg_shards/reference_hydrologic_conductivity_ood_seed2.json": "35db6532a515f310ec267f6f554ed8c65bc11c40fd8d234ecd189ecbadebafad",
+      "artifacts/cache/precond_lspg_shards/reference_hydrologic_conductivity_ood_seed3.json": "23b118a50e3d7265613c147d0a6c2336d704b666d98215faec6b25f8d1c1f514",
+      "artifacts/cache/precond_lspg_shards/reference_hydrologic_conductivity_ood_seed4.json": "c64986b887268eb3323868e946ef37ddf8d6f6a3e4092950fd384d1ec4791cd2",
+      "artifacts/cache/precond_lspg_shards/reference_hydrologic_conductivity_ood_seed5.json": "97b7611b8e76dad8345cb21578261204ba73f354f16cc0e5a30b08c2bd33ced4",
+      "artifacts/cache/precond_lspg_shards/reference_hydrologic_conductivity_ood_seed6.json": "89e44d49f72b01ecb7dd7a48c125838f56e42541725f3e0ca6ac81d867483a09",
+      "artifacts/cache/precond_lspg_shards/reference_hydrologic_conductivity_ood_seed7.json": "067b8086152e7e0c4884f1670b6adfe0b440386fb938a4af11b0308f9e69bbe1",
+      "artifacts/cache/precond_lspg_shards/reference_hydrologic_conductivity_ood_seed8.json": "940c87721b1cf3bb0c613f4dc0ff6d9a3503c18aa497097bc49fee6573ceb49f",
+      "artifacts/cache/precond_lspg_shards/reference_hydrologic_conductivity_ood_seed9.json": "f5eb17d475610aaf2182428faf938a4319896e6c78a32a9dce097eac5f1b90dd",
+      "artifacts/cache/precond_lspg_shards/reference_nonlinear_diffusion_in_domain_seed0.json": "d9dce1ad66e77f9d4a76a22a116c774cfab1336db9d060b4a21cbe782b456435",
+      "artifacts/cache/precond_lspg_shards/reference_nonlinear_diffusion_in_domain_seed1.json": "86a4481ef6cd62110b8ba48ac042351d7e78575a637b894d3ae4c555812adddf",
+      "artifacts/cache/precond_lspg_shards/reference_nonlinear_diffusion_in_domain_seed2.json": "75c9042b1cfd0c2e4fd10efba34981bc7360881176f90fa07f061f340f6d753b",
+      "artifacts/cache/precond_lspg_shards/reference_nonlinear_diffusion_in_domain_seed3.json": "02d3d3750546c7f35332a990249085895cc4124ce899e955a5633cc0e098fba0",
+      "artifacts/cache/precond_lspg_shards/reference_nonlinear_diffusion_in_domain_seed4.json": "b0e8e8f6b4469692673c87c3d9575ea11a0fb3f794d062257ccead5e976b14dd",
+      "artifacts/cache/precond_lspg_shards/reference_nonlinear_diffusion_in_domain_seed5.json": "8a6a5851d809d4da2392a4861fd6c4bad76a472dbd987f18ba1c8fa09b0c9679",
+      "artifacts/cache/precond_lspg_shards/reference_nonlinear_diffusion_in_domain_seed6.json": "b27fb391c848af09e7fb86962020a68bc232b3ea6b3983e337c3b6f7cad7d7ae",
+      "artifacts/cache/precond_lspg_shards/reference_nonlinear_diffusion_in_domain_seed7.json": "6573a7708e99b3fdcae18cbc7a505528c42724971b3d1b58b24e4ebf29122997",
+      "artifacts/cache/precond_lspg_shards/reference_nonlinear_diffusion_in_domain_seed8.json": "3b383f51d094866b065953e40531bfdb1baba7f1eb7e29aa1893961551298033",
+      "artifacts/cache/precond_lspg_shards/reference_nonlinear_diffusion_in_domain_seed9.json": "3138d03d008c82a6bf3767c669f76a3155384dc0f8997e4e1d983163b8bcfcbc",
+      "artifacts/cache/precond_lspg_shards/reference_nonlinear_diffusion_ood_seed0.json": "04121ed3a2e8df3a27f1a5e0bcd4702ce765a008345e999a73ac92f9707dc140",
+      "artifacts/cache/precond_lspg_shards/reference_nonlinear_diffusion_ood_seed1.json": "8cd4bbcffa226056a55def3b1975b9288508b3cbfbdc93bad75de0f331ef40d5",
+      "artifacts/cache/precond_lspg_shards/reference_nonlinear_diffusion_ood_seed2.json": "d9a19ff651c5a1a281672342db5cd3933a40815adb6e97acc941015922e7b2e7",
+      "artifacts/cache/precond_lspg_shards/reference_nonlinear_diffusion_ood_seed3.json": "69659d328a047b69ac2e287c868843b9307e5034d0903f6cb7603b595efe9fd0",
+      "artifacts/cache/precond_lspg_shards/reference_nonlinear_diffusion_ood_seed4.json": "e14bbe40488d8a3c78e5454cc57cf13c48065fbd4d9c589e406eb0296129f677",
+      "artifacts/cache/precond_lspg_shards/reference_nonlinear_diffusion_ood_seed5.json": "e6ce1d3bdee97d22f415f16d0792e8ff7abfe984be851d1ee5f11108f4e77e67",
+      "artifacts/cache/precond_lspg_shards/reference_nonlinear_diffusion_ood_seed6.json": "3670c7e521517b0fcba311113b55f0c39a3508e5bdaf8c53fff537763cddaf68",
+      "artifacts/cache/precond_lspg_shards/reference_nonlinear_diffusion_ood_seed7.json": "01a532268d6352c0cbd5d4c43419f3e5ae6ad66152dd453a11bc464334b9db69",
+      "artifacts/cache/precond_lspg_shards/reference_nonlinear_diffusion_ood_seed8.json": "26089c63b2009ba16efa0fa3eb161a486922cc5d561c23c4fdf6811e78b3a988",
+      "artifacts/cache/precond_lspg_shards/reference_nonlinear_diffusion_ood_seed9.json": "f0a642afbbc5695296cd002e59feea994037acbbb4486d12c513e35cd76c72bb",
+      "artifacts/cache/precond_pod_lspg_shards/bratu_source_in_domain_seed0.json": "36e45ef83e531afde18ce8be46449ade0f149881fc809ef0763886f2c488c94e",
+      "artifacts/cache/precond_pod_lspg_shards/bratu_source_in_domain_seed1.json": "b08c42252b84ffe4737f91abd575314406e423c9ee920e957acef28d19ec5e57",
+      "artifacts/cache/precond_pod_lspg_shards/bratu_source_in_domain_seed2.json": "17dd6d040ca5c59e2220ed6d436e4f5a8dfb36e3af9078f1b73782710aa95083",
+      "artifacts/cache/precond_pod_lspg_shards/bratu_source_in_domain_seed3.json": "bcaed42b6f84903b3b9d174e08674df3cbd1a13ce829c9ceefbbe31b61cd169a",
+      "artifacts/cache/precond_pod_lspg_shards/bratu_source_in_domain_seed4.json": "0593481007ec0712308eb9313a62afe6a13184dd8322589186384d730c2065e0",
+      "artifacts/cache/precond_pod_lspg_shards/bratu_source_in_domain_seed5.json": "318cab98cee3492f941542b037891298c6ba9316f2c07d35214f5c5f08da1d4b",
+      "artifacts/cache/precond_pod_lspg_shards/bratu_source_in_domain_seed6.json": "cac9d4f2c408d2c10db53758727b44c81b7a8883d156cc5178ccc189bb3e965f",
+      "artifacts/cache/precond_pod_lspg_shards/bratu_source_in_domain_seed7.json": "02e685a08462145f797c0ee12660f6138d1cc43680bd3a813cf21d79aa8a4389",
+      "artifacts/cache/precond_pod_lspg_shards/bratu_source_in_domain_seed8.json": "e781539bd19e10768595ab2a3c342253bc3910c54bfb5f0bafcac592f8ca0092",
+      "artifacts/cache/precond_pod_lspg_shards/bratu_source_in_domain_seed9.json": "ed8245659ee0bf2d003259c05ed1dba2d391100f1b6d004e7da99aaf42221432",
+      "artifacts/cache/precond_pod_lspg_shards/bratu_source_ood_seed0.json": "ae517526cb68c0f2e9146be9b31262191c9f733c42255dafb8e691a2281e7e4b",
+      "artifacts/cache/precond_pod_lspg_shards/bratu_source_ood_seed1.json": "49285b9611cf4e516223ca9d4011d575fba859d2f7fc6320ef396efde7b48252",
+      "artifacts/cache/precond_pod_lspg_shards/bratu_source_ood_seed2.json": "9612cc48f5fa3fe72e1a88f419dcdc288748e0ea05f5a9ed1ef8dc876f5b2152",
+      "artifacts/cache/precond_pod_lspg_shards/bratu_source_ood_seed3.json": "ce6400000e28310d93cfe80c588a19d1abba6da7898ec9a686e3bde707fdd873",
+      "artifacts/cache/precond_pod_lspg_shards/bratu_source_ood_seed4.json": "b2aa800a82d12a597f989bd70700476463999b3426236a8ba9c6d697f4254a1c",
+      "artifacts/cache/precond_pod_lspg_shards/bratu_source_ood_seed5.json": "df509208cb037e3670bf328cfe1708e68476ee578c9dcdeeb74cc485d6a6fb35",
+      "artifacts/cache/precond_pod_lspg_shards/bratu_source_ood_seed6.json": "f3bfdec90655bdf724e8ff071304d714d81f6b21e10048a8f5026eb26462e7a2",
+      "artifacts/cache/precond_pod_lspg_shards/bratu_source_ood_seed7.json": "918a91eb2ac85a6aa9593cb82460b6cd7fd6fd28d00b0b7a618d356912c3725e",
+      "artifacts/cache/precond_pod_lspg_shards/bratu_source_ood_seed8.json": "5fa8d44ebbdce27e6798a23d677d6af91f8e01f05ec93f17b2afeda38e3b095a",
+      "artifacts/cache/precond_pod_lspg_shards/bratu_source_ood_seed9.json": "456da9091bf509c56fd5c8251f940586cf9a9b849ddb919f8165bc1c85c8f284",
+      "artifacts/cache/precond_pod_lspg_shards/front_layer_in_domain_seed0.json": "88213eb5d1f0ffe824d4cdaf4d27fea775d6cc79d6e91e1757ba31a47712ae5f",
+      "artifacts/cache/precond_pod_lspg_shards/front_layer_in_domain_seed1.json": "258af2a0f3fc7f5b65f2240512f3f5591dcff5418b1d1ad494e96bc239c5eaa1",
+      "artifacts/cache/precond_pod_lspg_shards/front_layer_in_domain_seed2.json": "8abaf5e3d86ff1406acd1d2869f0fb59aa7b434c3dd81462b798b5d3e31c6d49",
+      "artifacts/cache/precond_pod_lspg_shards/front_layer_in_domain_seed3.json": "befbd30f40cc26e65257dc1fb32770c9d12fb8d914db7856e01fc24fe4fbb58c",
+      "artifacts/cache/precond_pod_lspg_shards/front_layer_in_domain_seed4.json": "465616fff6d5d1147203b3c8d7e0a20da948507a3b0d4ce6f406b275778df259",
+      "artifacts/cache/precond_pod_lspg_shards/front_layer_in_domain_seed5.json": "8c5610ee2a013429dc6603b80eaa9c474bf01fa36bc1a219d8d6d9bc45572da0",
+      "artifacts/cache/precond_pod_lspg_shards/front_layer_in_domain_seed6.json": "a50566ffb7e8268e9911167c79a91ed4adec0d2c98029f4ad8d5687c4a6c620c",
+      "artifacts/cache/precond_pod_lspg_shards/front_layer_in_domain_seed7.json": "7406390c58da45354d30689c1e3b894dbcb68be73e295674e4904b41fc5ae2dc",
+      "artifacts/cache/precond_pod_lspg_shards/front_layer_in_domain_seed8.json": "c0067f4849602024c29fdfa78c4552586f928afdbb7833758a4f6dbe9fce6074",
+      "artifacts/cache/precond_pod_lspg_shards/front_layer_in_domain_seed9.json": "7ac6b6522db84c663d863037e069abbc931eed6ecfb7da69f7b87f6d124ad3e7",
+      "artifacts/cache/precond_pod_lspg_shards/front_layer_ood_seed0.json": "736e67ec7d82ef5bbbd41b311e6292a815f4370a447f367c70e4300adb26a3f7",
+      "artifacts/cache/precond_pod_lspg_shards/front_layer_ood_seed1.json": "2d13f825c547b42a818a82f61d1080750415cd7b6bc8eb07d963328a4f4d90e8",
+      "artifacts/cache/precond_pod_lspg_shards/front_layer_ood_seed2.json": "0e19dc63132aa0fdf422e92953548449206abfb02e1a1bb4ddd5a904b73dc159",
+      "artifacts/cache/precond_pod_lspg_shards/front_layer_ood_seed3.json": "178782b669a16f937e7d3bb23785dd866ce1293b74939e38ca945cc503255586",
+      "artifacts/cache/precond_pod_lspg_shards/front_layer_ood_seed4.json": "d6f4e8cdec6a96d6e6beb0e076a07a286889de6e84bd281b6f789d1df06b176b",
+      "artifacts/cache/precond_pod_lspg_shards/front_layer_ood_seed5.json": "d7be139f016aad43301bdedc11d824d2c68779c10d9d11333df71b0c120683ca",
+      "artifacts/cache/precond_pod_lspg_shards/front_layer_ood_seed6.json": "2450b5f36270b0e46a14b9ff0a16627ae055623ef8f8b062b87eafb453ff33b0",
+      "artifacts/cache/precond_pod_lspg_shards/front_layer_ood_seed7.json": "c4d41af2cc426863006a4e719e7570a803868cc02f63f51063579109bbcddda6",
+      "artifacts/cache/precond_pod_lspg_shards/front_layer_ood_seed8.json": "dda7e6283d5f8b0eb534304f497a4293ca8b91a70306f8e1c44ec867f481225a",
+      "artifacts/cache/precond_pod_lspg_shards/front_layer_ood_seed9.json": "cdd128f3cf8cee2450d6a9db8891465982e1cb4f3cd3f0b4a5f57b7a00ee2c3e",
+      "artifacts/cache/precond_pod_lspg_shards/hydrologic_conductivity_in_domain_seed0.json": "85b64bc70efe2820d067417f2fda060c178c1497ea8f996862da3003a3231180",
+      "artifacts/cache/precond_pod_lspg_shards/hydrologic_conductivity_in_domain_seed1.json": "f2fb458a644ac2ad664e06768cbf9eccf0cc2b60a4400ffca8737b9cee4ba8fd",
+      "artifacts/cache/precond_pod_lspg_shards/hydrologic_conductivity_in_domain_seed2.json": "c1b251d0414250044d1a05d2abe38a8324db7ebbe4d81d54de125a14e79a4e90",
+      "artifacts/cache/precond_pod_lspg_shards/hydrologic_conductivity_in_domain_seed3.json": "cf3e1137e5cd0d9c92dfe62ce464ae8d4cc2738b78f7ac5f16508e3557a5fe56",
+      "artifacts/cache/precond_pod_lspg_shards/hydrologic_conductivity_in_domain_seed4.json": "09410715f1c7ec6f870c5b99c7c10bb02edfc0a4162a97ecb702010eb5ca3903",
+      "artifacts/cache/precond_pod_lspg_shards/hydrologic_conductivity_in_domain_seed5.json": "0e22313675750e65d5b793ca011de93886f05d6b3e16219dd995baca3bf3eab6",
+      "artifacts/cache/precond_pod_lspg_shards/hydrologic_conductivity_in_domain_seed6.json": "6b9251f55ebb4a5b39bb8fc5685c7df9a1d85929e1ab6c9525f6be50ab61c502",
+      "artifacts/cache/precond_pod_lspg_shards/hydrologic_conductivity_in_domain_seed7.json": "e31ff1bd56bfdf5570d82ae2af357197842ae504acb58d510ea1c5cd4e4b7350",
+      "artifacts/cache/precond_pod_lspg_shards/hydrologic_conductivity_in_domain_seed8.json": "34af02119c3ba43d219ecd4df5cfa3be410cada03f3068ae76f2e08eea2868de",
+      "artifacts/cache/precond_pod_lspg_shards/hydrologic_conductivity_in_domain_seed9.json": "648832953cc5e0faca8fa1324dbb2cfe89843bdc27690a45c0a1199c4f3751d6",
+      "artifacts/cache/precond_pod_lspg_shards/hydrologic_conductivity_ood_seed0.json": "0bfc5fcf0202450dafce5b0492f642b83755fec06919535baebc83fda62f79fa",
+      "artifacts/cache/precond_pod_lspg_shards/hydrologic_conductivity_ood_seed1.json": "cf85857f30a8cf5a0352fdb3228ff1f4283bff1db299d642c4b9b0185a37448a",
+      "artifacts/cache/precond_pod_lspg_shards/hydrologic_conductivity_ood_seed2.json": "f9c73d6daeb46d9340a2041b1731e50090460b39aff80466cc344b19fb46d38d",
+      "artifacts/cache/precond_pod_lspg_shards/hydrologic_conductivity_ood_seed3.json": "8eb84f96fa2ba3992551a176b98cd697e107c26af422640505d9539ff3c1fae7",
+      "artifacts/cache/precond_pod_lspg_shards/hydrologic_conductivity_ood_seed4.json": "5bf18225750a888ccbeeae23f30fcb861b15e156e11f8464d5d6d95ffd0f4fec",
+      "artifacts/cache/precond_pod_lspg_shards/hydrologic_conductivity_ood_seed5.json": "58864337f098006cd363cd019d53d6787f1e0ca7b357a5aad52092de1dcc5b44",
+      "artifacts/cache/precond_pod_lspg_shards/hydrologic_conductivity_ood_seed6.json": "1d75c8eb66bb1cd55b7dcaf6788409604ca8d105cf21e80d138d0015d990b488",
+      "artifacts/cache/precond_pod_lspg_shards/hydrologic_conductivity_ood_seed7.json": "78de9e6f87a722d6e323db2086a74f549d3f0f2db092fa546e75e283f9017bff",
+      "artifacts/cache/precond_pod_lspg_shards/hydrologic_conductivity_ood_seed8.json": "ddca9ebb0ca0e7a1feed30d8dad1ca812da3ad054824e5e8f74ead9311fa7711",
+      "artifacts/cache/precond_pod_lspg_shards/hydrologic_conductivity_ood_seed9.json": "58a7c71836a262b384a689680087d5317bfe0bdcdef999e71e2c7413999a84fc",
+      "artifacts/cache/precond_pod_lspg_shards/nonlinear_diffusion_in_domain_seed0.json": "bd6f739b2485662e4baa4153af0836532f13a781d2ef2944ac94d9b069dca77e",
+      "artifacts/cache/precond_pod_lspg_shards/nonlinear_diffusion_in_domain_seed1.json": "de49581e2250f1ecf573b62446e6186f2bceb6f685bc41a2f966e665e48fe7a6",
+      "artifacts/cache/precond_pod_lspg_shards/nonlinear_diffusion_in_domain_seed2.json": "a174cde5b9645e5ea9a11d2de256ff3f0669aba1d8671916550bd2d88393ee20",
+      "artifacts/cache/precond_pod_lspg_shards/nonlinear_diffusion_in_domain_seed3.json": "5bd6b04b834c7d9ae993a453ea8f568eb0b3ae6aa4c08300c3c8b1facea3ccd8",
+      "artifacts/cache/precond_pod_lspg_shards/nonlinear_diffusion_in_domain_seed4.json": "288441b913a1a11ee850c0c13341c8c8f2e0d9b9f43bfcbd412beb3469168b2f",
+      "artifacts/cache/precond_pod_lspg_shards/nonlinear_diffusion_in_domain_seed5.json": "0c4ec28f33ea6d0c021f60c5e0e6f6910529d60c85dfc91d00fe3ca8a7ad7d3e",
+      "artifacts/cache/precond_pod_lspg_shards/nonlinear_diffusion_in_domain_seed6.json": "7f5533124cf37a344ee5dcc06e77895858c184331058227373b598fac335da8b",
+      "artifacts/cache/precond_pod_lspg_shards/nonlinear_diffusion_in_domain_seed7.json": "eeb4b6a9d54c668c6c4faddf9f749372c4eff8ab1c03a3c2f70c49f7aabb866e",
+      "artifacts/cache/precond_pod_lspg_shards/nonlinear_diffusion_in_domain_seed8.json": "a0a2e43bea82787597a5432c6481a99ae5103b29759c64e8d6e3b375003afd12",
+      "artifacts/cache/precond_pod_lspg_shards/nonlinear_diffusion_in_domain_seed9.json": "3ab5cd69b444c7cb4ae58095ef3342db01ade0b09213fb14d6165a1bf202d91c",
+      "artifacts/cache/precond_pod_lspg_shards/nonlinear_diffusion_ood_seed0.json": "39acb3409c23035401ddc59a969727b645f0698187ca55f681dbd3c160758a4e",
+      "artifacts/cache/precond_pod_lspg_shards/nonlinear_diffusion_ood_seed1.json": "46da4ad7417eadbd5c749cbd6fac0691e2702cc2f9e71f98803536799cc67de6",
+      "artifacts/cache/precond_pod_lspg_shards/nonlinear_diffusion_ood_seed2.json": "8af8cb838c9dca089f992e8be320eadbf19dac22eb5d6556413a0e1454874307",
+      "artifacts/cache/precond_pod_lspg_shards/nonlinear_diffusion_ood_seed3.json": "3ca34fb82dafedb3d84eafc3f456b2d14dcd75fe9cdb22ec36f730c41eedd154",
+      "artifacts/cache/precond_pod_lspg_shards/nonlinear_diffusion_ood_seed4.json": "6de8d6869d7dc1fc085882d66da08202108595bb928d6583ff3effc08c095b20",
+      "artifacts/cache/precond_pod_lspg_shards/nonlinear_diffusion_ood_seed5.json": "1388ffee74b9f1e18ad69f3060c0bcdf957ca681e65d32c69f449870cc7e1bb1",
+      "artifacts/cache/precond_pod_lspg_shards/nonlinear_diffusion_ood_seed6.json": "c8ee70a073a8bb7c9349533d0cea6e092108fccac8442346a31928602bcad8cf",
+      "artifacts/cache/precond_pod_lspg_shards/nonlinear_diffusion_ood_seed7.json": "27a7c0c174121d8a0704c021b7a7fe24c0da86a4e007a85095a5625eae35635b",
+      "artifacts/cache/precond_pod_lspg_shards/nonlinear_diffusion_ood_seed8.json": "6e610b59ddd7d8694637065a7c70b0333ba9ca4d83f4828a394c3d10f2601b48",
+      "artifacts/cache/precond_pod_lspg_shards/nonlinear_diffusion_ood_seed9.json": "5d81aa44f17b805a816b14fe7edc81593ffbcae3c793eec1264910cf0ca8728d",
+      "artifacts/cache/precond_pod_lspg_shards/two_d_burgers_in_domain_seed0.json": "4eb5676bb7c12a6aeeaab8a380a559379badae4751e1355525fab8ad76980560",
+      "artifacts/cache/precond_pod_lspg_shards/two_d_burgers_in_domain_seed1.json": "3842c0ba40eb42068d696a832489bddb325f93d44e4ccbb4617ea3670cea2382",
+      "artifacts/cache/precond_pod_lspg_shards/two_d_burgers_in_domain_seed2.json": "c86ec0b36bdf4c150461d27f11ef0fa42eb80f27625c5db28d9fb53958398c05",
+      "artifacts/cache/precond_pod_lspg_shards/two_d_burgers_in_domain_seed3.json": "948f90aacc3e1f91e1441e03e4123ab8a7fdcd7b304b1e834ad5c78e0cb54f04",
+      "artifacts/cache/precond_pod_lspg_shards/two_d_burgers_in_domain_seed4.json": "c293932542546d3f3b5779c1239642469da3ac2e4822ad26e909cc044e46f533",
+      "artifacts/cache/precond_pod_lspg_shards/two_d_burgers_in_domain_seed5.json": "8f23dccefb77929884a48152e3831de90c9c9afdbc76824597733b969d1d7575",
+      "artifacts/cache/precond_pod_lspg_shards/two_d_burgers_in_domain_seed6.json": "64579c816ff7c20000f0504181a6e6f33f746cec786900c0a043e4feda54e0ec",
+      "artifacts/cache/precond_pod_lspg_shards/two_d_burgers_in_domain_seed7.json": "2ae3e3dbee719fabeb524168bb3c748c2458404e3080207d5863064aa4e7a641",
+      "artifacts/cache/precond_pod_lspg_shards/two_d_burgers_in_domain_seed8.json": "5896d70eb69504ad93804642b7acdcf6e14519f8a1806c99f79ab107a9d19fd4",
+      "artifacts/cache/precond_pod_lspg_shards/two_d_burgers_in_domain_seed9.json": "831de1437c7e538b3b0f19d8514c329c89a6e376b9dc9b8349af13d5f15b27ab",
+      "artifacts/cache/precond_pod_lspg_shards/two_d_burgers_ood_seed0.json": "4694f49facf47508b0b07d04b6c2547f91feabb3e70337e4dfb8937bc8e7484c",
+      "artifacts/cache/precond_pod_lspg_shards/two_d_burgers_ood_seed1.json": "2bb495b8bb73a557131daf259048fcccd6245a46c4082ab5494b0c0cb20e78d6",
+      "artifacts/cache/precond_pod_lspg_shards/two_d_burgers_ood_seed2.json": "3070b4bd960e4b42a2dc5ab1728cfe6ca05629979f9b8614c12090fe17d52d7d",
+      "artifacts/cache/precond_pod_lspg_shards/two_d_burgers_ood_seed3.json": "129505c58bb8decf249416c683c2c50764c1057c0b386361f2c35bd01e07e7da",
+      "artifacts/cache/precond_pod_lspg_shards/two_d_burgers_ood_seed4.json": "39a7b3aa9a46f0b91b6cbbbc0eadd7b0f1f4879b2766cec581cf42e920803a49",
+      "artifacts/cache/precond_pod_lspg_shards/two_d_burgers_ood_seed5.json": "ac3dc2c24f1e66736ebc575121dfb43b269d45ade61627a8921dcd9521345e2f",
+      "artifacts/cache/precond_pod_lspg_shards/two_d_burgers_ood_seed6.json": "e7fb31b4b54e484c2786c3e384b648cac2781ec70d4af7bda326a1a77687fd80",
+      "artifacts/cache/precond_pod_lspg_shards/two_d_burgers_ood_seed7.json": "1d63a85fb4d365da6bea1c9603750fa10775077a701cedbfb0cc39577b380aed",
+      "artifacts/cache/precond_pod_lspg_shards/two_d_burgers_ood_seed8.json": "ff93a4cf0138c21615f1f1806bf6f50cfdf73cfbd9d7f8cb6a483129935cf8b7",
+      "artifacts/cache/precond_pod_lspg_shards/two_d_burgers_ood_seed9.json": "7fb36a427e7dd1f4b8a8d833d98e8af54763f55730f044a81b50ca5463195829",
+      "artifacts/cache/unified_rank_shards/two_d_burgers_ood_seed0.json": "3188dd90f24314aa79d0fe6d7e383c34615c1bb3abd1eb01a5010703b1a8d300",
+      "artifacts/cache/unified_rank_shards/two_d_burgers_ood_seed1.json": "afda568489eee5b31e5580d69088c42f913b9aafac205b35c02013aceb9bf844",
+      "artifacts/cache/unified_rank_shards/two_d_burgers_ood_seed2.json": "93ed481bd8226182c34a0e83f0d2a0c337bba3f6947149a2af038942e72b5842",
+      "artifacts/cache/unified_rank_shards/two_d_burgers_ood_seed3.json": "35913015d8b452899714351fdf04335abf60c458cbbc26e27d8bd54c495c8b06",
+      "artifacts/cache/unified_rank_shards/two_d_burgers_ood_seed4.json": "16eddfff823ad3421836cc19ab928ceb077f7017a7f508d4e0771bf862887323",
+      "artifacts/cache/unified_rank_shards/two_d_burgers_ood_seed5.json": "518edde2d6675543e1067739ea62873be7f605ec244994d4a7d15d87258e13fd",
+      "artifacts/cache/unified_rank_shards/two_d_burgers_ood_seed6.json": "59dc53bd2876aa96832e583213b1a6f5f184c59e067b7a683e8c9a86d6ffeeea",
+      "artifacts/cache/unified_rank_shards/two_d_burgers_ood_seed7.json": "81a44501d1754ef9352572e187d892928d66a755bb9816fc5d46465bec388393",
+      "artifacts/cache/unified_rank_shards/two_d_burgers_ood_seed8.json": "4d33758b275823a82e3b9cff971655eea467ba7734153cc94e6db8c6b8f26c4b",
+      "artifacts/cache/unified_rank_shards/two_d_burgers_ood_seed9.json": "d3e54b5b7cb692de6acdff5a33d97f8354812b5ea457a6f4a08b4c6654820006"
+    }
+  },
+  "m1_holm_family": {
+    "below_0p05_count": 9,
+    "below_0p05_favoring_mg": 5,
+    "below_0p05_favoring_pod_lspg": 4,
+    "below_0p05_max_holm_p_20": 0.0390625,
+    "configured_contrasts": 20,
+    "contrasts": [
+      {
+        "direction": "POD-LSPG",
+        "display": "Bratu-source",
+        "effective_n": 10,
+        "family_raw_p": 0.001953125,
+        "holm_below_0p05": true,
+        "holm_p_20": 0.0390625,
+        "metric": "state",
+        "mg_lower": 0,
+        "pod_lspg_lower": 10,
+        "problem": "bratu_source",
+        "raw_p": 0.001953125,
+        "regime": "in_domain",
+        "study_kind": "1d",
+        "ties": 0
+      },
+      {
+        "direction": "POD-LSPG",
+        "display": "Bratu-source",
+        "effective_n": 10,
+        "family_raw_p": 0.001953125,
+        "holm_below_0p05": true,
+        "holm_p_20": 0.0390625,
+        "metric": "qoi",
+        "mg_lower": 0,
+        "pod_lspg_lower": 10,
+        "problem": "bratu_source",
+        "raw_p": 0.001953125,
+        "regime": "in_domain",
+        "study_kind": "1d",
+        "ties": 0
+      },
+      {
+        "direction": "MG",
+        "display": "Bratu-source",
+        "effective_n": 10,
+        "family_raw_p": 0.34375,
+        "holm_below_0p05": false,
+        "holm_p_20": 1.0,
+        "metric": "state",
+        "mg_lower": 7,
+        "pod_lspg_lower": 3,
+        "problem": "bratu_source",
+        "raw_p": 0.34375,
+        "regime": "ood",
+        "study_kind": "1d",
+        "ties": 0
+      },
+      {
+        "direction": "MG",
+        "display": "Bratu-source",
+        "effective_n": 10,
+        "family_raw_p": 0.001953125,
+        "holm_below_0p05": true,
+        "holm_p_20": 0.0390625,
+        "metric": "qoi",
+        "mg_lower": 10,
+        "pod_lspg_lower": 0,
+        "problem": "bratu_source",
+        "raw_p": 0.001953125,
+        "regime": "ood",
+        "study_kind": "1d",
+        "ties": 0
+      },
+      {
+        "direction": "MG",
+        "display": "Front-layer",
+        "effective_n": 10,
+        "family_raw_p": 0.001953125,
+        "holm_below_0p05": true,
+        "holm_p_20": 0.0390625,
+        "metric": "state",
+        "mg_lower": 10,
+        "pod_lspg_lower": 0,
+        "problem": "front_layer",
+        "raw_p": 0.001953125,
+        "regime": "in_domain",
+        "study_kind": "1d",
+        "ties": 0
+      },
+      {
+        "direction": "even",
+        "display": "Front-layer",
+        "effective_n": 10,
+        "family_raw_p": 1.0,
+        "holm_below_0p05": false,
+        "holm_p_20": 1.0,
+        "metric": "qoi",
+        "mg_lower": 5,
+        "pod_lspg_lower": 5,
+        "problem": "front_layer",
+        "raw_p": 1.0,
+        "regime": "in_domain",
+        "study_kind": "1d",
+        "ties": 0
+      },
+      {
+        "direction": "even",
+        "display": "Front-layer",
+        "effective_n": 10,
+        "family_raw_p": 1.0,
+        "holm_below_0p05": false,
+        "holm_p_20": 1.0,
+        "metric": "state",
+        "mg_lower": 5,
+        "pod_lspg_lower": 5,
+        "problem": "front_layer",
+        "raw_p": 1.0,
+        "regime": "ood",
+        "study_kind": "1d",
+        "ties": 0
+      },
+      {
+        "direction": "even",
+        "display": "Front-layer",
+        "effective_n": 0,
+        "family_raw_p": 1.0,
+        "holm_below_0p05": false,
+        "holm_p_20": 1.0,
+        "metric": "qoi",
+        "mg_lower": 0,
+        "pod_lspg_lower": 0,
+        "problem": "front_layer",
+        "raw_p": null,
+        "regime": "ood",
+        "study_kind": "1d",
+        "ties": 10
+      },
+      {
+        "direction": "MG",
+        "display": "Hydraulic K",
+        "effective_n": 10,
+        "family_raw_p": 0.001953125,
+        "holm_below_0p05": true,
+        "holm_p_20": 0.0390625,
+        "metric": "state",
+        "mg_lower": 10,
+        "pod_lspg_lower": 0,
+        "problem": "hydrologic_conductivity",
+        "raw_p": 0.001953125,
+        "regime": "in_domain",
+        "study_kind": "1d",
+        "ties": 0
+      },
+      {
+        "direction": "MG",
+        "display": "Hydraulic K",
+        "effective_n": 10,
+        "family_raw_p": 0.021484375,
+        "holm_below_0p05": false,
+        "holm_p_20": 0.236328125,
+        "metric": "qoi",
+        "mg_lower": 9,
+        "pod_lspg_lower": 1,
+        "problem": "hydrologic_conductivity",
+        "raw_p": 0.021484375,
+        "regime": "in_domain",
+        "study_kind": "1d",
+        "ties": 0
+      },
+      {
+        "direction": "MG",
+        "display": "Hydraulic K",
+        "effective_n": 10,
+        "family_raw_p": 0.001953125,
+        "holm_below_0p05": true,
+        "holm_p_20": 0.0390625,
+        "metric": "state",
+        "mg_lower": 10,
+        "pod_lspg_lower": 0,
+        "problem": "hydrologic_conductivity",
+        "raw_p": 0.001953125,
+        "regime": "ood",
+        "study_kind": "1d",
+        "ties": 0
+      },
+      {
+        "direction": "MG",
+        "display": "Hydraulic K",
+        "effective_n": 10,
+        "family_raw_p": 0.021484375,
+        "holm_below_0p05": false,
+        "holm_p_20": 0.236328125,
+        "metric": "qoi",
+        "mg_lower": 9,
+        "pod_lspg_lower": 1,
+        "problem": "hydrologic_conductivity",
+        "raw_p": 0.021484375,
+        "regime": "ood",
+        "study_kind": "1d",
+        "ties": 0
+      },
+      {
+        "direction": "MG",
+        "display": "Nonlinear diffusion",
+        "effective_n": 10,
+        "family_raw_p": 0.021484375,
+        "holm_below_0p05": false,
+        "holm_p_20": 0.236328125,
+        "metric": "state",
+        "mg_lower": 9,
+        "pod_lspg_lower": 1,
+        "problem": "nonlinear_diffusion",
+        "raw_p": 0.021484375,
+        "regime": "in_domain",
+        "study_kind": "1d",
+        "ties": 0
+      },
+      {
+        "direction": "MG",
+        "display": "Nonlinear diffusion",
+        "effective_n": 10,
+        "family_raw_p": 0.021484375,
+        "holm_below_0p05": false,
+        "holm_p_20": 0.236328125,
+        "metric": "qoi",
+        "mg_lower": 9,
+        "pod_lspg_lower": 1,
+        "problem": "nonlinear_diffusion",
+        "raw_p": 0.021484375,
+        "regime": "in_domain",
+        "study_kind": "1d",
+        "ties": 0
+      },
+      {
+        "direction": "even",
+        "display": "Nonlinear diffusion",
+        "effective_n": 10,
+        "family_raw_p": 1.0,
+        "holm_below_0p05": false,
+        "holm_p_20": 1.0,
+        "metric": "state",
+        "mg_lower": 5,
+        "pod_lspg_lower": 5,
+        "problem": "nonlinear_diffusion",
+        "raw_p": 1.0,
+        "regime": "ood",
+        "study_kind": "1d",
+        "ties": 0
+      },
+      {
+        "direction": "MG",
+        "display": "Nonlinear diffusion",
+        "effective_n": 10,
+        "family_raw_p": 0.109375,
+        "holm_below_0p05": false,
+        "holm_p_20": 0.65625,
+        "metric": "qoi",
+        "mg_lower": 8,
+        "pod_lspg_lower": 2,
+        "problem": "nonlinear_diffusion",
+        "raw_p": 0.109375,
+        "regime": "ood",
+        "study_kind": "1d",
+        "ties": 0
+      },
+      {
+        "direction": "MG",
+        "display": "2D Burgers",
+        "effective_n": 10,
+        "family_raw_p": 0.021484375,
+        "holm_below_0p05": false,
+        "holm_p_20": 0.236328125,
+        "metric": "state",
+        "mg_lower": 9,
+        "pod_lspg_lower": 1,
+        "problem": "two_d_burgers",
+        "raw_p": 0.021484375,
+        "regime": "in_domain",
+        "study_kind": "2d",
+        "ties": 0
+      },
+      {
+        "direction": "MG",
+        "display": "2D Burgers",
+        "effective_n": 10,
+        "family_raw_p": 0.001953125,
+        "holm_below_0p05": true,
+        "holm_p_20": 0.0390625,
+        "metric": "qoi",
+        "mg_lower": 10,
+        "pod_lspg_lower": 0,
+        "problem": "two_d_burgers",
+        "raw_p": 0.001953125,
+        "regime": "in_domain",
+        "study_kind": "2d",
+        "ties": 0
+      },
+      {
+        "direction": "POD-LSPG",
+        "display": "2D Burgers",
+        "effective_n": 10,
+        "family_raw_p": 0.001953125,
+        "holm_below_0p05": true,
+        "holm_p_20": 0.0390625,
+        "metric": "state",
+        "mg_lower": 0,
+        "pod_lspg_lower": 10,
+        "problem": "two_d_burgers",
+        "raw_p": 0.001953125,
+        "regime": "ood",
+        "study_kind": "2d",
+        "ties": 0
+      },
+      {
+        "direction": "POD-LSPG",
+        "display": "2D Burgers",
+        "effective_n": 10,
+        "family_raw_p": 0.001953125,
+        "holm_below_0p05": true,
+        "holm_p_20": 0.0390625,
+        "metric": "qoi",
+        "mg_lower": 0,
+        "pod_lspg_lower": 10,
+        "problem": "two_d_burgers",
+        "raw_p": 0.001953125,
+        "regime": "ood",
+        "study_kind": "2d",
+        "ties": 0
+      }
+    ],
+    "nld_ood_qoi_holm_p_20": 0.65625,
+    "nondegenerate_contrasts": 19,
+    "tie_convention": "all-tie contrast enters the design-complete family with p=1"
+  },
+  "m2_invariant_subset": {
+    "conditional_seed_means": [
+      {
+        "mg_mean": 0.5352533812257517,
+        "precond_mean": 0.26781055774119145,
+        "seed": 0,
+        "selected_count": 4
+      },
+      {
+        "mg_mean": 0.6240444585704316,
+        "precond_mean": 0.3398045646883854,
+        "seed": 1,
+        "selected_count": 6
+      },
+      {
+        "mg_mean": 0.6953544106021203,
+        "precond_mean": 0.24935249910622836,
+        "seed": 2,
+        "selected_count": 5
+      },
+      {
+        "mg_mean": 0.8386887333045404,
+        "precond_mean": 0.3687790253942739,
+        "seed": 3,
+        "selected_count": 7
+      },
+      {
+        "mg_mean": 0.6752528150456912,
+        "precond_mean": 0.34292917173681037,
+        "seed": 4,
+        "selected_count": 6
+      },
+      {
+        "mg_mean": 0.8957498081715111,
+        "precond_mean": 0.3247216776282175,
+        "seed": 5,
+        "selected_count": 6
+      },
+      {
+        "mg_mean": 0.569831414731264,
+        "precond_mean": 0.30644240679223944,
+        "seed": 6,
+        "selected_count": 2
+      },
+      {
+        "mg_mean": 0.5116478960033446,
+        "precond_mean": 0.32106828651305697,
+        "seed": 7,
+        "selected_count": 2
+      },
+      {
+        "mg_mean": 1.0403709216379424,
+        "precond_mean": 0.3306162978268891,
+        "seed": 8,
+        "selected_count": 3
+      },
+      {
+        "mg_mean": 0.44610375950193726,
+        "precond_mean": 0.2799791679583736,
+        "seed": 9,
+        "selected_count": 7
+      }
+    ],
+    "equal_seed_conditional_mean": {
+      "mg": 0.6832297598794534,
+      "precond": 0.3131503655385666,
+      "seed_count": 10
+    },
+    "estimand_note": "The manuscript's 0.316/0.689 values are pooled means over the 48 selected samples, not equally weighted seed means.",
+    "paired_precond_lower_count": 48,
+    "pooled_sample_mean": {
+      "mg": 0.6888684771805792,
+      "precond": 0.31564405925783706
+    },
+    "scope": {
+      "diagnostic": "reparametrization-invariant projected stationarity",
+      "paired_comparison_arm": "mg",
+      "problem": "two_d_burgers",
+      "regime": "ood",
+      "selected_arm": "pre_m"
+    },
+    "selected_count": 48,
+    "selected_count_by_seed": {
+      "0": 4,
+      "1": 6,
+      "2": 5,
+      "3": 7,
+      "4": 6,
+      "5": 6,
+      "6": 2,
+      "7": 2,
+      "8": 3,
+      "9": 7
+    },
+    "threshold": 0.0001
+  },
+  "m3_threshold_ladder": {
+    "native_1e_4_mask_matches_stored_flag": true,
+    "native_1e_4_mask_matches_unified_all_rtols": true,
+    "rows": [
+      {
+        "native_by_seed": {
+          "0": 6,
+          "1": 7,
+          "2": 5,
+          "3": 10,
+          "4": 7,
+          "5": 7,
+          "6": 6,
+          "7": 6,
+          "8": 4,
+          "9": 8
+        },
+        "native_total": 66,
+        "threshold": 0.001,
+        "unified_by_rtol": {
+          "1e-10": {
+            "by_seed": {
+              "0": 6,
+              "1": 7,
+              "2": 5,
+              "3": 10,
+              "4": 7,
+              "5": 7,
+              "6": 6,
+              "7": 6,
+              "8": 4,
+              "9": 8
+            },
+            "total": 66
+          },
+          "1e-12": {
+            "by_seed": {
+              "0": 6,
+              "1": 7,
+              "2": 5,
+              "3": 10,
+              "4": 7,
+              "5": 7,
+              "6": 6,
+              "7": 6,
+              "8": 4,
+              "9": 8
+            },
+            "total": 66
+          },
+          "1e-14": {
+            "by_seed": {
+              "0": 6,
+              "1": 7,
+              "2": 5,
+              "3": 10,
+              "4": 7,
+              "5": 7,
+              "6": 6,
+              "7": 6,
+              "8": 4,
+              "9": 8
+            },
+            "total": 66
+          }
+        }
+      },
+      {
+        "native_by_seed": {
+          "0": 4,
+          "1": 6,
+          "2": 5,
+          "3": 7,
+          "4": 6,
+          "5": 6,
+          "6": 2,
+          "7": 2,
+          "8": 3,
+          "9": 7
+        },
+        "native_total": 48,
+        "threshold": 0.0001,
+        "unified_by_rtol": {
+          "1e-10": {
+            "by_seed": {
+              "0": 4,
+              "1": 6,
+              "2": 5,
+              "3": 7,
+              "4": 6,
+              "5": 6,
+              "6": 2,
+              "7": 2,
+              "8": 3,
+              "9": 7
+            },
+            "total": 48
+          },
+          "1e-12": {
+            "by_seed": {
+              "0": 4,
+              "1": 6,
+              "2": 5,
+              "3": 7,
+              "4": 6,
+              "5": 6,
+              "6": 2,
+              "7": 2,
+              "8": 3,
+              "9": 7
+            },
+            "total": 48
+          },
+          "1e-14": {
+            "by_seed": {
+              "0": 4,
+              "1": 6,
+              "2": 5,
+              "3": 7,
+              "4": 6,
+              "5": 6,
+              "6": 2,
+              "7": 2,
+              "8": 3,
+              "9": 7
+            },
+            "total": 48
+          }
+        }
+      },
+      {
+        "native_by_seed": {
+          "0": 4,
+          "1": 4,
+          "2": 5,
+          "3": 3,
+          "4": 5,
+          "5": 3,
+          "6": 0,
+          "7": 1,
+          "8": 1,
+          "9": 6
+        },
+        "native_total": 32,
+        "threshold": 1e-05,
+        "unified_by_rtol": {
+          "1e-10": {
+            "by_seed": {
+              "0": 4,
+              "1": 4,
+              "2": 5,
+              "3": 3,
+              "4": 5,
+              "5": 3,
+              "6": 0,
+              "7": 1,
+              "8": 1,
+              "9": 6
+            },
+            "total": 32
+          },
+          "1e-12": {
+            "by_seed": {
+              "0": 4,
+              "1": 4,
+              "2": 5,
+              "3": 3,
+              "4": 5,
+              "5": 3,
+              "6": 0,
+              "7": 1,
+              "8": 1,
+              "9": 6
+            },
+            "total": 32
+          },
+          "1e-14": {
+            "by_seed": {
+              "0": 4,
+              "1": 4,
+              "2": 5,
+              "3": 3,
+              "4": 5,
+              "5": 3,
+              "6": 0,
+              "7": 1,
+              "8": 1,
+              "9": 6
+            },
+            "total": 32
+          }
+        }
+      }
+    ],
+    "scope": {
+      "arm": "pre_m",
+      "diagnostic": "reparametrization-invariant projected stationarity",
+      "problem": "two_d_burgers",
+      "regime": "ood"
+    },
+    "unified_counts_identical_across_rtols": true
+  },
+  "m4_metric_full_cohort": {
+    "affine_sample_left_lower": 1187,
+    "affine_seed_left_lower": 100,
+    "family_size": 20,
+    "manifold_sample_left_lower": 1199,
+    "manifold_seed_left_lower": 100,
+    "sample_count_per_contrast": 1200,
+    "seed_count_per_contrast": 100,
+    "tests": [
+      {
+        "contrast_id": "metric_manifold",
+        "design_role": "LM matched on learned trial set",
+        "display": "Bratu-source",
+        "holm_p_20": 0.0390625,
+        "left_arm": "pre_m",
+        "non_left_lower_cases": [],
+        "problem": "bratu_source",
+        "raw_sign_p": 0.001953125,
+        "regime": "in_domain",
+        "right_arm": "lm_m",
+        "sample_count": 120,
+        "sample_left_lower": 120,
+        "sample_right_lower": 0,
+        "sample_ties": 0,
+        "seed_left_lower": 10,
+        "seed_right_lower": 0,
+        "seed_ties": 0,
+        "study_kind": "1d"
+      },
+      {
+        "contrast_id": "metric_affine",
+        "design_role": "Newton matched on affine trial set",
+        "display": "Bratu-source",
+        "holm_p_20": 0.0390625,
+        "left_arm": "pre_p",
+        "non_left_lower_cases": [],
+        "problem": "bratu_source",
+        "raw_sign_p": 0.001953125,
+        "regime": "in_domain",
+        "right_arm": "pod_l",
+        "sample_count": 120,
+        "sample_left_lower": 120,
+        "sample_right_lower": 0,
+        "sample_ties": 0,
+        "seed_left_lower": 10,
+        "seed_right_lower": 0,
+        "seed_ties": 0,
+        "study_kind": "1d"
+      },
+      {
+        "contrast_id": "metric_manifold",
+        "design_role": "LM matched on learned trial set",
+        "display": "Bratu-source",
+        "holm_p_20": 0.0390625,
+        "left_arm": "pre_m",
+        "non_left_lower_cases": [],
+        "problem": "bratu_source",
+        "raw_sign_p": 0.001953125,
+        "regime": "ood",
+        "right_arm": "lm_m",
+        "sample_count": 120,
+        "sample_left_lower": 120,
+        "sample_right_lower": 0,
+        "sample_ties": 0,
+        "seed_left_lower": 10,
+        "seed_right_lower": 0,
+        "seed_ties": 0,
+        "study_kind": "1d"
+      },
+      {
+        "contrast_id": "metric_affine",
+        "design_role": "Newton matched on affine trial set",
+        "display": "Bratu-source",
+        "holm_p_20": 0.0390625,
+        "left_arm": "pre_p",
+        "non_left_lower_cases": [],
+        "problem": "bratu_source",
+        "raw_sign_p": 0.001953125,
+        "regime": "ood",
+        "right_arm": "pod_l",
+        "sample_count": 120,
+        "sample_left_lower": 120,
+        "sample_right_lower": 0,
+        "sample_ties": 0,
+        "seed_left_lower": 10,
+        "seed_right_lower": 0,
+        "seed_ties": 0,
+        "study_kind": "1d"
+      },
+      {
+        "contrast_id": "metric_manifold",
+        "design_role": "LM matched on learned trial set",
+        "display": "Front-layer",
+        "holm_p_20": 0.0390625,
+        "left_arm": "pre_m",
+        "non_left_lower_cases": [],
+        "problem": "front_layer",
+        "raw_sign_p": 0.001953125,
+        "regime": "in_domain",
+        "right_arm": "lm_m",
+        "sample_count": 120,
+        "sample_left_lower": 120,
+        "sample_right_lower": 0,
+        "sample_ties": 0,
+        "seed_left_lower": 10,
+        "seed_right_lower": 0,
+        "seed_ties": 0,
+        "study_kind": "1d"
+      },
+      {
+        "contrast_id": "metric_affine",
+        "design_role": "Newton matched on affine trial set",
+        "display": "Front-layer",
+        "holm_p_20": 0.0390625,
+        "left_arm": "pre_p",
+        "non_left_lower_cases": [],
+        "problem": "front_layer",
+        "raw_sign_p": 0.001953125,
+        "regime": "in_domain",
+        "right_arm": "pod_l",
+        "sample_count": 120,
+        "sample_left_lower": 120,
+        "sample_right_lower": 0,
+        "sample_ties": 0,
+        "seed_left_lower": 10,
+        "seed_right_lower": 0,
+        "seed_ties": 0,
+        "study_kind": "1d"
+      },
+      {
+        "contrast_id": "metric_manifold",
+        "design_role": "LM matched on learned trial set",
+        "display": "Front-layer",
+        "holm_p_20": 0.0390625,
+        "left_arm": "pre_m",
+        "non_left_lower_cases": [],
+        "problem": "front_layer",
+        "raw_sign_p": 0.001953125,
+        "regime": "ood",
+        "right_arm": "lm_m",
+        "sample_count": 120,
+        "sample_left_lower": 120,
+        "sample_right_lower": 0,
+        "sample_ties": 0,
+        "seed_left_lower": 10,
+        "seed_right_lower": 0,
+        "seed_ties": 0,
+        "study_kind": "1d"
+      },
+      {
+        "contrast_id": "metric_affine",
+        "design_role": "Newton matched on affine trial set",
+        "display": "Front-layer",
+        "holm_p_20": 0.0390625,
+        "left_arm": "pre_p",
+        "non_left_lower_cases": [],
+        "problem": "front_layer",
+        "raw_sign_p": 0.001953125,
+        "regime": "ood",
+        "right_arm": "pod_l",
+        "sample_count": 120,
+        "sample_left_lower": 120,
+        "sample_right_lower": 0,
+        "sample_ties": 0,
+        "seed_left_lower": 10,
+        "seed_right_lower": 0,
+        "seed_ties": 0,
+        "study_kind": "1d"
+      },
+      {
+        "contrast_id": "metric_manifold",
+        "design_role": "LM matched on learned trial set",
+        "display": "Hydraulic K",
+        "holm_p_20": 0.0390625,
+        "left_arm": "pre_m",
+        "non_left_lower_cases": [],
+        "problem": "hydrologic_conductivity",
+        "raw_sign_p": 0.001953125,
+        "regime": "in_domain",
+        "right_arm": "lm_m",
+        "sample_count": 120,
+        "sample_left_lower": 120,
+        "sample_right_lower": 0,
+        "sample_ties": 0,
+        "seed_left_lower": 10,
+        "seed_right_lower": 0,
+        "seed_ties": 0,
+        "study_kind": "1d"
+      },
+      {
+        "contrast_id": "metric_affine",
+        "design_role": "Newton matched on affine trial set",
+        "display": "Hydraulic K",
+        "holm_p_20": 0.0390625,
+        "left_arm": "pre_p",
+        "non_left_lower_cases": [],
+        "problem": "hydrologic_conductivity",
+        "raw_sign_p": 0.001953125,
+        "regime": "in_domain",
+        "right_arm": "pod_l",
+        "sample_count": 120,
+        "sample_left_lower": 120,
+        "sample_right_lower": 0,
+        "sample_ties": 0,
+        "seed_left_lower": 10,
+        "seed_right_lower": 0,
+        "seed_ties": 0,
+        "study_kind": "1d"
+      },
+      {
+        "contrast_id": "metric_manifold",
+        "design_role": "LM matched on learned trial set",
+        "display": "Hydraulic K",
+        "holm_p_20": 0.0390625,
+        "left_arm": "pre_m",
+        "non_left_lower_cases": [],
+        "problem": "hydrologic_conductivity",
+        "raw_sign_p": 0.001953125,
+        "regime": "ood",
+        "right_arm": "lm_m",
+        "sample_count": 120,
+        "sample_left_lower": 120,
+        "sample_right_lower": 0,
+        "sample_ties": 0,
+        "seed_left_lower": 10,
+        "seed_right_lower": 0,
+        "seed_ties": 0,
+        "study_kind": "1d"
+      },
+      {
+        "contrast_id": "metric_affine",
+        "design_role": "Newton matched on affine trial set",
+        "display": "Hydraulic K",
+        "holm_p_20": 0.0390625,
+        "left_arm": "pre_p",
+        "non_left_lower_cases": [],
+        "problem": "hydrologic_conductivity",
+        "raw_sign_p": 0.001953125,
+        "regime": "ood",
+        "right_arm": "pod_l",
+        "sample_count": 120,
+        "sample_left_lower": 120,
+        "sample_right_lower": 0,
+        "sample_ties": 0,
+        "seed_left_lower": 10,
+        "seed_right_lower": 0,
+        "seed_ties": 0,
+        "study_kind": "1d"
+      },
+      {
+        "contrast_id": "metric_manifold",
+        "design_role": "LM matched on learned trial set",
+        "display": "Nonlinear diffusion",
+        "holm_p_20": 0.0390625,
+        "left_arm": "pre_m",
+        "non_left_lower_cases": [],
+        "problem": "nonlinear_diffusion",
+        "raw_sign_p": 0.001953125,
+        "regime": "in_domain",
+        "right_arm": "lm_m",
+        "sample_count": 120,
+        "sample_left_lower": 120,
+        "sample_right_lower": 0,
+        "sample_ties": 0,
+        "seed_left_lower": 10,
+        "seed_right_lower": 0,
+        "seed_ties": 0,
+        "study_kind": "1d"
+      },
+      {
+        "contrast_id": "metric_affine",
+        "design_role": "Newton matched on affine trial set",
+        "display": "Nonlinear diffusion",
+        "holm_p_20": 0.0390625,
+        "left_arm": "pre_p",
+        "non_left_lower_cases": [],
+        "problem": "nonlinear_diffusion",
+        "raw_sign_p": 0.001953125,
+        "regime": "in_domain",
+        "right_arm": "pod_l",
+        "sample_count": 120,
+        "sample_left_lower": 120,
+        "sample_right_lower": 0,
+        "sample_ties": 0,
+        "seed_left_lower": 10,
+        "seed_right_lower": 0,
+        "seed_ties": 0,
+        "study_kind": "1d"
+      },
+      {
+        "contrast_id": "metric_manifold",
+        "design_role": "LM matched on learned trial set",
+        "display": "Nonlinear diffusion",
+        "holm_p_20": 0.0390625,
+        "left_arm": "pre_m",
+        "non_left_lower_cases": [],
+        "problem": "nonlinear_diffusion",
+        "raw_sign_p": 0.001953125,
+        "regime": "ood",
+        "right_arm": "lm_m",
+        "sample_count": 120,
+        "sample_left_lower": 120,
+        "sample_right_lower": 0,
+        "sample_ties": 0,
+        "seed_left_lower": 10,
+        "seed_right_lower": 0,
+        "seed_ties": 0,
+        "study_kind": "1d"
+      },
+      {
+        "contrast_id": "metric_affine",
+        "design_role": "Newton matched on affine trial set",
+        "display": "Nonlinear diffusion",
+        "holm_p_20": 0.0390625,
+        "left_arm": "pre_p",
+        "non_left_lower_cases": [],
+        "problem": "nonlinear_diffusion",
+        "raw_sign_p": 0.001953125,
+        "regime": "ood",
+        "right_arm": "pod_l",
+        "sample_count": 120,
+        "sample_left_lower": 120,
+        "sample_right_lower": 0,
+        "sample_ties": 0,
+        "seed_left_lower": 10,
+        "seed_right_lower": 0,
+        "seed_ties": 0,
+        "study_kind": "1d"
+      },
+      {
+        "contrast_id": "metric_manifold",
+        "design_role": "LM matched on learned trial set",
+        "display": "2D Burgers",
+        "holm_p_20": 0.0390625,
+        "left_arm": "pre_m",
+        "non_left_lower_cases": [],
+        "problem": "two_d_burgers",
+        "raw_sign_p": 0.001953125,
+        "regime": "in_domain",
+        "right_arm": "lm_m",
+        "sample_count": 120,
+        "sample_left_lower": 120,
+        "sample_right_lower": 0,
+        "sample_ties": 0,
+        "seed_left_lower": 10,
+        "seed_right_lower": 0,
+        "seed_ties": 0,
+        "study_kind": "2d"
+      },
+      {
+        "contrast_id": "metric_affine",
+        "design_role": "Newton matched on affine trial set",
+        "display": "2D Burgers",
+        "holm_p_20": 0.0390625,
+        "left_arm": "pre_p",
+        "non_left_lower_cases": [
+          {
+            "left": 0.14426086982644049,
+            "right": 0.14132984469501755,
+            "sample": 4,
+            "seed": 0
+          },
+          {
+            "left": 0.11571495029985966,
+            "right": 0.11424250508644425,
+            "sample": 7,
+            "seed": 0
+          },
+          {
+            "left": 0.24474998047186397,
+            "right": 0.2383394083607595,
+            "sample": 9,
+            "seed": 2
+          },
+          {
+            "left": 0.08378037647938617,
+            "right": 0.08329244358187968,
+            "sample": 10,
+            "seed": 7
+          }
+        ],
+        "problem": "two_d_burgers",
+        "raw_sign_p": 0.001953125,
+        "regime": "in_domain",
+        "right_arm": "pod_l",
+        "sample_count": 120,
+        "sample_left_lower": 116,
+        "sample_right_lower": 4,
+        "sample_ties": 0,
+        "seed_left_lower": 10,
+        "seed_right_lower": 0,
+        "seed_ties": 0,
+        "study_kind": "2d"
+      },
+      {
+        "contrast_id": "metric_manifold",
+        "design_role": "LM matched on learned trial set",
+        "display": "2D Burgers",
+        "holm_p_20": 0.0390625,
+        "left_arm": "pre_m",
+        "non_left_lower_cases": [
+          {
+            "left": 0.2684827083552217,
+            "right": 0.2638078558398834,
+            "sample": 7,
+            "seed": 5
+          }
+        ],
+        "problem": "two_d_burgers",
+        "raw_sign_p": 0.001953125,
+        "regime": "ood",
+        "right_arm": "lm_m",
+        "sample_count": 120,
+        "sample_left_lower": 119,
+        "sample_right_lower": 1,
+        "sample_ties": 0,
+        "seed_left_lower": 10,
+        "seed_right_lower": 0,
+        "seed_ties": 0,
+        "study_kind": "2d"
+      },
+      {
+        "contrast_id": "metric_affine",
+        "design_role": "Newton matched on affine trial set",
+        "display": "2D Burgers",
+        "holm_p_20": 0.0390625,
+        "left_arm": "pre_p",
+        "non_left_lower_cases": [
+          {
+            "left": 0.4870112160600548,
+            "right": 0.47899787855484666,
+            "sample": 3,
+            "seed": 0
+          },
+          {
+            "left": 0.5618897939078602,
+            "right": 0.5520710912481145,
+            "sample": 8,
+            "seed": 0
+          },
+          {
+            "left": 0.39597314966370645,
+            "right": 0.3918913341755485,
+            "sample": 8,
+            "seed": 2
+          },
+          {
+            "left": 0.5717458731881372,
+            "right": 0.5577055956646348,
+            "sample": 5,
+            "seed": 3
+          },
+          {
+            "left": 0.40330946441466636,
+            "right": 0.39334132155855345,
+            "sample": 6,
+            "seed": 4
+          },
+          {
+            "left": 0.6112622597292979,
+            "right": 0.6049955464630657,
+            "sample": 8,
+            "seed": 5
+          },
+          {
+            "left": 0.6719552557688366,
+            "right": 0.6641974435284176,
+            "sample": 1,
+            "seed": 8
+          },
+          {
+            "left": 0.5709341553327449,
+            "right": 0.5584650438702969,
+            "sample": 3,
+            "seed": 9
+          },
+          {
+            "left": 0.5569014251742266,
+            "right": 0.5484518144255885,
+            "sample": 5,
+            "seed": 9
+          }
+        ],
+        "problem": "two_d_burgers",
+        "raw_sign_p": 0.001953125,
+        "regime": "ood",
+        "right_arm": "pod_l",
+        "sample_count": 120,
+        "sample_left_lower": 111,
+        "sample_right_lower": 9,
+        "sample_ties": 0,
+        "seed_left_lower": 10,
+        "seed_right_lower": 0,
+        "seed_ties": 0,
+        "study_kind": "2d"
+      }
+    ],
+    "two_d_ood_pre_m_vs_mg": {
+      "pooled_sample_mean": {
+        "mg": 0.7839653755103383,
+        "pre_m": 0.3464904714951444
+      },
+      "pre_m_lower": 120,
+      "sample_count": 120,
+      "seed_pre_m_lower": 10
+    }
+  },
+  "record": {
+    "kind": "retrospective_development_record",
+    "prospective_outputs_read": false,
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "warning": "These values come only from the frozen seeds 0--9 retrospective shards; they are not prospective-validation results."
+  },
+  "schema_version": 4
+}

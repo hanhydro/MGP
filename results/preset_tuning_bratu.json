@@ -1,0 +1,566 @@
+{
+  "config": {
+    "preset_name": "reference_bratu_source",
+    "candidates": [
+      {
+        "architecture_name": "mlp",
+        "latent_dim": 2,
+        "hidden_dims": [
+          24,
+          24,
+          24
+        ],
+        "decoder_hidden_dims": [
+          48,
+          48
+        ]
+      },
+      {
+        "architecture_name": "mlp",
+        "latent_dim": 2,
+        "hidden_dims": [
+          48,
+          48
+        ],
+        "decoder_hidden_dims": [
+          48,
+          48
+        ]
+      },
+      {
+        "architecture_name": "mlp",
+        "latent_dim": 3,
+        "hidden_dims": [
+          24,
+          24,
+          24
+        ],
+        "decoder_hidden_dims": [
+          48,
+          48
+        ]
+      },
+      {
+        "architecture_name": "mlp",
+        "latent_dim": 3,
+        "hidden_dims": [
+          48,
+          48
+        ],
+        "decoder_hidden_dims": [
+          48,
+          48
+        ]
+      },
+      {
+        "architecture_name": "conv1d",
+        "latent_dim": 2,
+        "hidden_dims": [
+          24,
+          24,
+          24
+        ],
+        "decoder_hidden_dims": [
+          48,
+          48
+        ]
+      },
+      {
+        "architecture_name": "conv1d",
+        "latent_dim": 3,
+        "hidden_dims": [
+          24,
+          24,
+          24
+        ],
+        "decoder_hidden_dims": [
+          48,
+          48
+        ]
+      }
+    ],
+    "test_regimes": [
+      "in_domain",
+      "ood"
+    ],
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "train_size": 6,
+    "test_size": 2,
+    "epochs": 40,
+    "projected_residual_penalty_weight": 0.02,
+    "ambient_residual_penalty_weight": 0.005,
+    "residual_tolerance_fraction": 0.1,
+    "deterministic_publication_mode": true,
+    "publication_num_threads": 1
+  },
+  "metadata": {
+    "generated_at_utc": "2026-03-21T20:53:27.653200+00:00",
+    "seed_list": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "deterministic_publication_mode": true,
+    "publication_num_threads": 1
+  },
+  "baseline": [
+    {
+      "preset_name": "reference_bratu_source",
+      "problem_name": "bratu_source",
+      "test_regime": "in_domain",
+      "candidate_label": "baseline",
+      "num_runs": 5,
+      "mgp_mean_error_l2": 0.4745400234653843,
+      "mgp_mean_residual": 0.10614728141395853,
+      "mgp_mean_projected_residual": 2.690224420771021e-09,
+      "reconstruction_mean_error_l2": 0.30451778211593467,
+      "reconstruction_mean_residual": 2.749284076905996,
+      "reconstruction_mean_projected_residual": 0.015638574696763337,
+      "mgp_mean_qoi_error": 0.3967557405075525,
+      "mgp_convergence_rate": 1.0,
+      "mgp_speedup_vs_full": 4.5317819387283915,
+      "mgp_std_error_l2": 0.0544617961894687,
+      "mgp_std_residual": 0.022753090721125427,
+      "architecture_name": "mlp",
+      "latent_dim": 2,
+      "hidden_dims": [
+        24,
+        24,
+        24
+      ],
+      "decoder_hidden_dims": [
+        48,
+        48
+      ],
+      "activation_name": "silu",
+      "projected_residual_penalty_weight": 0.02,
+      "ambient_residual_penalty_weight": 0.005,
+      "deterministic_publication_mode": true,
+      "publication_num_threads": 1
+    },
+    {
+      "preset_name": "reference_bratu_source",
+      "problem_name": "bratu_source",
+      "test_regime": "ood",
+      "candidate_label": "baseline",
+      "num_runs": 5,
+      "mgp_mean_error_l2": 0.38382099228666294,
+      "mgp_mean_residual": 0.11340817810475028,
+      "mgp_mean_projected_residual": 3.2952733095416166e-09,
+      "reconstruction_mean_error_l2": 0.4560440898564163,
+      "reconstruction_mean_residual": 2.972270650225668,
+      "reconstruction_mean_projected_residual": 0.016778819862389212,
+      "mgp_mean_qoi_error": 0.13911961824130814,
+      "mgp_convergence_rate": 1.0,
+      "mgp_speedup_vs_full": 4.429459218297172,
+      "mgp_std_error_l2": 0.04866123636113251,
+      "mgp_std_residual": 0.020333534418186385,
+      "architecture_name": "mlp",
+      "latent_dim": 2,
+      "hidden_dims": [
+        24,
+        24,
+        24
+      ],
+      "decoder_hidden_dims": [
+        48,
+        48
+      ],
+      "activation_name": "silu",
+      "projected_residual_penalty_weight": 0.02,
+      "ambient_residual_penalty_weight": 0.005,
+      "deterministic_publication_mode": true,
+      "publication_num_threads": 1
+    }
+  ],
+  "candidates": [
+    {
+      "preset_name": "reference_bratu_source",
+      "problem_name": "bratu_source",
+      "test_regime": "in_domain",
+      "candidate_label": "conv1d:r=2:enc=24x24x24:dec=48x48",
+      "num_runs": 5,
+      "mgp_mean_error_l2": 0.2688098037791716,
+      "mgp_mean_residual": 0.2258159225843487,
+      "mgp_mean_projected_residual": 1.7106390098215994e-09,
+      "reconstruction_mean_error_l2": 0.18894885863463928,
+      "reconstruction_mean_residual": 0.46369151324717794,
+      "reconstruction_mean_projected_residual": 0.0008136962610456259,
+      "mgp_mean_qoi_error": 0.1996008962700166,
+      "mgp_convergence_rate": 1.0,
+      "mgp_speedup_vs_full": 1.2964309030341306,
+      "mgp_std_error_l2": 0.06673866502866778,
+      "mgp_std_residual": 0.07384830248992241,
+      "architecture_name": "conv1d",
+      "latent_dim": 2,
+      "hidden_dims": [
+        24,
+        24,
+        24
+      ],
+      "decoder_hidden_dims": [
+        48,
+        48
+      ],
+      "activation_name": "silu",
+      "projected_residual_penalty_weight": 0.02,
+      "ambient_residual_penalty_weight": 0.005,
+      "deterministic_publication_mode": true,
+      "publication_num_threads": 1
+    },
+    {
+      "preset_name": "reference_bratu_source",
+      "problem_name": "bratu_source",
+      "test_regime": "in_domain",
+      "candidate_label": "conv1d:r=3:enc=24x24x24:dec=48x48",
+      "num_runs": 5,
+      "mgp_mean_error_l2": 0.2653492356569867,
+      "mgp_mean_residual": 0.19483673301290422,
+      "mgp_mean_projected_residual": 5.849520587972463e-10,
+      "reconstruction_mean_error_l2": 0.19179375828520223,
+      "reconstruction_mean_residual": 0.5678946284745845,
+      "reconstruction_mean_projected_residual": 0.001071802145524407,
+      "mgp_mean_qoi_error": 0.1716505403210318,
+      "mgp_convergence_rate": 1.0,
+      "mgp_speedup_vs_full": 0.9748749859176078,
+      "mgp_std_error_l2": 0.05629335145376837,
+      "mgp_std_residual": 0.04322168807596648,
+      "architecture_name": "conv1d",
+      "latent_dim": 3,
+      "hidden_dims": [
+        24,
+        24,
+        24
+      ],
+      "decoder_hidden_dims": [
+        48,
+        48
+      ],
+      "activation_name": "silu",
+      "projected_residual_penalty_weight": 0.02,
+      "ambient_residual_penalty_weight": 0.005,
+      "deterministic_publication_mode": true,
+      "publication_num_threads": 1
+    },
+    {
+      "preset_name": "reference_bratu_source",
+      "problem_name": "bratu_source",
+      "test_regime": "in_domain",
+      "candidate_label": "mlp:r=2:enc=48x48:dec=48x48",
+      "num_runs": 5,
+      "mgp_mean_error_l2": 0.4595204577985448,
+      "mgp_mean_residual": 0.26363817851100024,
+      "mgp_mean_projected_residual": 3.8668234973385084e-10,
+      "reconstruction_mean_error_l2": 0.24126604186549186,
+      "reconstruction_mean_residual": 1.7726276847750586,
+      "reconstruction_mean_projected_residual": 0.005021406585622506,
+      "mgp_mean_qoi_error": 0.3910399863321786,
+      "mgp_convergence_rate": 1.0,
+      "mgp_speedup_vs_full": 3.6694491081624507,
+      "mgp_std_error_l2": 0.04110683963984919,
+      "mgp_std_residual": 0.027271692391910414,
+      "architecture_name": "mlp",
+      "latent_dim": 2,
+      "hidden_dims": [
+        48,
+        48
+      ],
+      "decoder_hidden_dims": [
+        48,
+        48
+      ],
+      "activation_name": "silu",
+      "projected_residual_penalty_weight": 0.02,
+      "ambient_residual_penalty_weight": 0.005,
+      "deterministic_publication_mode": true,
+      "publication_num_threads": 1
+    },
+    {
+      "preset_name": "reference_bratu_source",
+      "problem_name": "bratu_source",
+      "test_regime": "in_domain",
+      "candidate_label": "mlp:r=3:enc=24x24x24:dec=48x48",
+      "num_runs": 5,
+      "mgp_mean_error_l2": 0.46939701071592166,
+      "mgp_mean_residual": 0.11755317749160685,
+      "mgp_mean_projected_residual": 3.4953054370024802e-09,
+      "reconstruction_mean_error_l2": 0.2988060908628446,
+      "reconstruction_mean_residual": 2.577373237282514,
+      "reconstruction_mean_projected_residual": 0.01456525131322919,
+      "mgp_mean_qoi_error": 0.39236434645049484,
+      "mgp_convergence_rate": 1.0,
+      "mgp_speedup_vs_full": 4.091121937518198,
+      "mgp_std_error_l2": 0.04848447656557457,
+      "mgp_std_residual": 0.01967781729480344,
+      "architecture_name": "mlp",
+      "latent_dim": 3,
+      "hidden_dims": [
+        24,
+        24,
+        24
+      ],
+      "decoder_hidden_dims": [
+        48,
+        48
+      ],
+      "activation_name": "silu",
+      "projected_residual_penalty_weight": 0.02,
+      "ambient_residual_penalty_weight": 0.005,
+      "deterministic_publication_mode": true,
+      "publication_num_threads": 1
+    },
+    {
+      "preset_name": "reference_bratu_source",
+      "problem_name": "bratu_source",
+      "test_regime": "in_domain",
+      "candidate_label": "mlp:r=3:enc=48x48:dec=48x48",
+      "num_runs": 5,
+      "mgp_mean_error_l2": 0.4453823703871403,
+      "mgp_mean_residual": 0.23970593240983815,
+      "mgp_mean_projected_residual": 9.160495056204196e-10,
+      "reconstruction_mean_error_l2": 0.24481745780714848,
+      "reconstruction_mean_residual": 1.6419023066105758,
+      "reconstruction_mean_projected_residual": 0.004242499441074866,
+      "mgp_mean_qoi_error": 0.37396482097377015,
+      "mgp_convergence_rate": 1.0,
+      "mgp_speedup_vs_full": 2.986262938329421,
+      "mgp_std_error_l2": 0.05190104106328867,
+      "mgp_std_residual": 0.04475983228031529,
+      "architecture_name": "mlp",
+      "latent_dim": 3,
+      "hidden_dims": [
+        48,
+        48
+      ],
+      "decoder_hidden_dims": [
+        48,
+        48
+      ],
+      "activation_name": "silu",
+      "projected_residual_penalty_weight": 0.02,
+      "ambient_residual_penalty_weight": 0.005,
+      "deterministic_publication_mode": true,
+      "publication_num_threads": 1
+    },
+    {
+      "preset_name": "reference_bratu_source",
+      "problem_name": "bratu_source",
+      "test_regime": "ood",
+      "candidate_label": "conv1d:r=2:enc=24x24x24:dec=48x48",
+      "num_runs": 5,
+      "mgp_mean_error_l2": 0.3542503876702865,
+      "mgp_mean_residual": 0.2236952444300493,
+      "mgp_mean_projected_residual": 9.381968507230287e-06,
+      "reconstruction_mean_error_l2": 0.35717664862368614,
+      "reconstruction_mean_residual": 0.7147954882192169,
+      "reconstruction_mean_projected_residual": 0.0017794236365165235,
+      "mgp_mean_qoi_error": 0.15530291651583925,
+      "mgp_convergence_rate": 0.8,
+      "mgp_speedup_vs_full": 0.9611988826503135,
+      "mgp_std_error_l2": 0.08031677523408869,
+      "mgp_std_residual": 0.07182395531742132,
+      "architecture_name": "conv1d",
+      "latent_dim": 2,
+      "hidden_dims": [
+        24,
+        24,
+        24
+      ],
+      "decoder_hidden_dims": [
+        48,
+        48
+      ],
+      "activation_name": "silu",
+      "projected_residual_penalty_weight": 0.02,
+      "ambient_residual_penalty_weight": 0.005,
+      "deterministic_publication_mode": true,
+      "publication_num_threads": 1
+    },
+    {
+      "preset_name": "reference_bratu_source",
+      "problem_name": "bratu_source",
+      "test_regime": "ood",
+      "candidate_label": "conv1d:r=3:enc=24x24x24:dec=48x48",
+      "num_runs": 5,
+      "mgp_mean_error_l2": 0.3816265781559312,
+      "mgp_mean_residual": 0.18405511024816176,
+      "mgp_mean_projected_residual": 7.918810754582124e-05,
+      "reconstruction_mean_error_l2": 0.38454241283409096,
+      "reconstruction_mean_residual": 0.9218431402599666,
+      "reconstruction_mean_projected_residual": 0.0022091929980771335,
+      "mgp_mean_qoi_error": 0.17152164880351778,
+      "mgp_convergence_rate": 0.7,
+      "mgp_speedup_vs_full": 0.7956416943633877,
+      "mgp_std_error_l2": 0.02540671548778231,
+      "mgp_std_residual": 0.037810015069501324,
+      "architecture_name": "conv1d",
+      "latent_dim": 3,
+      "hidden_dims": [
+        24,
+        24,
+        24
+      ],
+      "decoder_hidden_dims": [
+        48,
+        48
+      ],
+      "activation_name": "silu",
+      "projected_residual_penalty_weight": 0.02,
+      "ambient_residual_penalty_weight": 0.005,
+      "deterministic_publication_mode": true,
+      "publication_num_threads": 1
+    },
+    {
+      "preset_name": "reference_bratu_source",
+      "problem_name": "bratu_source",
+      "test_regime": "ood",
+      "candidate_label": "mlp:r=2:enc=48x48:dec=48x48",
+      "num_runs": 5,
+      "mgp_mean_error_l2": 0.37646702369421065,
+      "mgp_mean_residual": 0.27046911442242455,
+      "mgp_mean_projected_residual": 8.68616887530059e-10,
+      "reconstruction_mean_error_l2": 0.40203215777934814,
+      "reconstruction_mean_residual": 1.851442032901378,
+      "reconstruction_mean_projected_residual": 0.0054100423066600276,
+      "mgp_mean_qoi_error": 0.1340063975645836,
+      "mgp_convergence_rate": 1.0,
+      "mgp_speedup_vs_full": 3.884199386187942,
+      "mgp_std_error_l2": 0.053376659997027086,
+      "mgp_std_residual": 0.05067230037240339,
+      "architecture_name": "mlp",
+      "latent_dim": 2,
+      "hidden_dims": [
+        48,
+        48
+      ],
+      "decoder_hidden_dims": [
+        48,
+        48
+      ],
+      "activation_name": "silu",
+      "projected_residual_penalty_weight": 0.02,
+      "ambient_residual_penalty_weight": 0.005,
+      "deterministic_publication_mode": true,
+      "publication_num_threads": 1
+    },
+    {
+      "preset_name": "reference_bratu_source",
+      "problem_name": "bratu_source",
+      "test_regime": "ood",
+      "candidate_label": "mlp:r=3:enc=24x24x24:dec=48x48",
+      "num_runs": 5,
+      "mgp_mean_error_l2": 0.3847010440988045,
+      "mgp_mean_residual": 0.12237993928499717,
+      "mgp_mean_projected_residual": 1.4708329468104806e-09,
+      "reconstruction_mean_error_l2": 0.431880834389127,
+      "reconstruction_mean_residual": 1.832070288430451,
+      "reconstruction_mean_projected_residual": 0.00893623137332881,
+      "mgp_mean_qoi_error": 0.14381915425164812,
+      "mgp_convergence_rate": 1.0,
+      "mgp_speedup_vs_full": 3.600149665481017,
+      "mgp_std_error_l2": 0.04772597138980654,
+      "mgp_std_residual": 0.01937117486561913,
+      "architecture_name": "mlp",
+      "latent_dim": 3,
+      "hidden_dims": [
+        24,
+        24,
+        24
+      ],
+      "decoder_hidden_dims": [
+        48,
+        48
+      ],
+      "activation_name": "silu",
+      "projected_residual_penalty_weight": 0.02,
+      "ambient_residual_penalty_weight": 0.005,
+      "deterministic_publication_mode": true,
+      "publication_num_threads": 1
+    },
+    {
+      "preset_name": "reference_bratu_source",
+      "problem_name": "bratu_source",
+      "test_regime": "ood",
+      "candidate_label": "mlp:r=3:enc=48x48:dec=48x48",
+      "num_runs": 5,
+      "mgp_mean_error_l2": 0.3744296519816127,
+      "mgp_mean_residual": 0.23759712654404957,
+      "mgp_mean_projected_residual": 1.868836749879804e-10,
+      "reconstruction_mean_error_l2": 0.42044955170017617,
+      "reconstruction_mean_residual": 1.8098826568539093,
+      "reconstruction_mean_projected_residual": 0.005045427506324498,
+      "mgp_mean_qoi_error": 0.12503629499498572,
+      "mgp_convergence_rate": 1.0,
+      "mgp_speedup_vs_full": 2.9732778331539924,
+      "mgp_std_error_l2": 0.0456926923374068,
+      "mgp_std_residual": 0.04527995522283983,
+      "architecture_name": "mlp",
+      "latent_dim": 3,
+      "hidden_dims": [
+        48,
+        48
+      ],
+      "decoder_hidden_dims": [
+        48,
+        48
+      ],
+      "activation_name": "silu",
+      "projected_residual_penalty_weight": 0.02,
+      "ambient_residual_penalty_weight": 0.005,
+      "deterministic_publication_mode": true,
+      "publication_num_threads": 1
+    }
+  ],
+  "recommendations": [
+    {
+      "preset_name": "reference_bratu_source",
+      "problem_name": "bratu_source",
+      "test_regime": "in_domain",
+      "baseline_label": "baseline",
+      "baseline_architecture": "mlp",
+      "baseline_error": 0.4745400234653843,
+      "baseline_residual": 0.10614728141395853,
+      "residual_limit": 0.11676200955535439,
+      "status": "baseline_retained",
+      "recommended_label": "baseline",
+      "recommended_architecture": "mlp",
+      "recommended_error": 0.4745400234653843,
+      "recommended_residual": 0.10614728141395853,
+      "recommended_projected_residual": 2.690224420771021e-09,
+      "recommended_reconstruction_projected_residual": 0.015638574696763337,
+      "recommended_qoi_error": 0.3967557405075525,
+      "error_improvement": 0.0,
+      "residual_change": 0.0,
+      "num_feasible_candidates": 0
+    },
+    {
+      "preset_name": "reference_bratu_source",
+      "problem_name": "bratu_source",
+      "test_regime": "ood",
+      "baseline_label": "baseline",
+      "baseline_architecture": "mlp",
+      "baseline_error": 0.38382099228666294,
+      "baseline_residual": 0.11340817810475028,
+      "residual_limit": 0.12474899591522531,
+      "status": "candidate_selected",
+      "recommended_label": "mlp:r=3:enc=24x24x24:dec=48x48",
+      "recommended_architecture": "mlp",
+      "recommended_error": 0.3847010440988045,
+      "recommended_residual": 0.12237993928499717,
+      "recommended_projected_residual": 1.4708329468104806e-09,
+      "recommended_reconstruction_projected_residual": 0.00893623137332881,
+      "recommended_qoi_error": 0.14381915425164812,
+      "error_improvement": -0.000880051812141569,
+      "residual_change": 0.008971761180246896,
+      "num_feasible_candidates": 1
+    }
+  ]
+}

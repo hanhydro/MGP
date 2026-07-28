@@ -1,0 +1,27 @@
+cell,metric,original_study_record,deterministic_regeneration,abs_diff,canonical
+bratu_source/in_domain/MG,state_error,0.2364,0.2419,0.0055,regeneration
+bratu_source/in_domain/MG,ambient_residual,0.2155,0.2223,0.0068,regeneration
+
+# Cell reconciliation (rows above) plus flagged-run inventory (below): the complete Bratu-source set plus any other regeneration-mismatch-flagged runs (borderline latent Newton solves that can differ across CPU/BLAS/torch backends).
+flagged_run_problem,flagged_run_regime,flagged_run_seed,regeneration_mismatch,shard
+bratu_source,in_domain,0,no,reference_bratu_source_in_domain_seed0.json
+bratu_source,in_domain,1,yes,reference_bratu_source_in_domain_seed1.json
+bratu_source,in_domain,2,no,reference_bratu_source_in_domain_seed2.json
+bratu_source,in_domain,3,no,reference_bratu_source_in_domain_seed3.json
+bratu_source,in_domain,4,yes,reference_bratu_source_in_domain_seed4.json
+bratu_source,in_domain,5,yes,reference_bratu_source_in_domain_seed5.json
+bratu_source,in_domain,6,yes,reference_bratu_source_in_domain_seed6.json
+bratu_source,in_domain,7,yes,reference_bratu_source_in_domain_seed7.json
+bratu_source,in_domain,8,yes,reference_bratu_source_in_domain_seed8.json
+bratu_source,in_domain,9,yes,reference_bratu_source_in_domain_seed9.json
+bratu_source,ood,0,yes,reference_bratu_source_ood_seed0.json
+bratu_source,ood,1,no,reference_bratu_source_ood_seed1.json
+bratu_source,ood,2,no,reference_bratu_source_ood_seed2.json
+bratu_source,ood,3,no,reference_bratu_source_ood_seed3.json
+bratu_source,ood,4,no,reference_bratu_source_ood_seed4.json
+bratu_source,ood,5,yes,reference_bratu_source_ood_seed5.json
+bratu_source,ood,6,yes,reference_bratu_source_ood_seed6.json
+bratu_source,ood,7,no,reference_bratu_source_ood_seed7.json
+bratu_source,ood,8,yes,reference_bratu_source_ood_seed8.json
+bratu_source,ood,9,no,reference_bratu_source_ood_seed9.json
+nonlinear_diffusion,in_domain,9,yes,reference_nonlinear_diffusion_in_domain_seed9.json
