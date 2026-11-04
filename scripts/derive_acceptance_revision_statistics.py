@@ -1,17 +1,4 @@
 #!/usr/bin/env python3
-"""Derive the retrospective acceptance-revision statistics and design audits.
-
-The submission package uses a compact, claim-bearing input distilled from the tracked
-retrospective shards (seeds 0--9).  By default this script reads that compact input and
-rewrites the machine-readable and Markdown summaries.  An internal checkout that has the
-full tracked shards can also refresh the compact input first::
-
-    python MGP_revision/code/scripts/derive_acceptance_revision_statistics.py \
-        --refresh-from-shards artifacts/cache
-
-Only the fixed retrospective shard directories named in ``SOURCE_DIRS`` are ever read.
-In particular, this script does not discover or read prospective-validation output.
-"""
 
 from __future__ import annotations
 
@@ -127,7 +114,6 @@ def _require_rows(rows: list[dict[str, Any]], *, path: Path, label: str) -> None
 
 
 def build_compact_input(cache_dir: Path) -> dict[str, Any]:
-    """Distill only the retrospective acceptance-review values from raw shards."""
     cache_dir = cache_dir.resolve()
     for dirname in SOURCE_DIRS:
         if not (cache_dir / dirname).is_dir():
@@ -379,7 +365,6 @@ def _holm_adjust(p_values: list[float]) -> list[float]:
 
 
 def _linear_percentile(values: Iterable[float], probability: float) -> float:
-    """Hyndman--Fan type-7 percentile, matching the manuscript convention."""
     ordered = sorted(values)
     if not ordered:
         raise ValueError("cannot take a percentile of an empty sequence")

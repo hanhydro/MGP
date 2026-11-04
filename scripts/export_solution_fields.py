@@ -1,17 +1,4 @@
 #!/usr/bin/env python3
-"""Export solution-field comparison arrays for ONE in-domain front_layer test sample.
-
-For a single representative in-domain test parameter this writes a CSV with the
-1D grid and four solution fields:
-  - u_fom                : full-order (high-order) solve, the FOM / HOS reference
-  - u_manifold_galerkin  : Manifold Galerkin ROM reconstruction
-  - u_manifold_lspg      : Manifold-LSPG ROM reconstruction
-  - u_pod_lspg           : POD-LSPG ROM reconstruction
-
-It reuses an already-trained offline artifact (decoder + scaler) for the
-manuscript's ``reference_front_layer`` in-domain config; NO retraining is
-performed at export time.
-"""
 
 from __future__ import annotations
 
@@ -59,7 +46,6 @@ OUTPUT_CSV = REPO_ROOT / "artifacts" / "solution_fields_front_layer.csv"
 
 
 def _config_from_artifact(artifact: dict) -> BenchmarkConfig:
-    """Rebuild a BenchmarkConfig from the artifact, tolerant to schema drift."""
     valid = {f.name for f in fields(BenchmarkConfig)}
     payload = {k: v for k, v in artifact["config"].items() if k in valid}
     for key in ("hidden_dims", "decoder_hidden_dims"):

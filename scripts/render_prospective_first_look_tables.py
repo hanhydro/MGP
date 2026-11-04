@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-"""Validate the immutable first look and render its manuscript/SI tables."""
 from __future__ import annotations
 
 import argparse
