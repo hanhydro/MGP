@@ -1,0 +1,10 @@
+family,regime,n,least_squares_error_not_larger,larger_error_smaller_residual,larger_error_larger_residual,larger_error_similar_residual,median_residual_ratio_least_squares_over_mg
+bratu_source,in_domain,240,34,132,65,9,0.9013756121492378
+bratu_source,ood,240,45,172,18,5,0.7137037140009197
+front_layer,in_domain,240,1,237,0,2,0.5126700733753878
+front_layer,ood,240,0,240,0,0,0.16640738445396858
+hydrologic_conductivity,in_domain,240,1,225,12,2,0.574971844394826
+hydrologic_conductivity,ood,240,1,239,0,0,0.5431921389419989
+nonlinear_diffusion,in_domain,240,0,238,0,2,0.5174770850967095
+nonlinear_diffusion,ood,240,0,240,0,0,0.3955111164173585
+ALL,suite,1920,82,1723,95,20,0.49056927804081196

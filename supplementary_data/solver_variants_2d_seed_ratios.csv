@@ -1,0 +1,16 @@
+contrast,family,regime,n_seeds,favorable_seeds,geometric_ratio
+MG(archived) / GN-25-on,two_d_burgers_large,in_domain,20,20,0.4863308421991923
+MG(archived) / GN-25-on,two_d_burgers_large,ood,20,1,1.4285820926079689
+MG(archived) / GN-25-on,ALL,suite,20,13,0.833524764028471
+GN-25-on / Newton-25-on,two_d_burgers_large,in_domain,20,13,1.0261428061355704
+GN-25-on / Newton-25-on,two_d_burgers_large,ood,20,19,0.903390587325131
+GN-25-on / Newton-25-on,ALL,suite,20,15,0.9628124180307767
+Newton-25-off / Newton-25-on,two_d_burgers_large,in_domain,20,15,0.9639316118085883
+Newton-25-off / Newton-25-on,two_d_burgers_large,ood,20,10,1.0118102019704358
+Newton-25-off / Newton-25-on,ALL,suite,20,11,0.9875808011650163
+Newton-200-on / Newton-25-on,two_d_burgers_large,in_domain,20,2,1.0466726290666872
+Newton-200-on / Newton-25-on,two_d_burgers_large,ood,20,11,0.9785729418672017
+Newton-200-on / Newton-25-on,ALL,suite,20,6,1.0120501537955846
+GN-200-off / Newton-25-on,two_d_burgers_large,in_domain,20,13,1.031371930440232
+GN-200-off / Newton-25-on,two_d_burgers_large,ood,20,18,0.9024031025065332
+GN-200-off / Newton-25-on,ALL,suite,20,15,0.9647347976866066
